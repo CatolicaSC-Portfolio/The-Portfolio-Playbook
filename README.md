@@ -9,6 +9,6 @@ A jornada se estende por **três disciplinas** distribuídas nos dois últimos s
 - **7º semestre:**
   - [PAC Extensionista VII ](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/PAC%20Extensionista%20VII.md)— Elaboração do planejamento técnico (RFC) do projeto de Portfólio, aplicado obrigatoriamente a um problema real de um parceiro externo ou comunidade para cumprir a curricularização da extensão.
 - **8º semestre:**
-  - [PAC Extensionista VIII](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/PAC%20Extensionista%20VIII.md) - Validação do projeto em desenvolvimento junta a Comunidade ou parceiro externo.
+  - [PAC Extensionista VIII](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/PAC%20Extensionista%20VIII.md) — Validação do projeto em desenvolvimento junta a Comunidade ou parceiro externo.
   - [Disciplina de Portfólio](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md) — Desenvolvimento, Documentação e Apresentação Pública
 
