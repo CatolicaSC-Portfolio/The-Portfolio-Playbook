@@ -1,5 +1,5 @@
 # Portfólio – Católica SC
-
+ 
 O **Portfólio** é o eixo integrador dos projetos autorais desenvolvidos pelos estudantes da Católica SC.  
 Seu objetivo é conduzir o aluno desde a **concepção da ideia original** até a **entrega de um produto funcional**, ético e alinhado às boas práticas da engenharia de software.  
 Essa trajetória consolida as competências técnicas e profissionais adquiridas ao longo do curso.
