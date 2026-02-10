@@ -10,6 +10,7 @@ O foco é a **execução, documentação e apresentação pública** no evento *
 
 ## Requisitos de Entrega
 Para habilitar-se à apresentação final, o projeto deve conter:
+- Participação de quatro orientações presencias ou remotos – obrigação do aluno evidenciar (email com ata, foto, ...).​
 - Repositório público no GitHub (com histórico de commits).  
 - Poster digital (PDF) com QR Code de acesso à aplicação.  
 - Link funcional da aplicação, jogo, app, IA ou solução IoT.  
