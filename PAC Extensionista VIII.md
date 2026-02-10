@@ -6,7 +6,7 @@ Enquanto o **desenvolvimento técnico (codificação e engenharia)** é o escopo
 
 O objetivo é garantir que o software construído individualmente possua qualidade técnica (revisada por pares) e valor real de negócio (validado pelo cliente).
 
-## 📍 Pilares da Disciplina
+## Pilares da Disciplina
 
 ### 1. Integração com a Matéria de Portfólio
 - **Portfólio (Execução):** O aluno desenvolve o software, realiza os commits e implementa as funcionalidades previstas na RFC.
