@@ -1,5 +1,5 @@
 
-## 🚀 Semestre — Disciplina de Portfólio
+## 8º Semestre — Disciplina de Portfólio
 
 No último semestre, o estudante avança da etapa de planejamento para a **consolidação e entrega final** do seu projeto.  
 O foco é a **execução, documentação e apresentação pública** no evento **Poster + Demo Day**, que substitui o modelo tradicional de banca.
