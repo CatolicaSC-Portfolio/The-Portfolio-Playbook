@@ -5,21 +5,25 @@ Esta etapa marca o início da trajetória do Portfólio, conectando a prática p
 
 ## Etapas Principais
 
-#### 1. Escolha do Tema
+### 1. Escolha do Tema
 
 O estudante deve selecionar um tema que reflita seus interesses e competências, alinhado às áreas do curso e, obrigatoriamente, aplicado a uma demanda real. O tema deve respeitar as diretrizes do [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md).
 
 Existem duas modalidades para a validação do problema:
 
-1.1. Projetos com Parceiro Externo (Recomendado)
+#### 1.1. Projetos com Parceiro Externo (Recomendado)
 Vínculo Formal: É indispensável vincular o projeto a uma Empresa, ONG ou Órgão Público (ex.: Prefeitura).
 
 Parcerias Existentes: O estudante pode consultar o professor para verificar a lista de parceiros que já possuem convênio ativo com a instituição.
 
-1.2. Projetos voltados à Comunidade
+O projeto desenvolvido em parceria pode adotar licenças restritivas, porém, durante todo o ciclo de desenvolvimento, o repositório deve permanecer de acesso público.
+
+#### 1.2. Projetos voltados à Comunidade
 Validação de Demanda: Caso não haja um "cliente" corporativo, o estudante deve evidenciar a necessidade real da solução através de um processo estruturado de validação.
 
-Técnicas Aceitas: Entrevistas com público-alvo, observação em campo, aplicação de questionários, validação de protótipos de baixa fidelidade ou MVPs com usuários reais.
+Técnicas Aceitas: Entrevistas com público-alvo, observação em campo, aplicação de questionários, validação de protótipos de baixa fidelidade ou MVPs com usuários reais.\
+
+Toda solução voltada à comunidade deve estar vinculada a uma licença de software livre e ser disponibilizada em repositório de acesso público.
 
 ### 2 Organização do Trabalho e Colaboração
 
