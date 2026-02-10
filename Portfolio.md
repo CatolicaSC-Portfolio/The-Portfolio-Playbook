@@ -4,7 +4,7 @@
 No último semestre, o estudante avança da etapa de planejamento para a **consolidação e entrega final** do seu projeto.  
 O foco é a **execução, documentação e apresentação pública** no evento **Poster + Demo Day**, que substitui o modelo tradicional de banca.
 
-### 🎯 Objetivos
+### Objetivos
 - Consolidar o projeto desenvolvido, garantindo qualidade técnica, inovação e responsabilidade profissional.  
 - Apresentar publicamente um produto funcional em ambiente produtivo.
 
