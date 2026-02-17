@@ -4,6 +4,11 @@ O **Portfólio** é o eixo integrador dos projetos autorais desenvolvidos pelos 
 Seu objetivo é conduzir o aluno desde a **concepção da ideia original** até a **entrega de um produto funcional**, ético e alinhado às boas práticas da engenharia de software.  
 Essa trajetória consolida as competências técnicas e profissionais adquiridas ao longo do curso.
 
+Você pode conferir detalhes sobre como essa estratégia de ensino foi concebida e implementada no link a seguir:
+* [O manifesto: Mais Que Código](https://medium.com/@diogo.winck/mais-que-c%C3%B3digo-541676f3d78d)
+* [O Guia](https://medium.com/@diogo.winck/guia-para-o-projeto-de-portf%C3%B3lio-a151638d8f59)
+* [TCC além do TCC](https://medium.com/@diogo.winck/o-tcc-al%C3%A9m-do-tcc-86f539650527)
+
 A jornada se estende por **três disciplinas** distribuídas nos dois últimos semestres:
 
 - **7º semestre:**
