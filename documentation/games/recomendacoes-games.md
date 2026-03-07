@@ -4,11 +4,13 @@
 ## 1. Documentação do Projeto
 
 **Alternativa à Wiki do Repositório:** A sugestão é a utilização de um **Game Design Document (GDD)** integrado com ferramentas como Notion, Miro, Obsidian ou HacknPlan, mantendo o controlo de versionamento da documentação.
+
 **Justificação:** Jogos requerem documentação visual e interativa (mapas, fluxogramas de mecânicas, wireframes e storyboards).
+
 **Papel do GDD:** É o núcleo do projeto e deve ser versionado para acompanhar o histórico de decisões e revisões.
 
 
-* **Ferramentas Recomendadas:**
+### Ferramentas Recomendadas:
   
 **Notion:** Estrutura modular para documentação interativa.
 **Miro:** Diagramas, fluxos de gameplay e brainstorms visuais.
@@ -26,7 +28,7 @@
 **Estratégia de Deploy:** Deve ser controlado manualmente, respeitando os estágios Alpha, Beta e Release.
 
 
-* **Ferramentas Práticas:**
+### Ferramentas Práticas:
 
 **Perforce / Plastic SCM:** Melhor controlo para código e assets.
 **Git LFS (Large File Storage):** Armazenamento de modelos 3D, texturas e animações sem prejudicar a performance do repositório.
@@ -41,14 +43,15 @@
 **Justificação:** O fluxo não é fixo; elementos como *game feel*, física e IA emergente não são validados apenas com testes unitários.
 
 
-* **Fases de Teste:**
+### Fases de Teste:
 
 **Vertical Slice:** Recorte representativo do jogo testado internamente.
 **Alpha:** Grupo pequeno de testadores internos com debugging ativo.
 **Beta:** Grupo alargado de jogadores reais para recolha de feedback e métricas.
 **Ferramentas de QA e Bugs:** JIRA, Trello ou HacknPlan para controlo de tarefas.
 
-* **Automação e Telemetria:** Unity Test Framework ou Unreal Automation para física/scripts; Unity Analytics ou Playfab para dados reais dos jogadores.
+### Automação e Telemetria
+Unity Test Framework ou Unreal Automation para física/scripts; Unity Analytics ou Playfab para dados reais dos jogadores.
 
 
 
