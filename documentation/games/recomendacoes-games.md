@@ -13,9 +13,13 @@
 ### Ferramentas Recomendadas:
   
 **Notion:** Estrutura modular para documentação interativa.
+
 **Miro:** Diagramas, fluxos de gameplay e brainstorms visuais.
+
 **Obsidiana:** Gestão de notas interconectadas para narrativa e design.
+
 **HacknPlan:** Gestão ágil focada em jogos.
+
 **Perforce (P4) / Plastic SCM / Git LFS:** Controlo de versão de assets e do GDD.
 
 **Estrutura do GDD:** Deve conter Visão Geral, História e Narrativa, Mecânicas e Gameplay, Interface e HUD, Arte e Sons, e Histórico de Versões.
@@ -24,15 +28,21 @@
 ## 2. Controlo de Código e Versionamento
 
 **Alternativa ao CI/CD Tradicional:** Controlo de código-fonte, versionamento do GDD e deploy manual em plataformas.
+
 **Justificação:** Builds automatizadas e CI/CD convencional não são viáveis devido à natureza iterativa dos jogos.
+
 **Estratégia de Deploy:** Deve ser controlado manualmente, respeitando os estágios Alpha, Beta e Release.
+
 
 
 ### Ferramentas Práticas:
 
 **Perforce / Plastic SCM:** Melhor controlo para código e assets.
+
 **Git LFS (Large File Storage):** Armazenamento de modelos 3D, texturas e animações sem prejudicar a performance do repositório.
+
 **Sistemas de Deploy:** Itch.io Butler, Steamworks SDK ou Epic Online Services para upload manual.
+
 **Fluxo de Trabalho:** Commit (Código + GDD) -> Controlo de revisão -> Testes internos e playtesting -> Distribuição manual.
 
 
@@ -40,15 +50,20 @@
 ## 3. Ciclo de Testes e Playtesting
 
 **Alternativa ao TDD:** Playtesting Estruturado e Escalonamento de Testes (Vertical Slice → Alpha → Beta).
+
 **Justificação:** O fluxo não é fixo; elementos como *game feel*, física e IA emergente não são validados apenas com testes unitários.
 
 
 ### Fases de Teste:
 
 **Vertical Slice:** Recorte representativo do jogo testado internamente.
+
 **Alpha:** Grupo pequeno de testadores internos com debugging ativo.
+
 **Beta:** Grupo alargado de jogadores reais para recolha de feedback e métricas.
+
 **Ferramentas de QA e Bugs:** JIRA, Trello ou HacknPlan para controlo de tarefas.
+
 
 ### Automação e Telemetria
 Unity Test Framework ou Unreal Automation para física/scripts; Unity Analytics ou Playfab para dados reais dos jogadores.
@@ -67,6 +82,8 @@ Unity Test Framework ou Unreal Automation para física/scripts; Unity Analytics 
 ## 4. Conclusão
 
 * Conceitos tradicionais (Wiki, CI/CD, TDD) devem ser substituídos por práticas adaptadas à natureza experimental do desenvolvimento de jogos.
+* 
 * O foco deve recair sobre documentação visual, rastreio de versões de código e GDD, testes escalonados e QA baseado em dados de jogadores reais.
+* 
 * Este modelo garante agilidade, colaboração e centralidade na experiência do jogador, permitindo o uso de qualquer engine sem restrições.
 
