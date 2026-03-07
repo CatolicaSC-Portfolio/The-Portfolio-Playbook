@@ -2,285 +2,419 @@
 
 ## Game Design Document (GDD)
 
-Este documento orienta o preenchimento do **Game Design Document (GDD)**
-utilizado nos projetos de games do Portfólio Acadêmico.
+Este documento orienta o preenchimento do **Game Design Document (GDD)** utilizado nos projetos de games do Portfólio Acadêmico.
 
-O GDD descreve o conceito, design, arquitetura e desenvolvimento do
-jogo.\\
-Ele funciona como um **registro evolutivo do projeto** e deve ser
-atualizado ao longo de todo o desenvolvimento.
+O template oficial do documento está disponível em:
 
-O template oficial do GDD está disponível no arquivo:
+```
+documentation/games/GDD - Template.md
+```
 
-`GDD - Template.md`
+Este guia possui dois objetivos:
 
-Este guia explica **como preencher cada seção do template** e apresenta
-**boas práticas para a documentação do projeto**.
+1. Explicar **como preencher cada seção do template**
+2. Apresentar **boas práticas de documentação para projetos de jogos**
 
----- 
+O GDD deve ser tratado como um **documento vivo**, que evolui ao longo do desenvolvimento do projeto.
 
-# Objetivo do GDD
+---
 
-O Game Design Document possui três objetivos principais:
+# Como utilizar este guia
 
-1.  **Planejamento do jogo**\\
-	Organizar as ideias principais antes da implementação.
+O template define **a estrutura do documento**.
 
-2.  **Registro do desenvolvimento**\\
-	Documentar decisões tomadas durante o projeto.
+Este guia explica:
 
-3.  **Documentação final**\\
-	Permitir que outras pessoas compreendam o projeto.
+* o **objetivo de cada seção**
+* **o que deve ser descrito**
+* **boas práticas de documentação**
 
-O documento deve evoluir ao longo do desenvolvimento.
+Nem todas as seções precisam estar completas no início do projeto.
+Algumas partes serão refinadas conforme o desenvolvimento avança.
 
----- 
+Sempre que possível, **inclua elementos visuais**, como:
 
-# Estrutura do Documento
+* imagens
+* screenshots
+* diagramas
+* wireframes
+* fluxos de gameplay
+* capturas do protótipo
 
-O template do GDD está organizado nas seguintes seções principais:
+Esses elementos tornam o documento mais claro e mais fácil de compreender.
 
-1.  Informações gerais\\
-2.  Acesso ao projeto\\
-3.  Visão geral do jogo\\
-4.  Pesquisa e referências\\
-5.  Gameplay\\
-6.  Escopo do projeto\\
-7.  Prototipagem\\
-8.  Interface (UI/UX)\\
-9.  Direção visual\\
-10. Áudio\\
-11. Arquitetura de software\\
-12. Testes e playtests\\
-13. Riscos do projeto\\
-14. Limitações conhecidas\\
-15. Créditos\\
-16. Reflexão final
+---
 
-Cada seção possui um objetivo específico.
-
----- 
-
-# Informações Gerais
+# Informações Gerais do Projeto
 
 Esta seção identifica o projeto.
 
-Inclui:
+Normalmente inclui:
 
--   nome do jogo
--   autor
--   contato
--   status do projeto
--   versão do documento
--   data da última atualização
+* nome do jogo
+* autor(es)
+* e-mail de contato
+* status do projeto
+* versão do documento
 
-### Boas práticas
+## Boas práticas
 
-Atualize a **versão do documento** sempre que fizer mudanças relevantes.
+Atualize o número da versão quando mudanças relevantes forem feitas.
 
 Exemplo:
 
-	v0.1 — versão inicial
-	v0.3 — atualização de gameplay
-	v1.0 — versão final
+```
+v0.1 – versão inicial do conceito
+v0.3 – atualização de gameplay
+v1.0 – versão final
+```
 
----- 
+---
 
-# Acesso ao Projeto
+# Informações de Acesso
 
-Esta seção permite que avaliadores e outras pessoas acessem o projeto.
+Esta seção permite que outras pessoas acessem o projeto.
 
-Inclua:
+Normalmente inclui:
 
--   build jogável
--   repositório de código
--   vídeo de gameplay (opcional)
--   instruções de execução
+* build jogável
+* repositório do projeto
+* instruções de execução
+* vídeo de gameplay (opcional)
 
-### Recomendações
+## Recomendações
 
 O avaliador deve conseguir:
 
--   acessar o repositório
--   executar o jogo
--   entender rapidamente como o projeto funciona
+* acessar o código
+* executar o jogo
+* entender rapidamente como testar o projeto
 
-Evite exigir configurações complexas para rodar o jogo.
+Sempre que possível, inclua:
 
----- 
+* **prints do jogo em execução**
+* **GIFs curtos demonstrando gameplay**
 
-# Visão Geral do Jogo
+---
 
-Apresenta o conceito geral do projeto.
+# Conceito e Visão
 
-Inclui:
+Esta seção apresenta a ideia central do jogo.
 
--   elevator pitch
--   gênero
--   público-alvo
--   plataformas
+Normalmente inclui:
 
-### Elevator Pitch
+* elevator pitch
+* público-alvo
+* plataformas
+* referências
+
+## Elevator Pitch
 
 Explique o jogo em **2 ou 3 frases**.
 
 Um bom pitch responde rapidamente:
 
--   que tipo de jogo é
--   o que o jogador faz
--   qual o diferencial do jogo
+* que tipo de jogo é
+* o que o jogador faz
+* qual o diferencial do jogo
 
----- 
+Se possível, inclua também:
 
-# Pesquisa e Referências
+* **imagem conceitual**
+* **arte de referência**
+* **mockup inicial do jogo**
+
+---
+
+# Público-Alvo e Plataforma
+
+Descreva:
+
+* quem são os jogadores
+* onde o jogo será executado
+
+Exemplo:
+
+Público-alvo:
+
+* jogadores casuais
+* idade entre 16 e 35 anos
+
+Plataformas possíveis:
+
+* PC
+* Web
+* Mobile
+
+Se aplicável, inclua **referências visuais de jogos voltados para o mesmo público**.
+
+---
+
+# Referências
 
 Liste jogos que inspiraram o projeto.
 
-Não se trata apenas de citar jogos conhecidos.\\
-Explique **quais ideias foram aproveitadas**.
+Explique brevemente:
+
+* o que cada jogo faz bem
+* quais ideias influenciaram o seu projeto
 
 Exemplo:
 
-  Jogo      Inspiração
----- 
-  Celeste   controle preciso do personagem
-  Hades     progressão entre partidas
+| Jogo          | Inspiração                     |
+| ------------- | ------------------------------ |
+| Celeste       | controle preciso do personagem |
+| Hollow Knight | exploração do mapa             |
 
-### Boas práticas
+## Boas práticas
 
-Evite apenas listar jogos sem análise.\\
-Mostre **como eles influenciaram o design**.
-
----- 
-
-# Gameplay
-
-Esta é uma das seções mais importantes do documento.
-
-Ela descreve **como o jogo funciona**.
-
-Inclui:
-
--   core loop
--   mecânicas principais
--   regras de vitória e derrota
--   progressão
-
-### Core Loop
-
-	Explorar → enfrentar inimigos → coletar recursos → melhorar personagem
-
-Todo o jogo gira em torno desse ciclo.
-
----- 
-
-# Escopo do Projeto
-
-Esta seção define claramente **o que será implementado**.
-
-Projetos acadêmicos devem ter **escopo realista**.
-
-### O jogo inclui
-
-Funcionalidades que fazem parte do projeto.
-
-### O jogo não inclui
-
-Funcionalidades fora do escopo.
-
-Isso ajuda a evitar crescimento descontrolado do projeto.
-
----- 
-
-# Prototipagem
-
-Game development envolve **experimentação**.
-
-Nesta seção registre protótipos realizados durante o projeto.
-
-Exemplo:
-
-  Protótipo              Objetivo
----- 
-  sistema de movimento   validar controle do personagem
-  combate                testar ritmo do jogo
-
-Nem todo protótipo precisa virar parte do jogo final.
-
----- 
-
-# Interface (UI/UX)
-
-Descreve como o jogador interage com o jogo.
-
-Inclui:
-
--   HUD
--   menus
--   elementos de interface
-
-Exemplo de HUD:
-
--   barra de vida
--   pontuação
--   timer
-
----- 
-
-# Direção Visual
-
-Descreve o estilo artístico do jogo.
-
-Exemplos:
-
--   pixel art
--   cartoon
--   low poly
-
-Também podem ser incluídas **referências visuais**.
-
----- 
-
-# Áudio
-
-Descreve os elementos sonoros do jogo.
-
-Exemplos:
-
--   música de fundo
--   efeitos sonoros
--   narração
-
----- 
-
-# Arquitetura de Software
-
-Descreve como o jogo foi estruturado tecnicamente.
+Evite apenas listar jogos.
 
 Inclua:
 
--   principais sistemas
--   organização do código
--   tecnologias utilizadas
+* **imagens ou screenshots desses jogos**
+* **elementos específicos que inspiraram seu design**
+
+---
+
+# Gameplay
+
+Esta é uma das partes mais importantes do documento.
+
+Ela descreve **como o jogo funciona**.
+
+Normalmente inclui:
+
+* core loop
+* mecânicas principais
+* regras
+* sistemas
+
+Sempre que possível, complemente a descrição com:
+
+* **diagramas de gameplay**
+* **prints do protótipo**
+* **fluxogramas do jogo**
+
+---
+
+# Core Loop
+
+O core loop representa o ciclo principal do jogo.
 
 Exemplo:
 
-  Categoria       Ferramenta
----- 
-  Engine          Unity
-  Linguagem       C\#
-  Versionamento   Git
+```
+Explorar → enfrentar inimigos → coletar recursos → melhorar personagem
+```
 
-### Recomendações
+Sempre que possível:
 
-A arquitetura deve seguir princípios básicos de \*\*engenharia de
-software\*\*:
+* apresente o core loop também como **diagrama visual**
+* inclua **exemplos visuais de cada etapa**
 
--   modularidade
--   separação de responsabilidades
--   organização clara do código
+---
 
----- 
+# Mecânicas Principais
+
+Liste as ações principais disponíveis para o jogador.
+
+Exemplo:
+
+| Mecânica  | Descrição                  |
+| --------- | -------------------------- |
+| Movimento | movimentação do personagem |
+| Combate   | sistema de ataque          |
+| Interação | interação com objetos      |
+
+Inclua sempre que possível:
+
+* **prints das mecânicas em funcionamento**
+* **GIFs curtos do gameplay**
+
+---
+
+# Regras e Sistemas
+
+Descreva as regras básicas do jogo.
+
+Inclua:
+
+### Condições de vitória
+
+Como o jogador vence.
+
+### Condições de derrota
+
+Como o jogador perde.
+
+### Progressão
+
+Como o jogo evolui ao longo da partida.
+
+Exemplos:
+
+* fases
+* níveis
+* upgrades
+* pontos
+
+Se possível, inclua **diagramas ou esquemas do sistema de progressão**.
+
+---
+
+# Narrativa e Contexto
+
+Se o jogo possuir narrativa, descreva:
+
+* história básica
+* personagens
+* ambientação
+
+Recomenda-se incluir:
+
+* **arte conceitual**
+* **referências visuais do mundo do jogo**
+* **sketches ou storyboard**
+
+---
+
+# Documentação Visual
+
+Sempre que possível inclua:
+
+* fluxogramas
+* wireframes
+* storyboards
+* diagramas de gameplay
+* mapas de nível
+* layout das fases
+
+Essa documentação ajuda a explicar o design do jogo.
+
+---
+
+# Direção de Arte
+
+Descreva o estilo visual do jogo.
+
+Exemplos:
+
+* pixel art
+* cartoon
+* low poly
+* realista
+
+Inclua sempre que possível:
+
+* **mood boards**
+* **referências visuais**
+* **paletas de cores**
+* **exemplos de assets**
+
+---
+
+# Design de Áudio
+
+Descreva os elementos sonoros do jogo.
+
+Exemplos:
+
+* música de fundo
+* efeitos sonoros
+* narração
+
+Se possível inclua:
+
+* **referências de trilha sonora**
+* **exemplos de estilo sonoro**
+
+---
+
+# Experiência do Jogador (Game Feel)
+
+Descreva como o jogo transmite feedback ao jogador.
+
+Isso pode incluir:
+
+* animações
+* partículas
+* efeitos sonoros
+* vibração
+
+Inclua sempre que possível:
+
+* **GIFs ou vídeos demonstrando o feedback do jogo**
+
+---
+
+# Interface (UI/UX)
+
+Descreva a interface do jogo.
+
+Inclua:
+
+* HUD
+* menus
+* elementos visuais durante o gameplay
+
+Exemplo de HUD:
+
+* barra de vida
+* pontuação
+* minimapa
+
+Inclua sempre que possível:
+
+* **wireframes da interface**
+* **prints das telas**
+* **mockups de layout**
+
+---
+
+# Implementação Técnica
+
+Esta seção descreve a estrutura técnica do projeto.
+
+Inclua:
+
+* arquitetura do sistema
+* principais componentes
+* tecnologias utilizadas
+
+Exemplo:
+
+| Categoria     | Ferramenta |
+| ------------- | ---------- |
+| Engine        | Unity      |
+| Linguagem     | C#         |
+| Versionamento | Git        |
+
+Se possível inclua:
+
+* **diagramas de arquitetura**
+* **diagramas de componentes**
+* **fluxos de sistema**
+
+---
+
+# Engenharia de Software e Qualidade
+
+Explique como o projeto aborda aspectos de qualidade.
+
+Exemplos:
+
+* controle de versão
+* pipeline de build
+* deploy
+* testes
+
+Inclua sempre que possível:
+
+* **diagramas do pipeline**
+* **prints do processo de build**
+
+---
 
 # Testes e Playtests
 
@@ -288,30 +422,16 @@ Descreva testes realizados com jogadores.
 
 Inclua:
 
--   número de participantes
--   problemas identificados
--   melhorias implementadas
+* número de participantes
+* principais problemas encontrados
+* melhorias realizadas
 
-Playtests ajudam a melhorar:
+Sempre que possível inclua:
 
--   dificuldade
--   clareza das mecânicas
--   experiência do jogador
+* **prints ou vídeos de sessões de playtest**
+* **gráficos simples de resultados**
 
----- 
-
-# Riscos do Projeto
-
-Identifique possíveis problemas que podem afetar o desenvolvimento.
-
-  Risco                     Impacto
----- 
-  mecânica muito complexa   atraso no desenvolvimento
-  baixa performance         experiência ruim
-
-Pensar em riscos ajuda no planejamento.
-
----- 
+---
 
 # Limitações Conhecidas
 
@@ -319,66 +439,79 @@ Liste funcionalidades planejadas que **não foram implementadas**.
 
 Exemplo:
 
--   multiplayer online
--   mais fases
--   novos inimigos
+* multiplayer online
+* mais fases
+* novos inimigos
 
----- 
+---
 
 # Créditos
 
 Liste todos os recursos externos utilizados.
 
-  Recurso   Fonte          Licença
----- 
-  sprites   OpenGameArt    CC0
-  música    compositor X   CC-BY
+Exemplo:
 
-Sempre respeite as licenças dos assets utilizados.
+| Recurso | Fonte        | Licença |
+| ------- | ------------ | ------- |
+| sprites | OpenGameArt  | CC0     |
+| música  | compositor X | CC-BY   |
 
----- 
+---
 
-# Reflexão Final
+# Reflexão e Aprendizados
 
-Apresente uma breve reflexão sobre o projeto.
+Apresente uma reflexão sobre o projeto.
 
 Sugestões:
 
--   principais desafios encontrados
--   aprendizados técnicos
--   o que poderia ser melhorado
+* principais desafios encontrados
+* aprendizados técnicos
+* o que poderia ser melhorado
 
----- 
+Se possível, inclua **prints comparando versões iniciais e finais do jogo**.
+
+---
 
 # Recomendações Gerais
 
-### Mantenha o documento atualizado
+## Mantenha o documento atualizado
 
-O GDD deve evoluir durante o projeto.
+O GDD deve evoluir durante o desenvolvimento.
 
-### Seja claro e objetivo
+Evite deixar toda a documentação para o final.
 
-Prefira textos simples e diretos.
+---
 
-### Use elementos visuais
+## Use elementos visuais sempre que possível
 
-Sempre que possível inclua:
+Inclua:
 
--   diagramas
--   imagens
--   fluxos de gameplay
--   screenshots
+* imagens
+* diagramas
+* wireframes
+* prints
+* GIFs
+* mapas de nível
 
-### Documente decisões importantes
+Jogos são sistemas visuais; imagens ajudam a comunicar o design.
+
+---
+
+## Documente decisões importantes
 
 Explique **por que decisões foram tomadas**.
 
-### Evite escopo excessivo
+Isso ajuda a compreender a evolução do projeto.
+
+---
+
+## Controle o escopo
 
 Projetos acadêmicos devem priorizar:
 
--   um conceito claro
--   mecânicas bem implementadas
--   código organizado
+* um conceito claro
+* mecânicas bem implementadas
+* código organizado
 
 Um jogo pequeno e bem feito é melhor que um jogo grande incompleto.
+
