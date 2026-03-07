@@ -64,7 +64,7 @@ O projeto deve se enquadrar em uma das cinco linhas oficiais, aplicando-a ao pro
 
 - O documento deve detalhar: o problema a ser resolvido, a solução proposta, o público-alvo, o escopo, a arquitetura e os requisitos funcionais/não funcionais.
 
-- O modelo oficial pode ser acessado [aqui](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/RFC/modelo-de-RFC.md).
+- O modelo oficial pode ser acessado [aqui](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/modelo-de-RFC.md).
 
 #### 5. Avaliação e Aprovação
 - NP1 (20%): Planejamento e Fundamentação (Abstract, Problema, Objetivos).
@@ -82,7 +82,7 @@ Após a aprovação, o aluno está apto a iniciar o desenvolvimento do projeto.
 Garantir que cada estudante inicie seu projeto com uma base sólida, viável e bem estruturada, conectando teoria, prática e propósito social.
 
 ### 🧭 Documentos de Apoio
-- [Modelo de RFC](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/RFC/modelo-de-RFC.md)
-- [Recomendação para Avaliação dos Professores](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/RFC/diretrizes-avaliacao-professores.md)
-- [Normas e Regulamentações](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/RFC/normas.md)
+- [Modelo de RFC](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/modelo-de-RFC.md)
+- [Recomendação para Avaliação dos Professores](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/diretrizes-avaliacao-professores.md)
+- [Normas e Regulamentações](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/normas.md)
 - [Pré-análise de RFC com GPT de Apoio](https://chat.openai.com/g/g-6863c3a91e1881919572856ff853bf1f-pre-analise-de-projetos-rfc-da-catolica)
