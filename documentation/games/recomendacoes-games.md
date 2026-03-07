@@ -1,5 +1,5 @@
 
-# Documentação do Projeto — Games.pdf
+# Recomendações sobre Documentação do Projeto — Games
 
 ## 1. Documentação do Projeto
 
