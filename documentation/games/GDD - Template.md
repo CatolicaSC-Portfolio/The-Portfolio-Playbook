@@ -260,8 +260,12 @@ Exemplo:
 Jogadores não entendiam o objetivo inicial → tutorial adicionado.
 
 ---
+# 13. Cronograma
 
-# 13. Riscos do Projeto
+detalhe os principais milestones do projeto.
+
+
+# 14. Riscos do Projeto
 
 | Risco | Impacto | Mitigação |
 |-----|-----|-----|
@@ -270,7 +274,7 @@ Jogadores não entendiam o objetivo inicial → tutorial adicionado.
 
 ---
 
-# 14. Limitações Conhecidas
+# 15. Limitações Conhecidas
 
 Liste funcionalidades planejadas mas não implementadas.
 
@@ -282,7 +286,7 @@ Exemplo:
 
 ---
 
-# 15. Decisões Importantes
+# 16. Decisões Importantes
 
 Registro de mudanças relevantes durante o projeto.
 
@@ -293,7 +297,7 @@ Registro de mudanças relevantes durante o projeto.
 
 ---
 
-# 16. Créditos
+# 17. Créditos
 
 Liste assets externos utilizados.
 
