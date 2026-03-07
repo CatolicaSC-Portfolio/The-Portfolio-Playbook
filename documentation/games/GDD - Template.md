@@ -1,69 +1,99 @@
-# [Nome do Jogo]
+# Game Design Document (GDD)
 
-**Visão do Jogo:**  
-Descreva em **1–3 frases** o conceito central, gênero e diferencial do jogo.
+# [Nome do Jogo]
 
 **Aluno:** Nome Sobrenome  
 **E-mail:** aluno@catolica.edu  
 
-**Status do Projeto:** Vertical Slice / Alpha / Beta / Release
+**Status do Projeto:**  
+Pesquisa / Prototipagem / Produção / Beta / Finalizado
+
+**Versão do Documento:** v0.1  
+**Última atualização:** DD/MM/AAAA
 
 ---
 
-# 1. Acesso ao Projeto
+# 1. Visão Geral
+
+## Elevator Pitch
+
+Descreva o jogo em **2–3 frases**.
+
+Exemplo:
+
+> Um jogo de plataforma 2D onde o jogador controla um robô tentando escapar de uma fábrica automatizada resolvendo puzzles baseados em física.
+
+---
+
+## Gênero
+
+Exemplo:
+
+- Plataforma
+- Puzzle
+- Roguelike
+- Estratégia
+
+---
+
+## Público-Alvo
+
+Exemplo:
+
+Jogadores casuais entre 16 e 35 anos que gostam de jogos rápidos e desafiadores.
+
+---
+
+## Plataformas
+
+- PC
+- Web
+- Mobile
+
+---
+
+# 2. Acesso ao Projeto
 
 | Item | Link |
 |-----|-----|
 | Build jogável | Itch.io / WebGL / Download |
-| Repositório | GitHub público |
-| Vídeo gameplay (opcional) | YouTube/Vimeo |
+| Repositório | GitHub |
+| Vídeo gameplay (opcional) | YouTube |
 | Instruções de execução | Requisitos técnicos |
 
+---
 
-> [!NOTE]
-> remover da versão final
-> Objetivo: permitir que qualquer avaliador **rode o jogo rapidamente**.
+# 3. Pesquisa e Referências
+
+## Jogos de Referência
+
+Liste **2–5 jogos que inspiraram o projeto**.
+
+para cada jogo descreva  brevemente o jogo, os aspectos que inpiram. Adicione imagens para ilustrar.
 
 ---
 
-# 2. Conceito do Jogo
+## Análise das Referências
 
-## Elevator Pitch
+Explique brevemente:
 
-Explique o jogo em **2–3 frases**, como se estivesse apresentando a ideia.
-
-Exemplo:
-
-> Um jogo de plataforma 2D onde o jogador controla um robô que precisa escapar de uma fábrica automatizada resolvendo puzzles baseados em física.
+- o que esses jogos fazem bem
+- quais ideias inspiraram seu projeto
 
 ---
 
-## Público e Plataforma
+# 4. Hipóteses de Design
 
-**Público-alvo:**  
-Ex: jogadores casuais 16–35 anos  
+Liste hipóteses que serão testadas durante o desenvolvimento.
 
-**Plataforma:**  
-PC / Web / Mobile  
-
-**Referências:**  
-Liste de 3 a 5 jogos semelhantes ao projeto. Inclua imagens (prints) e uma breve explicação sobre cada jogo.
+| Hipótese | Como será testada |
+|-----|-----|
+| jogadores gostam de progressão rápida | playtest com fases curtas |
+| combate simples melhora acessibilidade | protótipo com 1 botão de ataque |
 
 ---
 
-## Objetivo do Projeto
-
-Quais conceitos técnicos ou de design o projeto demonstra?
-
-Exemplo:
-
-- IA simples para inimigos  
-- geração procedural de fases  
-- arquitetura modular em Unity  
-
----
-
-# 3. Gameplay
+# 5. Gameplay
 
 ## Core Loop
 
@@ -71,87 +101,138 @@ Descreva o ciclo principal do jogo.
 
 Exemplo:
 
-Explorar → enfrentar obstáculos → coletar recursos → melhorar habilidades → continuar explorando
+Explorar → enfrentar inimigos → coletar recursos → melhorar personagem → continuar explorando
 
 ---
 
 ## Mecânicas Principais
 
 | Mecânica | Descrição |
-|------|------|
-| Movimento | Como o jogador se desloca |
-| Ação principal | Atacar, pular, coletar etc |
-| Interação | Como interagir com objetos |
+|-----|-----|
+| Movimento | como o jogador se desloca |
+| Combate | como o jogador ataca |
+| Interação | como interage com objetos |
 
 ---
 
 ## Regras do Jogo
 
-**Vitória:**  
+**Vitória**
+
 Condição para vencer.
 
-**Derrota:**  
+**Derrota**
+
 Condição para perder.
 
-**Progressão:**  
-Sistema de pontos, níveis, upgrades etc.
+**Progressão**
+
+Sistema de níveis, pontos ou upgrades.
 
 ---
 
-# 4. Interface e Experiência
+# 6. Escopo do Projeto
 
-## Interface (UI)
+Defina claramente **o que será implementado**.
+
+## O jogo inclui
+
+- X fases
+- X tipos de inimigos
+- X mecânicas principais
+
+## O jogo não inclui
+
+- multiplayer online
+- sistema complexo de crafting
+- geração procedural avançada
+
+---
+
+# 7. Prototipagem
+
+Descreva os protótipos realizados durante o desenvolvimento.
+
+| Protótipo | Objetivo | Resultado |
+|-----|-----|-----|
+| movimento básico | validar controle | aprovado |
+| combate | testar ritmo | precisa ajustes |
+
+---
+
+# 8. Interface (UI/UX)
+
+## HUD
 
 Elementos visíveis durante o jogo.
 
+*Adicione imagens/prototipos.*
+
 Exemplo:
 
-- barra de vida  
-- pontuação  
-- minimapa  
-- timer  
+- barra de vida
+- pontuação
+- timer
 
 ---
 
 ## Menus
 
-- menu principal  
-- pause  
-- game over  
-- configurações  
+*Adicione imagens/prototipos.*
+
+- menu principal
+- pause
+- game over
+- configurações
 
 ---
 
-# 5. Direção Visual e Áudio
+# 9. Direção Visual
 
-## Estilo Visual
+## Estilo Artístico
+
+*Adicione imagens/prototipos.*
 
 Exemplo:
 
-- pixel art  
-- low poly  
-- cartoon  
-
-Referências visuais podem ser incluídas.
+- pixel art
+- low poly
+- cartoon
 
 ---
 
-## Áudio
+## Referências Visuais
 
-Tipos de som utilizados:
-
-- música de fundo  
-- efeitos sonoros  
-- narração (se houver)  
+Links ou imagens que inspiram o estilo do jogo.
 
 ---
 
-# 6. Implementação Técnica
+# 10. Áudio
 
-## Engine e Ferramentas
+Tipos de áudio utilizados:
+
+- música de fundo
+- efeitos sonoros
+- narração (se houver)
+
+---
+
+# 11. Arquitetura de Software
+
+Descreva a estrutura geral do código.
+
+Exemplo:
+
+- GameManager central
+- sistema de eventos
+- scripts separados por responsabilidade
+
+---
+
+## Tecnologias Utilizadas
 
 | Categoria | Ferramenta |
-|------|------|
+|-----|-----|
 | Engine | Unity / Godot / Unreal |
 | Linguagem | C# / GDScript / C++ |
 | Versionamento | Git + GitHub |
@@ -159,69 +240,76 @@ Tipos de som utilizados:
 
 ---
 
-## Arquitetura do Jogo
-
-Descreva brevemente a estrutura do código.
-
-Exemplo:
-
-- GameManager central  
-- sistema de eventos  
-- scripts separados por responsabilidade  
-
-Opcional: incluir um **diagrama simples da arquitetura**.
-
----
-
-# 7. Testes e Validação
+# 12. Testes e Playtests
 
 ## Playtests
 
 | Data | Participantes | Principais problemas |
-|----|----|----|
+|-----|-----|-----|
 | DD/MM | 5 pessoas | controles confusos |
 | DD/MM | 10 pessoas | dificuldade elevada |
 
 ---
 
-## Melhorias realizadas
+## Melhorias Implementadas
+
+Problema → solução aplicada.
 
 Exemplo:
 
-Problema: jogadores não entendiam o objetivo inicial  
-Solução: tutorial adicionado
+Jogadores não entendiam o objetivo inicial → tutorial adicionado.
 
 ---
 
-# 8. Limitações do Projeto
+# 13. Riscos do Projeto
+
+| Risco | Impacto | Mitigação |
+|-----|-----|-----|
+| IA muito complexa | atraso no projeto | simplificar comportamento |
+| performance baixa | experiência ruim | otimizar ou reduzir inimigos |
+
+---
+
+# 14. Limitações Conhecidas
 
 Liste funcionalidades planejadas mas não implementadas.
 
 Exemplo:
 
-- multiplayer online  
-- sistema de save em nuvem  
-- mais fases  
+- multiplayer online
+- sistema de save em nuvem
+- novas fases
 
 ---
 
-# 9. Créditos
+# 15. Decisões Importantes
+
+Registro de mudanças relevantes durante o projeto.
+
+| Data | Decisão | Motivo |
+|-----|-----|-----|
+| março | remover sistema de crafting | escopo muito grande |
+| abril | adicionar dash | melhorar mobilidade |
+
+---
+
+# 16. Créditos
 
 Liste assets externos utilizados.
 
 | Recurso | Fonte | Licença |
-|------|------|------|
+|-----|-----|-----|
 | sprites | OpenGameArt | CC0 |
 | música | compositor X | CC-BY |
 
 ---
 
-# 10. Reflexão Final
+# 17. Reflexão Final
 
-Breve reflexão sobre o projeto:
+Explique brevemente:
 
-- principais desafios  
-- aprendizados técnicos  
-- o que faria diferente  
+- principais desafios
+- aprendizados técnicos
+- o que faria diferente
 
-1–2 parágrafos são suficientes.
+1–3 parágrafos são suficientes.
