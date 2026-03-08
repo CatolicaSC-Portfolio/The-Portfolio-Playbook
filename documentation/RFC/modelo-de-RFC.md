@@ -1,88 +1,553 @@
-# Capa
+# [MODELO] RFC: Request for Comments — Projeto de Portfólio
 
-- **Título do Projeto**: [Título claro e conciso que reflete a essência do produto ou ferramenta].
-- **Nome do Estudante**: [Nome completo do estudante].
-- **Curso**: Engenharia de Software.
-- **Data de Entrega**: [Data].
+**Engenharia de Software – Católica SC**
 
-# Resumo
+---
 
-Breve descrição do conteúdo do documento, incluindo o propósito do projeto e os principais pontos de discussão.
+# 0. Identificação
 
-## 1. Introdução
+- **Título do Projeto:**  
+  Nome claro e específico do sistema.
 
-- **Contexto**: Breve descrição do contexto que envolve o projeto.
-- **Justificativa**: Explicação da relevância do projeto para o campo da engenharia de software.
-- **Objetivos**: Descrição do objetivo principal do projeto e de quaisquer objetivos secundários.
+- **Linha de Projeto (Direction):**  
+  Web / Mobile / IA / IoT / Jogos / Plataforma / Dados
 
-## 2. Descrição do Projeto
+- **Autor:**  
+  Nome completo
 
-* **Linha de Projeto**: Indique a categoria do projeto (Web Apps, Aplicações Mobile, Jogos Digitais, Projetos com IA ou Projetos IoT), conforme definido no regulamento.
-* **Tema do Projeto**: Descreva de forma clara e objetiva o produto, serviço ou ferramenta a ser desenvolvido.
-* **Propósito e Uso Prático**: Explique qual problema real será resolvido e como a solução será utilizada na prática.
-* **Público-Alvo**: Defina o perfil dos usuários ou clientes potenciais que se beneficiarão da solução.
-* **Problemas a Resolver**: Liste de forma objetiva os principais problemas ou necessidades que o projeto pretende atender.
-* **Diferenciação/Ineditismo**: Destaque o que torna a proposta única em relação a soluções existentes, mesmo quando o tema é semelhante a outros projetos.
-* **Limitações**: Especifique o que o projeto **não** abrangerá, evitando expectativas incorretas.
-* **Normas e Legislações Aplicáveis**: Liste normas, leis e diretrizes relevantes ao contexto do projeto (ex.: LGPD, HIPAA, WCAG, ESRB/PEGI), indicando como serão observadas.
-* **Métricas de Sucesso**: Apresente critérios iniciais para medir o desempenho e a efetividade do projeto (ex.: tempo de resposta, número de usuários atendidos, taxa de acerto do modelo de IA).
+- **Data da Proposta:**  
+  DD/MM/AAAA
 
-## 3. Especificação Técnica
+- **Versão:**  
+  1.0
 
-Descrição detalhada da proposta, contemplando requisitos, arquitetura, tecnologias, segurança e aderência aos critérios obrigatórios da linha de projeto escolhida.
+---
 
-### 3.1. Requisitos de Software
-- **Requisitos Funcionais (RF)**: Liste de forma clara as funcionalidades que o sistema deverá oferecer.
-- **Requisitos Não-Funcionais (RNF)**: Inclua requisitos de desempenho, segurança, usabilidade, escalabilidade, disponibilidade, entre outros.
-- **Representação dos Requisitos**: Inclua um Diagrama de Casos de Uso (UML) ou outra representação visual que facilite o entendimento.
-- **Aderência aos Requisitos da Linha de Projeto**: Indique como cada requisito está alinhado aos itens “Obrigatório Atender” definidos para a linha de projeto (Web, Mobile, Jogos, IA ou IoT).
+# 1. Visão do Produto e Impacto (O Problema)
 
-### 3.2. Considerações de Design
-- **Visão Inicial da Arquitetura**: Apresente os principais componentes e suas interações.
-- **Padrões de Arquitetura**: Informe padrões adotados (ex.: [MVC](https://en.wikipedia.org/wiki/Model–view–controller), [Microserviços](https://microservices.io/), [MVVM](https://en.wikipedia.org/wiki/Model–view–viewmodel), Arquitetura em Camadas).
-- **Modelos C4**: Utilize os quatro níveis ([C4 Model](https://c4model.com/)) quando aplicável.
-- **Mockups das Telas Principais**: Apresente protótipos visuais das telas mais relevantes, mostrando navegação, disposição de elementos e principais interações do usuário. Esses mockups podem ser feitos em ferramentas como Figma, Adobe XD ou similares, e devem refletir a identidade visual e usabilidade prevista para o produto.
-- **Decisões e Alternativas Consideradas**: Justifique escolhas de design, documentando alternativas avaliadas.
-- **Critérios de Escalabilidade, Resiliência e Segurança**: Descreva como a solução será projetada para suportar crescimento, lidar com falhas e manter segurança.
+O objetivo desta seção é responder uma pergunta fundamental:
 
-### 3.3. Stack Tecnológica
-- **Linguagens de Programação**: Liste e justifique as escolhas.
-- **Frameworks e Bibliotecas**: Detalhe e justifique a seleção.
-- **Ferramentas de Desenvolvimento e Gestão**: Inclua IDEs, sistemas de versionamento, plataformas de integração contínua, monitoramento, entre outros.
-- **Licenciamento**: Indique as licenças dos softwares e bibliotecas utilizados ([MIT](https://opensource.org/licenses/MIT), [GPL](https://www.gnu.org/licenses/gpl-3.0.html), [Apache](https://www.apache.org/licenses/), [Creative Commons](https://creativecommons.org/licenses/)).
+**Este projeto resolve um problema real ou é apenas um exercício técnico?**
 
-### 3.4. Considerações de Segurança
-- **Riscos Identificados**: Liste ameaças potenciais (ex.: injeção de código, vazamento de dados, falhas de autenticação).
-- **Medidas de Mitigação**: Explique as ações planejadas para minimizar riscos (ex.: criptografia, controle de acesso, validação de entrada).
-- **Normas e Boas Práticas Seguidas**: Cite padrões como [OWASP Top 10](https://owasp.org/www-project-top-ten/), [ISO/IEC 27001](https://www.iso.org/isoiec-27001-information-security.html), [LGPD](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709.htm) ou outros aplicáveis.
-- **Responsabilidade Ética**: Para projetos de IA ou manipulação de dados sensíveis, descreva como serão tratados vieses, privacidade e uso responsável ([UNESCO – Ética em IA](https://unesdoc.unesco.org/ark:/48223/pf0000380455), [OECD AI Principles](https://oecd.ai/en/ai-principles)).
+---
 
-### 3.5. Conformidade e Normas Aplicáveis
-- Relacione todas as legislações, regulamentações e normas técnicas aplicáveis ao projeto, descrevendo brevemente como serão atendidas.
-- Exemplos:
-  - [LGPD – Lei Geral de Proteção de Dados](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709.htm)
-    - Coletar apenas dados necessários (nome, contato, dados do imóvel).
-    - Evitar dados sensíveis desnecessários.
-    - Solicitar consentimento explícito e exibir política de privacidade clara.
-    - Permitir acesso, correção e exclusão de dados pelo usuário.
-    -   ...
-   
-## 4. Próximos Passos
+## 1.1 Contexto e Problema
 
- - Descrição dos passos seguintes após a conclusão do documento, com uma visão geral do cronograma para Portfólio I e II.
- - Definição de Marcos: Estabelecer datas para entregas intermediárias e checkpoints.
+Descreva claramente o problema que motivou o projeto.
 
+Explique:
 
-## 5. Referências
+- Quem sofre com esse problema
+- Em que contexto ele ocorre
+- Como esse problema é resolvido atualmente
+- Quais são as limitações das soluções atuais
 
-Listagem de todas as fontes de pesquisa, frameworks, bibliotecas e ferramentas que serão utilizadas.
+Sempre que possível apresente:
 
-## 6. Apêndices (Opcionais)
+- exemplos reais
+- prints de processos atuais
+- descrições de fluxos existentes
 
-Informações complementares, dados de suporte ou discussões detalhadas fora do corpo principal.
-## 7. Avaliações de Professores
+---
 
-Adicionar três páginas no final do RFC para que os Professores escolhidos possam fazer suas considerações e assinatura:
-- Considerações Professor/a:
-- Considerações Professor/a:
-- Considerações Professor/a:
+## 1.2 Origem da Demanda e Evidências
+
+É necessário demonstrar que existe **interesse real pela solução**.
+
+Apresente pelo menos **uma evidência concreta**.
+
+### Demanda Externa
+
+Projeto solicitado por:
+
+- empresa
+- ONG
+- órgão público
+- grupo de usuários
+
+Inclua:
+
+- nome da organização
+- contexto da demanda
+- descrição do problema relatado
+
+---
+
+### Pesquisa com Usuários
+
+Pode incluir:
+
+- entrevistas
+- questionários
+- observação de processos
+
+Inclua:
+
+- número de pessoas entrevistadas
+- principais dores identificadas
+- padrões observados
+
+Adicione **tabelas, gráficos ou prints**.
+
+---
+
+### Evidência de Interesse
+
+Podem ser incluídos:
+
+- cartas de intenção
+- feedback de usuários
+- comentários de comunidades
+- resultados de formulários
+
+---
+
+## 1.3 Análise de Soluções Existentes (Benchmark)
+
+Investigue **3 a 5 soluções existentes** que tentam resolver o mesmo problema.
+
+Para cada solução apresente:
+
+- nome do produto
+- link
+- público-alvo
+- funcionalidades principais
+- limitações
+
+Inclua **prints da interface ou diagramas simplificados**.
+
+---
+
+### Comparação
+
+| Solução | Pontos Fortes | Limitações |
+|---|---|---|
+
+---
+
+### Diferencial do Projeto
+
+Explique claramente:
+
+- por que criar algo novo
+- qual lacuna não foi resolvida pelas soluções existentes
+- qual nicho específico será atendido
+
+---
+
+## 1.4 Público-Alvo
+
+Defina quem usará o sistema.
+
+Exemplos:
+
+- estudantes
+- contadores
+- equipes de suporte
+- jogadores
+
+Descreva:
+
+- perfil do usuário
+- contexto de uso
+- nível de conhecimento técnico esperado
+
+---
+
+## 1.5 Objetivos do Projeto
+
+### Objetivo Geral
+
+Qual transformação o projeto pretende gerar.
+
+---
+
+### Objetivos Específicos
+
+Liste **3 a 5 objetivos técnicos ou de produto**.
+
+Exemplo:
+
+- automatizar um processo manual
+- permitir análise de dados
+- criar um sistema de recomendação
+
+---
+
+## 1.6 Métricas de Sucesso (KPIs)
+
+Como saberemos que o projeto foi bem sucedido?
+
+Exemplos:
+
+- latência inferior a 200ms
+- acurácia da IA superior a 85%
+- suporte a 100 usuários simultâneos
+- redução do tempo de um processo em 30%
+
+---
+
+# 2. Engenharia de Requisitos
+
+Esta seção define **o que o sistema fará**.
+
+Evite descrições vagas.
+
+---
+
+## 2.1 Personas
+
+Crie **1 a 3 personas principais**.
+
+Inclua:
+
+- nome fictício
+- contexto
+- objetivos
+- principais dificuldades
+
+Adicionar **imagens ou ilustrações** pode ajudar na compreensão.
+
+---
+
+## 2.2 Casos de Uso Principais
+
+Liste os principais fluxos do sistema.
+
+Exemplo:
+
+- criar conta
+- registrar dados
+- consultar informações
+- gerar relatórios
+
+Sempre que possível inclua **diagramas de caso de uso**.
+
+---
+
+## 2.3 Requisitos Funcionais (RF)
+
+Use a estrutura:
+
+> O sistema deve permitir que **[ator] realize [ação]**.
+
+Exemplo:
+
+RF01 — O sistema deve permitir que o usuário crie uma conta.
+
+RF02 — O sistema deve permitir que o usuário registre informações.
+
+RF03 — O sistema deve permitir que o usuário visualize dados registrados.
+
+---
+
+## 2.4 Requisitos Não Funcionais (RNF)
+
+Inclua requisitos relacionados a:
+
+- desempenho
+- segurança
+- disponibilidade
+- escalabilidade
+- usabilidade
+
+Exemplo:
+
+RNF01 — O sistema deve suportar 100 usuários simultâneos.  
+RNF02 — O tempo de resposta deve ser inferior a 300ms.  
+RNF03 — O sistema deve utilizar autenticação segura.
+
+---
+
+## 2.5 Regras de Negócio
+
+Exemplos:
+
+- apenas usuários autenticados podem acessar determinados recursos
+- determinadas operações exigem validação adicional
+
+---
+
+## 2.6 Fora do Escopo
+
+Liste explicitamente **o que o sistema não fará**.
+
+Isso ajuda a evitar crescimento descontrolado do projeto.
+
+---
+
+# 3. Fluxos e Comportamento do Sistema
+
+Esta seção demonstra **como o sistema funciona**.
+
+Use diagramas sempre que possível.
+
+---
+
+## 3.1 Fluxo Principal do Usuário
+
+Apresente o fluxo principal do sistema.
+
+Utilize:
+
+- fluxogramas
+- diagramas de atividades
+- diagramas de sequência
+
+Inclua **imagens dos diagramas**.
+
+---
+
+## 3.2 Fluxos Alternativos
+
+Descreva cenários como:
+
+- erros
+- cancelamentos
+- exceções
+
+---
+
+# 4. Mockups e Experiência do Usuário (UX)
+
+Esta seção apresenta **a visualização inicial do produto antes da implementação**.
+
+Mockups ajudam a validar:
+
+- fluxo de navegação
+- organização da interface
+- interações do usuário
+- clareza da experiência
+
+Ferramentas sugeridas:
+
+- Figma
+- Excalidraw
+- Balsamiq
+- Whimsical
+- protótipos desenhados à mão
+
+---
+
+## 4.1 Fluxo de Navegação
+
+Apresente um diagrama mostrando como o usuário navega entre telas.
+
+Exemplo:
+
+Login → Dashboard → Cadastro → Relatório
+
+Inclua **imagem do fluxo de navegação**.
+
+---
+
+## 4.2 Wireframes ou Mockups das Telas
+
+Apresente os principais mockups do sistema.
+
+Inclua pelo menos:
+
+- tela inicial
+- fluxo principal
+- tela de entrada de dados
+- tela de resultado ou visualização
+
+Para cada tela inclua:
+
+- imagem
+- breve descrição da funcionalidade
+- ações principais do usuário
+
+Sempre que possível:
+
+- inclua **links para protótipo navegável**
+- inclua **prints das telas**
+
+---
+
+## 4.3 Fluxo de Interação do Usuário
+
+Demonstre passo a passo um fluxo importante.
+
+Exemplo:
+
+1. usuário acessa o sistema  
+2. cria conta  
+3. registra dados  
+4. visualiza resultados  
+
+Inclua **sequência de telas ou fluxo visual**.
+
+---
+
+## 4.4 Feedback Inicial de Usuários (Opcional)
+
+Se possível, inclua:
+
+- comentários de usuários
+- sugestões de melhoria
+- validação inicial do mockup
+
+---
+
+# 5. Arquitetura do Sistema
+
+Esta seção demonstra **como o sistema será construído**.
+
+---
+
+## 5.1 Diagrama C4
+
+Apresente três níveis.
+## 1. Nível 1: Diagrama de Contexto
+É a **visão macro** do sistema. O foco aqui não é a tecnologia, mas sim como o software se encaixa no ecossistema e no mundo real.
+
+* **Objetivo:** Mostrar o sistema como uma "caixa preta" e suas interações básicas com o ambiente externo.
+* **O que incluir:**
+    * **Atores:** Diferentes perfis de usuários (Ex: Cliente, Administrador, Operador).
+    * **Sistemas Externos:** Softwares legados, serviços de terceiros ou provedores de identidade.
+    * **Fluxo de Valor:** Como a informação entra, circula e sai do sistema principal.
+
+---
+
+## 2. Nível 2: Diagrama de Containers
+Neste estágio, damos o primeiro **"zoom"**. Decompomos o sistema em suas unidades de execução independentes (containers).
+
+* **Objetivo:** Apresentar a arquitetura de alto nível e as decisões tecnológicas fundamentais.
+* **O que incluir:**
+    * **Aplicações Web/Mobile:** Interfaces de usuário (Ex: SPA em React, App Android/iOS).
+    * **Serviços de Backend:** Unidades lógicas de processamento (Ex: API Gateway, Microserviços em Node.js ou Go).
+    * **Armazenamento:** Persistência de dados (Ex: PostgreSQL, MongoDB, Redis).
+    * **Protocolos:** Como os containers se comunicam (Ex: JSON/HTTPS, gRPC, RabbitMQ).
+
+---
+
+## 3. Nível 3: Diagrama de Componentes
+O foco agora é o que acontece **dentro de um único container** (como uma API específica ou um serviço de backend).
+
+* **Objetivo:** Identificar as responsabilidades internas, padrões de código e a organização lógica.
+* **O que incluir:**
+    * **Estrutura Interna:** Organização das camadas (Ex: Controladores, Serviços, Repositórios e Clientes de API).
+    * **Lógica de Negócio:** Componentes que encapsulam as regras específicas do domínio.
+    * **Interações:** Como os componentes internos se orquestram para processar e responder a uma requisição.
+---
+
+## 5.2 Modelo de Dados
+
+Apresente:
+
+- DER (diagrama entidade relacionamento)
+- esquema relacional
+- modelo de documentos (NoSQL)
+
+Inclua **diagramas do modelo de dados**.
+
+---
+
+## 5.3 Principais Componentes
+
+Descreva os principais módulos do sistema.
+
+Exemplo:
+
+- API
+- sistema de autenticação
+- módulo de processamento
+- camada de persistência
+
+---
+
+## 5.4 Stack Tecnológica
+
+Liste as tecnologias utilizadas.
+
+Para cada tecnologia explique **por que ela foi escolhida**.
+
+Exemplo:
+
+Node.js  
+Escolhido pela capacidade de lidar com alto volume de requisições I/O.
+
+---
+
+# 6. Segurança e Privacidade
+
+Inclua preocupações básicas de segurança.
+
+Exemplos:
+
+- proteção contra OWASP Top 10
+- autenticação e autorização
+- criptografia de dados sensíveis
+
+---
+
+## 6.1 Privacidade e LGPD
+
+Explique:
+
+- quais dados serão coletados
+- como serão armazenados
+- como o usuário poderá solicitar remoção de dados
+
+---
+
+# 7. Planejamento do Projeto
+
+Defina os principais marcos de desenvolvimento.
+
+| Marco | Descrição | Prazo |
+|---|---|---|
+| M1 | Setup do ambiente e prova de conceito | Semana X |
+| M2 | MVP funcional | Semana Y |
+| M3 | Testes e melhorias | Semana Z |
+
+---
+
+# 8. Referências
+
+Inclua:
+
+- artigos
+- documentação técnica
+- ferramentas utilizadas
+- repositórios
+
+---
+
+# 9. Apêndices
+
+Podem incluir:
+
+- mockups adicionais
+- resultados de pesquisa
+- entrevistas com usuários
+- diagramas complementares
+- links para protótipos ou repositórios
+
+Sempre que possível inclua **imagens, protótipos ou referências visuais**.
+
+---
+
+# 10. Parecer do Comitê de Avaliação
+
+(A ser preenchido pelos professores)
+
+**Avaliador 1:** __________________________  
+**Status:** [ ] Aprovado  [ ] Ajustar
+
+Observações:
+
+---
+
+**Avaliador 2:** __________________________  
+**Status:** [ ] Aprovado  [ ] Ajustar
+
+Observações:
+
+---
+
+**Avaliador 3:** __________________________  
+**Status:** [ ] Aprovado  [ ] Ajustar
+
+Observações:
