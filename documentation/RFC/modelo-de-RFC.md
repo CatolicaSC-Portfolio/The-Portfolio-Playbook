@@ -4,7 +4,7 @@
 
 ---
 
-# 0. Identificação
+# Identificação
 
 - **Título do Projeto:**  
   Nome claro e específico do sistema.
