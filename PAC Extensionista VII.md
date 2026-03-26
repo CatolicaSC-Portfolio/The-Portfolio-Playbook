@@ -64,7 +64,7 @@ O projeto deve se enquadrar em uma das cinco linhas oficiais, aplicando-a ao pro
 
 - O documento deve detalhar: o problema a ser resolvido, a solução proposta, o público-alvo, o escopo, a arquitetura e os requisitos funcionais/não funcionais.
 
-- O modelo oficial pode ser acessado [aqui](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/modelo-de-RFC.md).
+- O modelo oficial pode ser acessado [aqui](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/RFC/modelo-de-RFC.md).
 
 #### 5. Avaliação e Aprovação
 - NP1 (20%): Planejamento e Fundamentação (Abstract, Problema, Objetivos).
