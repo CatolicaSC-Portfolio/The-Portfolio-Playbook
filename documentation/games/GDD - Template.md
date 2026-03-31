@@ -15,9 +15,9 @@ Pesquisa / Prototipagem / Produção / Beta / Finalizado
 
 # 1. Visão Geral
 
-## Elevator Pitch
+## Elevated Pitch
 
-Descreva o jogo em **2–3 frases**.
+Descreva o jogo em **2–3 frases**. "Equivalente a explicar sobre o jogo em 30s a 1m"
 
 Exemplo:
 
@@ -91,6 +91,10 @@ Liste hipóteses que serão testadas durante o desenvolvimento.
 | jogadores gostam de progressão rápida | playtest com fases curtas |
 | combate simples melhora acessibilidade | protótipo com 1 botão de ataque |
 
+## Pilares do jogo
+
+- 3 a 5 no máximo
+
 ---
 
 # 5. Gameplay
@@ -103,6 +107,8 @@ Exemplo:
 
 Explorar → enfrentar inimigos → coletar recursos → melhorar personagem → continuar explorando
 
+## Loops Secundários
+
 ---
 
 ## Mecânicas Principais
@@ -113,9 +119,14 @@ Explorar → enfrentar inimigos → coletar recursos → melhorar personagem →
 | Combate | como o jogador ataca |
 | Interação | como interage com objetos |
 
+
+## Camera
+
+- Tipo de câmera
+
 ---
 
-## Regras do Jogo
+## Sistemas
 
 **Vitória**
 
@@ -166,7 +177,7 @@ Descreva os protótipos realizados durante o desenvolvimento.
 
 Elementos visíveis durante o jogo.
 
-*Adicione imagens/prototipos.*
+*Adicione imagens/prototipos/mockups de tela*
 
 Exemplo:
 
@@ -178,20 +189,29 @@ Exemplo:
 
 ## Menus
 
-*Adicione imagens/prototipos.*
+*Adicione imagens/prototipos/mockups de tela*
 
 - menu principal
 - pause
 - game over
 - configurações
 
+## Flow de menus
+
+- diagrama
+
+## Controles
+
+- diagrama e disposição dos inputs e o que fazem
+
+
 ---
 
 # 9. Direção Visual
 
-## Estilo Artístico
+## Direção de Arte
 
-*Adicione imagens/prototipos.*
+*Adicione imagens/prototipos/ mood board*
 
 Exemplo:
 
@@ -207,7 +227,7 @@ Links ou imagens que inspiram o estilo do jogo.
 
 ---
 
-# 10. Áudio
+# 10. Áudio (tabela/onde usar/loop/descrição)
 
 Tipos de áudio utilizados:
 
@@ -217,7 +237,13 @@ Tipos de áudio utilizados:
 
 ---
 
-# 11. Arquitetura de Software
+# 11. Animação (tabela/onde usar/loop/descrição)
+
+- Todos as animações usadas eonde
+
+---
+
+# 12. Arquitetura de Software
 
 Descreva a estrutura geral do código.
 
