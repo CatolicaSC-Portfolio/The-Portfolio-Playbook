@@ -4,9 +4,9 @@ Caro Professor/a, no início do semestre 2024-1, foi definido na reunião de col
 
 Antes de iniciar a avaliação verifique o conteúdo nestes links:   
 
-- [Processo de Escolha de Tema e Aprovação para Projeto de Portfólio](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/tree/main)
+- [PAC VII](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/PAC%20Extensionista%20VII.md)
 - [Modelo de RFC para Estruturação do Tema](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/RFC/modelo-de-RFC.md)
-- [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/portfolio-directions.md)
+- [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md)
 
 ## Pontos a serem observados na avaliação
 
