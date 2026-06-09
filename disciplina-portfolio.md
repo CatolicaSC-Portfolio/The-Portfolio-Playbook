@@ -13,11 +13,11 @@ Os alunos deverão apresentar publicamente:
 ## Estilos de Projeto
 
 Cada projeto deve se enquadrar em uma das seguintes linhas, com critérios específicos para habilitação à apresentação final (a ser definido em documento específico):
-1. [Web Apps](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-II/blob/working/Linhas/web.md)
-2. [Aplicações Mobile](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-II/blob/working/Linhas/mobile.md)
-3. [Jogos Digitais](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-II/blob/working/Linhas/jogos.md)
-4. [Projetos com IA](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-II/blob/working/Linhas/ia.md)
-5. [Projetos IoT](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-II/blob/working/Linhas/iot.md)
+1. [Web Apps](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-webapp.md)
+2. [Aplicações Mobile](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-mobile.md)
+3. [Jogos Digitais](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-jogosdigitais.md)
+4. [Projetos com IA](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-ia.md)
+5. [Projetos IoT](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-iot.md)
    
 ## Participação no Poster + Demo Day
 
@@ -41,10 +41,10 @@ O evento será um momento único para compartilhar conquistas, trocar experiênc
 - Atendimento dos reqisitos defindos para cada uma das linhas
 
 # Links Importantes
-- [Portfolio I](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/tree/main)
-- [Avaliação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-II/blob/main/AvaliacaoPoster_DemoDay.md)
-- [Guia do Poster](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-II/blob/main/guia_poster.md)
-- [Locais para Publicação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-II/blob/main/locais_publicacao.md)
+- [Portfolio I](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/tree/main)
+- [Avaliação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/AvaliacaoPoster_DemoDay.md)
+- [Guia do Poster](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/guia_poster.md)
+- [Locais para Publicação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/locais_publicacao.md)
 
 
 
