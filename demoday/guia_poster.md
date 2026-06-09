@@ -24,8 +24,8 @@ Para que o projeto seja habilitado a participar do evento final, é necessário:
 - **Solução proposta**.
 - **Arquitetura** (diagrama ou representação visual).
 - **Referências** (bibliográficas, técnicas, links relevantes).
-- **Template** : Cabeçalho, rodapé e padrões de cores devem seguir o [TEMPLATE AQUI](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/demoday/TEMPLATE_POSTER_PORTIFOLIO.pptx)
---  Exemplo de Poster (Não necessáriamente seu poster deve conter essa quantidade de texto, os textos são orientações!) [EXEMPLO](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/demoday/TEMPLATE_POSTER_PORTIFOLIO.pdf)
+- **Template** : Cabeçalho, rodapé e padrões de cores devem seguir o [TEMPLATE AQUI](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/demoday/TEMPLATE_POSTER_PORTIFOLIO.pptx)
+--  Exemplo de Poster (Não necessáriamente seu poster deve conter essa quantidade de texto, os textos são orientações!) [EXEMPLO](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/demoday/TEMPLATE_POSTER_PORTIFOLIO.pdf)
 
 ---
 
