@@ -2,19 +2,19 @@
 
 Atente para o portfolio directions de cada linha
 
-1. [**Projetos de Web Apps**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-webapp.md)
+1. [**Projetos de Web Apps**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-webapp.md)
    Aplicações web completas, com interface navegável, arquitetura definida e deploy público.
 
-2. [**Projetos de Aplicações Mobile**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-mobile.md)
+2. [**Projetos de Aplicações Mobile**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-mobile.md)
    Aplicativos nativos ou híbridos, com usabilidade e entrega funcional em dispositivo real.
 
-3. [**Projetos de Jogos Digitais**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-jogosdigitais.md)
+3. [**Projetos de Jogos Digitais**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-jogosdigitais.md)
    Jogos autorais com gameplay funcional, loop básico, documentação de design e build jogável.
 
-4. [**Projetos com IA**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-ia.md)
+4. [**Projetos com IA**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-ia.md)
    Soluções que apliquem de forma fundamentada técnicas de Inteligência Artificial em problemas reais.
 
-5. [**Projetos de IoT** ](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-iot.md)
+5. [**Projetos de IoT** ](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-iot.md)
    Soluções envolvendo dispositivos conectados, sensores, atuadores e comunicação em rede.
 
 
