@@ -16,7 +16,7 @@ Para habilitar-se à apresentação final, o projeto deve conter:
 - Link funcional da aplicação, jogo, app, IA ou solução IoT.  
 - Documentação de arquitetura, requisitos e decisões técnicas.  
 - Cumprimento dos critérios obrigatórios da linha de projeto escolhida.
-- Há outros requisitros em [Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-GERAL.md).
+- Há outros requisitros em [Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md).
 - Deve estar disponível em ambiente produtivo, hospedado na nuvem, com acesso público e estável (sem depender de notebook pessoal ou ambiente local) até a divulgação final das notas da disciplina.
   
 ## Pilares
@@ -76,6 +76,6 @@ Os projetos que mais se destacarem em **inovação**, **qualidade técnica** e *
 
 ## 🔗 Referências e Guias
 
-- [Guia de Avaliação do Demo Day](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/demoday/Avaliacao_Poster_DemoDay.md).
-- [Guia para Poster](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/demoday/guia_poster.md).
-- [Locais para publicação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/demoday/locais_publicacao.md).
+- [Guia de Avaliação do Demo Day](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/demoday/Avaliacao_Poster_DemoDay.md).
+- [Guia para Poster](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/demoday/guia_poster.md).
+- [Locais para publicação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/demoday/locais_publicacao.md).
