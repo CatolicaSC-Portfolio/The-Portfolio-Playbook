@@ -41,10 +41,8 @@ O evento será um momento único para compartilhar conquistas, trocar experiênc
 - Atendimento dos reqisitos defindos para cada uma das linhas
 
 # Links Importantes
-- [Portfolio I](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/tree/main)
-- [Avaliação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/AvaliacaoPoster_DemoDay.md)
-- [Guia do Poster](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/guia_poster.md)
-- [Locais para Publicação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/locais_publicacao.md)
+- [Avaliação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/demoday/Avaliacao_Poster_DemoDay.md)
+- [Guia do Poster](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/demoday/guia_poster.md)
 
 
 
