@@ -15,7 +15,7 @@ Pesquisa / Prototipagem / Produção / Beta / Finalizado
 
 # 1. Visão Geral
 
-## Elevated Pitch
+## Elevator Pitch
 
 Descreva o jogo em **2–3 frases**. "Equivalente a explicar sobre o jogo em 30s a 1m"
 
@@ -69,7 +69,7 @@ Jogadores casuais entre 16 e 35 anos que gostam de jogos rápidos e desafiadores
 
 Liste **2–5 jogos que inspiraram o projeto**.
 
-para cada jogo descreva  brevemente o jogo, os aspectos que inpiram. Adicione imagens para ilustrar.
+para cada jogo descreva  brevemente o jogo, os aspectos que inspiram. Adicione imagens para ilustrar.
 
 ---
 
@@ -227,19 +227,27 @@ Links ou imagens que inspiram o estilo do jogo.
 
 ---
 
-# 10. Áudio (tabela/onde usar/loop/descrição)
+# 10. Áudio
 
-Tipos de áudio utilizados:
+Liste os áudios do jogo em tabela: tipo, onde é usado, se tem loop e descrição.
 
-- música de fundo
-- efeitos sonoros
-- narração (se houver)
+| Áudio | Onde usa | Loop | Descrição |
+|-----|-----|-----|-----|
+| tema principal | menu | sim | melodia calma, piano |
+| impacto | acerto no inimigo | não | curto, grave |
+
+Tipos comuns: música de fundo, efeitos sonoros, narração.
 
 ---
 
-# 11. Animação (tabela/onde usar/loop/descrição)
+# 11. Animação
 
-- Todos as animações usadas eonde
+Liste todas as animações em tabela: qual é, onde é usada, se tem loop e descrição.
+
+| Animação | Onde usa | Loop | Descrição |
+|-----|-----|-----|-----|
+| corrida | movimento lateral | sim | 8 frames |
+| dano | ao levar hit | não | flash + recuo |
 
 ---
 
@@ -266,14 +274,14 @@ Exemplo:
 
 ---
 
-# 12. Testes e Playtests
+# 13. Testes e Playtests
 
 ## Playtests
 
 | Data | Participantes | Principais problemas |
 |-----|-----|-----|
-| DD/MM | 5 pessoas | controles confusos |
-| DD/MM | 10 pessoas | dificuldade elevada |
+| DD/MM/AAAA | 5 pessoas | controles confusos |
+| DD/MM/AAAA | 10 pessoas | dificuldade elevada |
 
 ---
 
@@ -286,12 +294,12 @@ Exemplo:
 Jogadores não entendiam o objetivo inicial → tutorial adicionado.
 
 ---
-# 13. Cronograma
+# 14. Cronograma
 
 detalhe os principais milestones do projeto.
 
 
-# 14. Riscos do Projeto
+# 15. Riscos do Projeto
 
 | Risco | Impacto | Mitigação |
 |-----|-----|-----|
@@ -300,7 +308,7 @@ detalhe os principais milestones do projeto.
 
 ---
 
-# 15. Limitações Conhecidas
+# 16. Limitações Conhecidas
 
 Liste funcionalidades planejadas mas não implementadas.
 
@@ -312,18 +320,18 @@ Exemplo:
 
 ---
 
-# 16. Decisões Importantes
+# 17. Decisões Importantes
 
 Registro de mudanças relevantes durante o projeto.
 
 | Data | Decisão | Motivo |
 |-----|-----|-----|
-| março | remover sistema de crafting | escopo muito grande |
-| abril | adicionar dash | melhorar mobilidade |
+| DD/MM/AAAA | remover sistema de crafting | escopo muito grande |
+| DD/MM/AAAA | adicionar dash | melhorar mobilidade |
 
 ---
 
-# 17. Créditos
+# 18. Créditos
 
 Liste assets externos utilizados.
 
@@ -334,7 +342,7 @@ Liste assets externos utilizados.
 
 ---
 
-# 17. Reflexão Final
+# 19. Reflexão Final
 
 Explique brevemente:
 

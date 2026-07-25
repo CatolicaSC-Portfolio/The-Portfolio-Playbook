@@ -5,6 +5,9 @@ Para que o projeto seja habilitado a participar do evento final, é necessário:
 - Atender aos requisitos mínimos da **linha de projeto escolhida**.
 - Estar **funcional** e **acessível ao público** (deploy ou entrega testável).
 - Conter **documentação clara e organizada**.
+- Cumprir as **cinco orientações** evidenciadas (duas até 30/09/2026) e ser **aprovado na prova de autoria** — que admite **uma segunda tentativa** até 03/12/2026 (quinta-feira); reprovar duas vezes reprova na disciplina. Ver [Requisitos de Aprovação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md).
+
+> Apresentar habilita, mas não aprova: o aluno também deve **participar como visitante de uma noite** do evento e **avaliar os trabalhos dos colegas**. Requisito de aprovação na disciplina.
 
 ---
 
@@ -24,8 +27,8 @@ Para que o projeto seja habilitado a participar do evento final, é necessário:
 - **Solução proposta**.
 - **Arquitetura** (diagrama ou representação visual).
 - **Referências** (bibliográficas, técnicas, links relevantes).
-- **Template** : Cabeçalho, rodapé e padrões de cores devem seguir o [TEMPLATE AQUI](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/demoday/TEMPLATE_POSTER_PORTIFOLIO.pptx)
---  Exemplo de Poster (Não necessáriamente seu poster deve conter essa quantidade de texto, os textos são orientações!) [EXEMPLO](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/demoday/TEMPLATE_POSTER_PORTIFOLIO.pdf)
+- **Template** : Cabeçalho, rodapé e padrões de cores devem seguir o [TEMPLATE AQUI](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/demoday/TEMPLATE_POSTER_PORTFOLIO.pptx)
+- Exemplo de Poster (Não necessariamente seu poster deve conter essa quantidade de texto, os textos são orientações!) [EXEMPLO](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/demoday/TEMPLATE_POSTER_PORTFOLIO.pdf)
 
 ---
 

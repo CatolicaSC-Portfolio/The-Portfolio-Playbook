@@ -12,6 +12,16 @@ Requisitos mínimos e obrigatórios para habilitação ao Poster + Demo Day.
 - Deve contemplar o pipeline funcional de IA, incluindo etapas como extração/geração de dados, pré-processamento (método científico, matemática, estatística), modelo IA, pós-processamento (visualização, testes, validação e implantação do modelo);
 - Deve considerar aspectos de responsabilidade ética, incluindo a privacidade de dados (como previsto na LGPD) e o cumprimento de normas ou legislações específicas da área de aplicação, como, por exemplo, na área da saúde;
 
+### Núcleo comum de engenharia
+
+Requisitos válidos para **todas as linhas de projeto**, conforme o [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md):
+
+- **Documentação em Wiki** junto ao repositório (Wiki do GitHub ou equivalente).
+- **Pipeline CI/CD** configurado e funcionando (ex.: GitHub Actions, GitLab CI).
+- **Análise estática de código e segurança** (ex.: SonarQube, SonarCloud, CodeClimate).
+- **Monitoramento ou observabilidade** da solução em execução.
+- **Cobertura de testes automatizados: 70%** do código de aplicação e do pipeline de IA — notebooks exploratórios ficam fora da contagem.
+
 ---
 
 ## O que é desejável atender
@@ -57,6 +67,7 @@ Erros graves que causam desclassificação ou reprovação direta.
 ---
 
 ## Régua de Avaliação
-- **Aprovado**: Apresentar uma aplicação funcional de uma abordagem de Inteligência Artificial a um problema real, apresenta pipeline funcional (dados, modelo, pré e pós-processamento), documentação técnica coerente e demonstra resultados replicáveis. A aplicação resolve um problema real com escopo bem definido.  
-- **Destaque**: Além dos critérios básicos, o projeto demonstra diferencial técnico ou criativo, como desenvolvimento de modelo próprio, uso de arquitetura robusta, ou validação rigorosa (ex.: cross-validation, análise de métricas). Disponibilidade da IA para testes com usuários no dia da apresentação.  
-- **Reprovado**: não apresenta, quebra ou não cumpre os critérios obrigatórios.
+
+- **Destaque** — além de todos os obrigatórios, demonstra diferencial técnico ou criativo: modelo próprio, arquitetura robusta ou validação rigorosa (cross-validation, análise de métricas), e disponibiliza a IA para testes com usuários no dia da apresentação. Concorre a menção de destaque e a convite para a **Banca Técnica Especial**.
+- **Aprovado** — atende a **todos** os itens *obrigatórios*, incluindo o núcleo comum de engenharia: aplicação funcional de uma abordagem de IA a um problema real, pipeline completo (dados, pré-processamento, modelo, pós-processamento), documentação coerente e resultados replicáveis. Nota final igual ou superior a **6,0**.
+- **Reprovado** — deixa de atender a qualquer item *obrigatório*, incorre em item de *“o que não pode ter”*, ou obtém nota final abaixo de **6,0**.

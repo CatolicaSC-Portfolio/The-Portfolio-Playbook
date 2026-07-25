@@ -5,11 +5,22 @@ A avaliação final será realizada durante o Poster + Demo Day, considerando as
 A avaliação busca reconhecer o aprendizado, a aplicação prática de competências e a capacidade de apresentar soluções de forma crítica e integrada.
 Mais do que mensurar desempenho, o processo visa promover reflexão, autonomia técnica e evolução contínua dos estudantes.
 
+## 🚦 Pré-condição: apenas trabalhos habilitados são avaliados
+
+Antes de avaliar, o trabalho já passou pelos gates de habilitação da disciplina:
+
+- **Cinco orientações evidenciadas** — duas até 30/09/2026.
+- **Aprovação na prova de autoria**, que confere autoria **e a cobertura mínima de testes da linha**.
+
+A prova de autoria admite **uma segunda tentativa**, até **03/12/2026 (quinta-feira)**; reprovar duas vezes reprova na disciplina. A lista de habilitados está fechada antes da primeira noite do evento. Trabalho não habilitado **não apresenta** e não recebe nota — logo, tudo que chega à sua mesa já cumpriu autoria e cobertura. Regra completa em [Requisitos de Aprovação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md).
+
+---
+
 ## 🔑 Formato de Avaliação
 - Cada trabalho será avaliado por:
-  - Três professores, com formulário Likert e comentários qualitativos.
-  - Uma quarta nota será o resultado da média de todas as notas recebidas da comunidade durante o Demoday
-- A média das notas atribuídas resultará em uma **única nota final** (0 a 10).
+  - **Três professores**, com formulário Likert e comentários qualitativos — **peso 90%**.
+  - Uma **quarta nota**, resultado da média de todas as notas recebidas da comunidade durante o Demo Day — **peso 10%**.
+- A **média ponderada** dessas notas resultará em uma **única nota final** (0 a 10).
 - A avaliação será registrada em **formulário ou aplicativo**, utilizando **escala Likert** para cada critério e espaço para comentários qualitativos.
 - Professores receberão antecipadamente:
   - Lista de trabalhos.
@@ -80,9 +91,10 @@ Código bem estruturado, modular e legível, com boas práticas, testes automati
 * **Boas práticas** – uso consistente de padrões da linguagem e estilo de código.  
   *Exemplo:* linters, convenções de nomes, tratamento de erros.
 
-* **Testes automatizados** – presença de testes unitários e/ou de integração.  
+* **Testes automatizados** – qualidade e pertinência dos testes unitários e/ou de integração.  
   *Exemplo:* Jest, PyTest, JUnit, Postman/Newman.  
-  *Implicação:* ausência total de testes compromete a confiabilidade.
+  *Implicação:* testes rasos, que só perseguem percentual sem exercitar regra de negócio, reduzem a nota.  
+  > **A cobertura mínima obrigatória não é avaliada aqui.** Ela é **gate**, conferido na **prova de autoria** — 75% backend / 25% frontend (Web Apps e Mobile), 70% (IA), 60% (IoT), 50% (Jogos Digitais). Quem não atinge corrige e tem uma segunda tentativa; reprovando de novo, reprova na disciplina e não chega ao evento. Ou seja: **todo trabalho que você avalia já cumpriu a cobertura**. O que se pontua neste item é o que os testes valem, não quanto medem. Ver [Prova de Autoria](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md).
 
 * **Histórico de commits** – progresso contínuo e colaborativo.  
   *Exemplo:* commits frequentes e mensagens descritivas.
@@ -119,7 +131,7 @@ Autoria real, sem plágio, com uso ético e responsável de dados; violações c
 
 *Detalhamento:*
 
-* **Autoria genuína** – o projeto é resultado do trabalho original do acdêmico, sem cópias de código, design ou texto.  
+* **Autoria genuína** – o projeto é resultado do trabalho original do acadêmico, sem cópias de código, design ou texto.  
 * **Uso ético de dados** – respeita princípios de privacidade, LGPD e boas práticas de pesquisa.  
   *Implicação:* plágio, falsificação de resultados ou uso indevido de dados resultam em reprovação imediata.  
 
@@ -135,9 +147,10 @@ Apresentação clara, demonstração funcional, domínio técnico nas respostas 
   *Exemplo:* storytelling com foco no impacto da solução.
 
 * **Demonstração funcional** – sistema acessível e operante em ambiente produtivo.  
-  *Exemplo:* link público via Vercel, Firebase ou servidor institucional.
+  *Exemplos:* aplicação hospedada em nuvem (AWS, GCP, Azure, Magalu Cloud), servidor institucional, app publicado em loja ou build jogável em plataforma pública.  
+  *Atenção:* plataformas focadas apenas em frontend (Vercel, Netlify, Render) só são aceitas quando **há backend próprio desenvolvido pelo aluno** — ver [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md).
 
-* **Domínio técnico** – equipe demonstra segurança ao responder perguntas.  
+* **Domínio técnico** – o autor demonstra segurança ao responder perguntas.  
   *Exemplo:* justificar escolha de arquitetura, linguagem, bibliotecas e métricas.
 
 * **Pôster técnico** – conteúdo autoexplicativo, com QR Code funcional e identidade visual coerente.  
@@ -148,11 +161,40 @@ Apresentação clara, demonstração funcional, domínio técnico nas respostas 
 ## ⭐ Participação da Comunidade Acadêmica
 
 - A comunidade acadêmica também avaliará os projetos, atribuindo notas de **originalidade** e **clareza de apresentação**.  
-- A nota da comunidade será incorporada à média final com peso menor, valorizando o engajamento e a comunicação científica.
+- A nota da comunidade será incorporada à média final com **peso de 10%**, valorizando o engajamento e a comunicação científica.
+- **Os alunos da disciplina integram essa comunidade e avaliar é obrigatório para eles.** Cada aluno deve participar como **visitante de uma noite** do evento — distinta daquela em que apresenta — e avaliar os trabalhos apresentados nessa noite pelo formulário oficial. É requisito de **aprovação na disciplina**, não item de nota: ver [Requisitos de Aprovação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md). A comprovação da presença é o registro do evento.
 
 ---
 
 ## 📏 Escala Final
 
-- **Nota Final:** média ponderada das avaliações (0 a 10), considerando professores e comunidade.  
+- **Nota Final:** média ponderada das avaliações (0 a 10) — **90% professores** (média dos três avaliadores) e **10% comunidade**.  
 - A avaliação privilegia **aprendizado, consistência, originalidade e ética profissional** como pilares de excelência.
+
+### Como a Likert vira nota
+
+A conversão da escala Likert (1 a 5) para a nota (0 a 10) é feita **multiplicando por 2**.
+
+**Passo a passo:**
+
+1. **Nota de cada professor** = média dos 6 critérios (Likert 1–5) **× 2**.
+2. **Nota dos professores** = média das notas dos três avaliadores.
+3. **Nota da comunidade** = média de todas as notas recebidas do público, convertida pela mesma regra (**× 2**).
+4. **Nota Final** = (nota dos professores **× 0,9**) + (nota da comunidade **× 0,1**), arredondada em **uma casa decimal**.
+
+**Exemplo:**
+
+| Etapa | Cálculo | Resultado |
+|:--|:--|:--|
+| Professor 1 — critérios 4, 3, 4, 3, 5, 4 | média 3,83 × 2 | 7,7 |
+| Professor 2 | — | 8,0 |
+| Professor 3 | — | 7,3 |
+| Nota dos professores | (7,7 + 8,0 + 7,3) ÷ 3 | 7,7 |
+| Nota da comunidade | Likert médio 4,2 × 2 | 8,4 |
+| **Nota Final** | (7,7 × 0,9) + (8,4 × 0,1) | **7,8** |
+
+**Observações:**
+
+- A nota mínima possível por esta fórmula é **2,0** (Likert 1 em todos os critérios). Notas abaixo disso só ocorrem por **reprovação direta**.
+- O critério **5 — Ética, Integridade e Autoria** é **eliminatório**: plágio, falsificação de resultados ou uso indevido de dados resultam em **reprovação imediata**, independentemente das demais notas. Não entra na média nesses casos.
+- Os **6 critérios têm peso igual** entre si dentro da nota de cada professor.

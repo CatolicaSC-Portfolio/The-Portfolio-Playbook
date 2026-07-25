@@ -10,7 +10,7 @@ O objetivo é garantir que o software construído individualmente possua qualida
 
 ### 1. Integração com a Matéria de Portfólio
 - **Portfólio (Execução):** O aluno desenvolve o software, realiza os commits e implementa as funcionalidades previstas na RFC.
-- **PAC (Gestão e Qualidade):** O aluno utiliza este espaço para planejar as *sprints*, documentar os testes e gerenciar o ciclo de vida do projeto.
+- **PAC (Gestão e Qualidade):** O aluno utiliza este espaço para planejar as *iterações* de entrega, documentar os testes e gerenciar o ciclo de vida do projeto.
 - **Sincronia:** As entregas parciais de código na matéria de Portfólio servem de insumo para as validações exigidas no PAC.
 
 ### 2. Validação por Pares (Peer Review)
@@ -26,6 +26,17 @@ O aluno deve submeter as versões funcionais (MVPs) geradas na matéria de Portf
 - **Demonstrações (Demos):** Apresentação das funcionalidades rodando para o cliente real.
 - **Coleta de Feedback:** Registro formal do que o parceiro aprovou ou solicitou alteração.
 - **Ajuste de Rota:** O feedback recebido aqui deve virar novas tarefas (tasks) para o desenvolvimento na disciplina de Portfólio.
+
+### 3.1 Modalidade Comunidade — evidência equivalente
+
+O [PAC Extensionista VII](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/PAC%20Extensionista%20VII.md) permite projetos voltados à comunidade, sem parceiro corporativo. Nesses casos **não há termo de aceite a ser assinado**, e a validação extensionista é comprovada por um conjunto equivalente de evidências, de **mesmo peso** na avaliação:
+
+- **Relatório de validação com usuários reais** — no mínimo três sessões documentadas (data, participantes, o que foi testado, o que foi apontado).
+- **Feedback documentado** — respostas de formulário, transcrições de entrevista ou registros de observação em campo.
+- **Declaração da comunidade atendida** — carta, e-mail ou registro de representante do grupo, associação ou coletivo beneficiado, confirmando o uso da solução.
+- **Registro das correções** decorrentes desse feedback, rastreáveis em issues ou commits.
+
+A modalidade deve ser declarada ao professor no **início do semestre**, não na entrega final.
 
 ---
 
@@ -43,8 +54,18 @@ A avaliação considera a colaboração técnica (pares) e a satisfação do cli
 
 - **NP3 (60%) — Entrega Final Integrada**
   - **Produto (Portfólio):** Software funcional em versão *Release*.
-  - **Aceite (Extensão):** Termo de aceite ou declaração de encerramento assinado pelo parceiro externo.
-  - **Socialização:** Apresentação técnica no *Demo Day*.
+  - **Aceite (Extensão):** Termo de aceite ou declaração de encerramento assinado pelo parceiro externo — ou, na modalidade Comunidade, a **evidência equivalente** descrita abaixo.
+  - **Socialização (Extensão):** Evidência de que a solução foi devolvida ao parceiro ou à comunidade — entrega formal, treinamento, documentação de uso ou registro de transferência. No *Demo Day*, o que o PAC avalia é o **relato do impacto extensionista**, não a apresentação técnica.
+
+> **Divisão com a disciplina de Portfólio:** o mesmo evento é avaliado nas duas disciplinas, por dimensões distintas. O **Portfólio** pontua o produto e a apresentação técnica (arquitetura, decisões, domínio nas respostas), conforme o [Guia de Avaliação do Demo Day](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/demoday/Avaliacao_Poster_DemoDay.md). O **PAC VIII** pontua a dimensão extensionista: o que o parceiro ou a comunidade efetivamente recebeu, validou e passou a usar. Não há dupla contagem do mesmo mérito.
+
+---
+
+## Prazos
+
+- **Entrega final:** **30/11/2026 (segunda-feira)** — mesmo prazo da Disciplina de Portfólio. Até essa data devem estar entregues o software em versão *release*, as evidências de peer review e o aceite (ou as evidências equivalentes da modalidade Comunidade).
+- **Poster + Demo Day:** **10/12/2026 (quinta-feira)**, **15/12/2026 (terça-feira)** e **16/12/2026 (quarta-feira)**.
+- A **modalidade** (Parceiro Externo ou Comunidade) deve ser declarada ao professor no **início do semestre**.
 
 ---
 
@@ -53,6 +74,6 @@ Criar um ambiente profissional onde o estudante não apenas "codifica sozinho" (
 
 ### Entregáveis Esperados
 1. **Links de PRs e Issues** (comprovando a atuação como revisor técnico).
-2. **Relatórios de Feedback** do Parceiro Externo.
-3. **Termo de Aceite Final** da solução.
+2. **Relatórios de Feedback** do parceiro externo ou da comunidade atendida.
+3. **Termo de Aceite Final** da solução — ou, na modalidade Comunidade, o conjunto de evidências equivalentes descrito na Seção 3.1.
 

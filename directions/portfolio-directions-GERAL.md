@@ -2,19 +2,19 @@
 
 Atente para o portfolio directions de cada linha
 
-1. [**Projetos de Web Apps**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-webapp.md)
+1. [**Projetos de Web Apps**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-webapp.md)
    Aplicações web completas, com interface navegável, arquitetura definida e deploy público.
 
-2. [**Projetos de Aplicações Mobile**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-mobile.md)
+2. [**Projetos de Aplicações Mobile**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-mobile.md)
    Aplicativos nativos ou híbridos, com usabilidade e entrega funcional em dispositivo real.
 
-3. [**Projetos de Jogos Digitais**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-jogosdigitais.md)
+3. [**Projetos de Jogos Digitais**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-jogosdigitais.md)
    Jogos autorais com gameplay funcional, loop básico, documentação de design e build jogável.
 
-4. [**Projetos com IA**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-ia.md)
+4. [**Projetos com IA**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-ia.md)
    Soluções que apliquem de forma fundamentada técnicas de Inteligência Artificial em problemas reais.
 
-5. [**Projetos de IoT** ](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-iot.md)
+5. [**Projetos de IoT** ](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-iot.md)
    Soluções envolvendo dispositivos conectados, sensores, atuadores e comunicação em rede.
 
 
@@ -36,8 +36,8 @@ A tabela abaixo procura direcionar as decisões dos projetos.
 | Ferramenta   | Documentação: Notion, Obsidian                                       | ⚠️ Evitar   | Ferramentas versáteis para notas e documentação, mas menos integradas ao fluxo de desenvolvimento.     |
 | Processo     | Scrum                                                                | ⚠️ Evitar   | Metodologia ágil popular que, apesar de sua eficácia, pode não ser ideal para todos os projetos. Não indicada para projetos individuais. |
 | Stack        | Plataforma otimizada para front-end, principalmente se não desenvolver backend (Vercel, Netlify, Render) | ⚠️ Evitar | Soluções específicas para front-end podem limitar o controle sobre o frontend e a customização.        |
-| Stack        |Plataforma que oferece banco de dados, autenticação, storage e APIs automáticas, sem gestão ou conrtole sobre arquitetura | ⚠️ Evitar | Soluções específicas para persistencia de dados  podem limitar o controle sobre o backend e a customização.        |
-| Stack        | Plataformas de cloud hosting  que automatizam o deploy e a execução de aplicações web e APIs  integração direta ao GitHub, SSL automático e infraestrutura escalável | ⚠️ Evitar | Soluções específicas para hospedaagem que limitam o controle sobre o backend e a customização.        |
+| Stack        |Plataforma que oferece banco de dados, autenticação, storage e APIs automáticas, sem gestão ou controle sobre arquitetura | ⚠️ Evitar | Soluções específicas para persistencia de dados  podem limitar o controle sobre o backend e a customização.        |
+| Stack        | Plataformas de cloud hosting  que automatizam o deploy e a execução de aplicações web e APIs  integração direta ao GitHub, SSL automático e infraestrutura escalável | ⚠️ Evitar | Soluções específicas para hospedagem que limitam o controle sobre o backend e a customização.        |
 | Stack        | Linguagem: PHP                                                       | ⚠️ Evitar   | Linguagem amplamente usada para desenvolvimento web, mas que enfrenta críticas quanto a modernidade e segurança. |
 | Tema         | Sistema de gestão de listas de livros, filmes, músicas, etc. (similares a goodread) | ⚠️ Evitar | Projetos como sistemas de gestão de listas são comuns, mas enfrentam alta concorrência e desafios de inovação. |
 | Tema         | Sistema de gestão de ecommerce/lojas virtuais | ⚠️ Evitar | Projetos de lojas virtuais são comuns, mas enfrentam alta concorrência e desafios de inovação. |
@@ -56,10 +56,10 @@ A tabela abaixo procura direcionar as decisões dos projetos.
 | Tema         | Sistema de gestão de processos (ERP, Contábil, Comercial, ...)       | ✅ Preferir  | Ferramentas essenciais para a automação e eficiência de processos empresariais.                      |
 | Processo         | Aplicar SOLID e Clean Code                                           | ✅ Preferir  | SOLID - https://bit.ly/3tbawbD  e Clean Code - https://bit.ly/3E7AaDx |
 | Stack        | Dados: Redis e Memcached                                             | ✅ Preferir  | Sistemas de armazenamento em memória para cache e sessões, essenciais para aplicações de alta performance. |
-| Processo         | Utilizar MCP (Model Context Protocol) com protocolo enter aplicações e modelos LLM | ✅ Preferir  | Assunto pouco explorado.|
+| Processo         | Utilizar MCP (Model Context Protocol) como protocolo entre aplicações e modelos LLM | ✅ Preferir  | Assunto pouco explorado.|
 | Ferramenta   | Documentação em Wiki junto com repositório (Wiki do Github, GitLabs, ...) | 🔑 Obrigatório  | Facilita o acesso e a colaboração na documentação de projetos.                                        |
 | Ferramenta   | Deploy via CI/CD (Github Actions, Jenkins, ...)                      | 🔑 Obrigatório  | Automatiza o processo de deploy, melhorando a eficiência e a confiabilidade.                          |
-| Processo     | TDD                                                                  | 🔑 Obrigatório  | Prática de escrever testes antes do código, garantindo qualidade e reduzindo bugs.   
+| Processo     | TDD                                                                  | 🔑 Obrigatório  | Prática de escrever testes antes do código, garantindo qualidade e reduzindo bugs. |
 | Stack        | Dados: InfluxDB e TimescaleDB.                                       | 🔍 Explorar | Bancos de dados de séries temporais, úteis para análise de dados em tempo real.                      |
 | Stack        | Dados: Elasticsearch                                                 | 🔍 Explorar | Motor de busca e análise, ideal para pesquisa de texto e análise de grandes volumes de dados. |
 | Stack        | Linguagem: Rust, Go, Elixir, Dart                                    | 🔍 Explorar | Linguagens modernas oferecendo segurança, performance e concorrência para diversos tipos de projetos.|

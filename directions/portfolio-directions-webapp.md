@@ -20,6 +20,7 @@ Requisitos mínimos e obrigatórios para habilitação ao Poster + Demo Day.
   - 25% no frontend.
 - Aplicação de ferramenta de análise estática de código e segurança (ex.: SonarQube, SonarCloud, CodeClimate).
 - Uso de ferramenta de monitoramento ou observabilidade (ex.: NewRelic, Datadog, Zabbix, Prometheus, Grafana).
+- Documentação em Wiki junto ao repositório (Wiki do GitHub ou equivalente).
 - O sistema deve contemplar **ao menos três fluxos de negócio completos**.
 
 ---
@@ -63,7 +64,7 @@ Más práticas que reduzem a qualidade e a legibilidade do projeto.
 - Falta de modularidade (ex.: todo o código concentrado em um único arquivo).
 - Vibecoding (código improvisado, sem planejamento).
 - Uso de ferramentas de documentação como Notion ou Obsidian (não aceitas para entrega oficial).
-- Hospedagem exclusivamente em plataformas otimizadas apenas para frontend (ex.: Vercel, Netlify, Firebase, Render), **sem backend desenvolvido pelo grupo**.
+- Hospedagem exclusivamente em plataformas otimizadas apenas para frontend (ex.: Vercel, Netlify, Firebase, Render), **sem backend desenvolvido pelo aluno**.
 - Plataformas que automatizam totalmente backend, banco de dados e APIs sem gestão da arquitetura (no-code disfarçado de desenvolvimento).
 - Serviços de cloud que ocultam infraestrutura e automação de deploy (com integração direta via GitHub e SSL automático) **sem domínio técnico sobre o ambiente.**
 
@@ -95,3 +96,11 @@ Erros graves que causam desclassificação ou reprovação direta.
 - Sistema de controle de estoque.
 - Sistema de tele-entrega.
 - Sistema de gestão financeira (com ou sem IA).
+
+---
+
+## Régua de Avaliação
+
+- **Destaque** — além de todos os obrigatórios, contempla os itens *desejáveis* e ao menos **um** item de *“é um diferencial”*, sem incorrer em nada de *“o que deve ser evitado”*. Concorre a menção de destaque e a convite para a **Banca Técnica Especial**.
+- **Aprovado** — atende a **todos** os itens *obrigatórios*, incluindo o núcleo comum de engenharia, os três fluxos de negócio completos e a cobertura de testes (75% backend / 25% frontend). Nota final igual ou superior a **6,0**.
+- **Reprovado** — deixa de atender a qualquer item *obrigatório*, incorre em item de *“o que não pode ter”*, ou obtém nota final abaixo de **6,0**.

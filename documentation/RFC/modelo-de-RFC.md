@@ -10,7 +10,7 @@
   Nome claro e específico do sistema.
 
 - **Linha de Projeto (Direction):**  
-  Web / Mobile / IA / IoT / Jogos / Plataforma / Dados
+  Web Apps / Mobile / Jogos Digitais / IA / IoT — uma das [cinco linhas oficiais](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md)
 
 - **Autor:**  
   Nome completo
@@ -531,23 +531,97 @@ Sempre que possível inclua **imagens, protótipos ou referências visuais**.
 
 # 10. Parecer do Comitê de Avaliação
 
-(A ser preenchido pelos professores)
+(A ser preenchido pelos três professores avaliadores)
 
-**Avaliador 1:** __________________________  
-**Status:** [ ] Aprovado  [ ] Ajustar
+Cada avaliador atribui **uma nota única de 0 a 10, em intervalos de 0,5**, e assina.
 
-Observações:
+| Faixa | Situação |
+|---|---|
+| **7,0 a 10** | ✅ Aprovada |
+| **6,0 a 6,5** | ⚠️ Aprovada **com correções obrigatórias** — sem elas a proposta cai abaixo de 6,0 e reprova |
+| **Abaixo de 6,0** | ❌ Reprovada — exige reapresentação |
 
----
-
-**Avaliador 2:** __________________________  
-**Status:** [ ] Aprovado  [ ] Ajustar
-
-Observações:
+Escala completa e critérios em [Recomendações para Avaliação das Propostas de Portfólio](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/diretrizes-avaliacao-professores.md).
 
 ---
 
-**Avaliador 3:** __________________________  
-**Status:** [ ] Aprovado  [ ] Ajustar
+## Avaliador 1
 
-Observações:
+| Campo | Preenchimento |
+|---|---|
+| **Nome** | |
+| **Nota** (0 a 10, passo 0,5) | |
+| **Situação** | [ ] Aprovada   [ ] Aprovada com correções   [ ] Reprovada |
+| **Data** | DD/MM/AAAA |
+| **Assinatura** | |
+
+**Correções obrigatórias** (preencher se a situação exigir):
+
+1.
+2.
+3.
+
+**Comentários e recomendações:**
+
+
+---
+
+## Avaliador 2
+
+| Campo | Preenchimento |
+|---|---|
+| **Nome** | |
+| **Nota** (0 a 10, passo 0,5) | |
+| **Situação** | [ ] Aprovada   [ ] Aprovada com correções   [ ] Reprovada |
+| **Data** | DD/MM/AAAA |
+| **Assinatura** | |
+
+**Correções obrigatórias** (preencher se a situação exigir):
+
+1.
+2.
+3.
+
+**Comentários e recomendações:**
+
+
+---
+
+## Avaliador 3
+
+| Campo | Preenchimento |
+|---|---|
+| **Nome** | |
+| **Nota** (0 a 10, passo 0,5) | |
+| **Situação** | [ ] Aprovada   [ ] Aprovada com correções   [ ] Reprovada |
+| **Data** | DD/MM/AAAA |
+| **Assinatura** | |
+
+**Correções obrigatórias** (preencher se a situação exigir):
+
+1.
+2.
+3.
+
+**Comentários e recomendações:**
+
+
+---
+
+## Consolidação
+
+| Avaliador | Nota | Situação |
+|---|---|---|
+| Avaliador 1 | | |
+| Avaliador 2 | | |
+| Avaliador 3 | | |
+| **Média final** | | |
+
+**Correções obrigatórias consolidadas** — o aluno deve endereçar todas antes da versão final entregue ao professor da disciplina:
+
+1.
+2.
+3.
+
+**Data da validação das correções:** DD/MM/AAAA  
+**Professor da disciplina:** __________________________

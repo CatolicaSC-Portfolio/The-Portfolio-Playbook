@@ -12,6 +12,17 @@ Requisitos mínimos e obrigatórios para habilitação ao Poster + Demo Day.
 - Mesmo que simplificada, é fundamental a **interação via web/mobile** (camada de aplicação) como parte da aplicação IoT, seja:
   - Interação direta (ex.: manipular configuração de dispositivo);
   - Interação indireta (ex.: consumo de dados oriundos da aplicação IoT).  
+- A **camada de aplicação** deve estar hospedada em ambiente acessível publicamente e estável, não dependente de máquina pessoal.
+
+### Núcleo comum de engenharia
+
+Requisitos válidos para **todas as linhas de projeto**, conforme o [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md):
+
+- **Documentação em Wiki** junto ao repositório (Wiki do GitHub ou equivalente).
+- **Pipeline CI/CD** configurado e funcionando para a camada de aplicação (ex.: GitHub Actions).
+- **Análise estática de código e segurança** (ex.: SonarQube, SonarCloud, CodeClimate).
+- **Monitoramento ou observabilidade** da aplicação e da telemetria dos dispositivos.
+- **Cobertura de testes automatizados: 60%** da camada de aplicação e de processamento de dados. No firmware, testes de unidade das **rotinas críticas** (leitura de sensores, protocolo de comunicação, tratamento de falha).
 
 ---
 
@@ -53,9 +64,7 @@ Erros graves que causam desclassificação ou reprovação direta.
 ---
 
 ## Régua de Avaliação
-Define os níveis de qualidade do projeto, critérios de aprovação e acesso aos eventos de destaque.
 
-- **Aprovado para apresentação**: Banner, projeto com escopo contendo os requisitos mínimos e obrigatórios  
-  = Itens *“obrigatório atender”* (têm que ter) + *“desejável atender”*.
-- **Aprovado com Diferencial**: Banner, convite para Banca Técnica/Seminário e Artigo, projeto que contempla os itens *“obrigatório atender”* + *“desejável atender”* e ao menos **+1** dos itens *“é um diferencial”*, **e** não pode ter *“deve ser evitado”*.
-- Caso contrário, o projeto **não será aprovado**.
+- **Destaque** — atende a todos os itens *obrigatórios* e *desejáveis*, mais ao menos **um** item de *“é um diferencial”*, e **não** incorre em nenhum item de *“o que deve ser evitado”*. Concorre a menção de destaque e a convite para a **Banca Técnica Especial**.
+- **Aprovado** — atende a **todos** os itens *obrigatórios*, incluindo o núcleo comum de engenharia. Nota final igual ou superior a **6,0**.
+- **Reprovado** — deixa de atender a qualquer item *obrigatório*, incorre em item de *“o que não pode ter”*, ou obtém nota final abaixo de **6,0**.

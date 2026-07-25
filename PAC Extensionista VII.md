@@ -1,6 +1,6 @@
 # 7º Semestre — PAC Extensionista VII
 
-A disciplina PAC Extensionista VII tem como foco a concepção de uma solução tecnológica real para um parceiro externo ou para a comuidade, formalizada por meio de um documento RFC (Request for Comments).
+A disciplina PAC Extensionista VII tem como foco a concepção de uma solução tecnológica real para um parceiro externo ou para a comunidade, formalizada por meio de um documento RFC (Request for Comments).
 Esta etapa marca o início da trajetória do Portfólio, conectando a prática profissional de Engenharia de Software com a Extensão Universitária, exigindo que o projeto transponha os muros da universidade e gere impacto social.
 
 ## Etapas Principais
@@ -18,14 +18,16 @@ Parcerias Existentes: O estudante pode consultar o professor para verificar a li
 
 O projeto desenvolvido em parceria pode adotar licenças restritivas, porém, durante todo o ciclo de desenvolvimento, o repositório deve permanecer de acesso público.
 
+> **Exceção — Jogos Digitais:** projetos dessa linha podem manter o repositório privado, desde que concedam acesso autorizado aos professores avaliadores durante todo o ciclo. A exceção existe por conta de assets licenciados e de requisitos de publicação em loja.
+
 #### 1.2. Projetos voltados à Comunidade
 Validação de Demanda: Caso não haja um "cliente" corporativo, o estudante deve evidenciar a necessidade real da solução através de um processo estruturado de validação.
 
-Técnicas Aceitas: Entrevistas com público-alvo, observação em campo, aplicação de questionários, validação de protótipos de baixa fidelidade ou MVPs com usuários reais.\
+Técnicas Aceitas: Entrevistas com público-alvo, observação em campo, aplicação de questionários, validação de protótipos de baixa fidelidade ou MVPs com usuários reais.
 
 Toda solução voltada à comunidade deve estar vinculada a uma licença de software livre e ser disponibilizada em repositório de acesso público.
 
-### 2 Organização do Trabalho e Colaboração
+### 2. Organização do Trabalho e Colaboração
 
 Embora o desenvolvimento técnico seja solitário, a garantia de qualidade é coletiva.
 
@@ -37,28 +39,28 @@ Embora o desenvolvimento técnico seja solitário, a garantia de qualidade é co
 
 - Projetos Modulares: Em casos de sistemas muito extensos, um mesmo grupo poderá fragmentar o trabalho em módulos. Cada aluno desenvolve isoladamente um módulo (ex.: microsserviços distintos ou apps separados que se comunicam), mantendo a responsabilidade e a avaliação individual sobre a sua entrega.
 
-#### 3. Linhas de Projeto Disponíveis
+### 3. Linhas de Projeto Disponíveis
 
 O projeto deve se enquadrar em uma das cinco linhas oficiais, aplicando-a ao problema do parceiro externo:
 
-1. [**Web Apps**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-webapp.md)
+1. [**Web Apps**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-webapp.md)
    Aplicações web completas, com interface navegável, arquitetura definida e deploy público.
 
-2. [**Aplicações Mobile**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-mobile.md)
+2. [**Aplicações Mobile**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-mobile.md)
    Aplicativos nativos ou híbridos, com usabilidade e entrega funcional em dispositivo real.
 
-3. [**Jogos Digitais**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-jogosdigitais.md)
+3. [**Jogos Digitais**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-jogosdigitais.md)
    Jogos autorais com gameplay funcional, loop básico, documentação de design e build jogável.
 
-4. [**Projetos com IA**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-ia.md)
+4. [**Projetos com IA**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-ia.md)
    Soluções que apliquem de forma fundamentada técnicas de Inteligência Artificial em problemas reais.
 
-5. [**Projetos IoT** ](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook-I/blob/main/directions/portfolio-directions-iot.md)
+5. [**Projetos IoT** ](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-iot.md)
    Soluções envolvendo dispositivos conectados, sensores, atuadores e comunicação em rede.
 
 > A escolha da linha deve ser registrada na RFC e orientará a estrutura técnica, os requisitos e os critérios de avaliação do projeto.
 
-#### 4. Elaboração do Documento RFC
+### 4. Elaboração do Documento RFC
 
 - A RFC (Request for Comments) é o artefato que estrutura a proposta técnica do projeto.
 
@@ -66,23 +68,36 @@ O projeto deve se enquadrar em uma das cinco linhas oficiais, aplicando-a ao pro
 
 - O modelo oficial pode ser acessado [aqui](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/RFC/modelo-de-RFC.md).
 
-#### 5. Avaliação e Aprovação
+### 5. Avaliação e Aprovação
 - NP1 (20%): Planejamento e Fundamentação (Abstract, Problema, Objetivos).
 - NP2 (20%): Estado da Arte (Benchmarking e Trabalhos Relacionados).
-- NP3 (60%):Entrega Final e Validação:
+- NP3 (60%): Entrega Final e Validação:
   - Entrega da versão final da RFC.
   - Apresentação das evidências de extensão (Feedback do parceiro/comunidade).
   - Banca Avaliadora: Como requisito para a nota, cada aluno deve buscar três professores avaliadores para apresentar sua RFC, coletando notas e feedbacks escritos. Essas observações devem constar na versão final do documento entregue ao professor da disciplina.
 
 Após a aprovação, o aluno está apto a iniciar o desenvolvimento do projeto.
 
+### 6. Prazos
+
+O PAC Extensionista VII tem **calendário próprio**, do 7º período. Não compartilha prazos com a Disciplina de Portfólio nem com o PAC Extensionista VIII, que correm no 8º período.
+
+| Marco | Entrega | Prazo |
+|---|---|---|
+| **NP1** (20%) | Planejamento e Fundamentação — Abstract, Problema, Objetivos | *a definir* |
+| **NP2** (20%) | Estado da Arte — Benchmarking e Trabalhos Relacionados | *a definir* |
+| **Avaliação pelos três professores** | RFC apresentada aos avaliadores, com notas e pareceres registrados na Seção 10 do documento | *a definir* |
+| **NP3** (60%) | Entrega final da RFC, com as evidências de extensão e os pareceres consolidados | *a definir* |
+
+> ⚠️ **Datas a definir.** Preencher com o calendário do 7º período antes de publicar o documento para a turma. Formato: `DD/MM/AAAA (dia da semana)`.
+
 ---
 
-##  Objetivo da Etapa
+## Objetivo da Etapa
 Garantir que cada estudante inicie seu projeto com uma base sólida, viável e bem estruturada, conectando teoria, prática e propósito social.
 
 ### 🧭 Documentos de Apoio
-- [Modelo de RFC](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/modelo-de-RFC.md)
+- [Modelo de RFC](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/RFC/modelo-de-RFC.md)
 - [Recomendação para Avaliação dos Professores](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/diretrizes-avaliacao-professores.md)
 - [Normas e Regulamentações](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/normas.md)
 - [Pré-análise de RFC com GPT de Apoio](https://chat.openai.com/g/g-6863c3a91e1881919572856ff853bf1f-pre-analise-de-projetos-rfc-da-catolica)

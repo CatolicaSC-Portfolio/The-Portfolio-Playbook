@@ -20,6 +20,8 @@ Requisitos mínimos e obrigatórios para habilitação ao Poster + Demo Day.
   - 25% no frontend.
 - Aplicação de **ferramentas de análise estática e qualidade de código** (ex.: SonarQube, SonarCloud, CodeClimate).  
 - Uso de **monitoramento e analytics** para acompanhamento de métricas (ex.: Firebase Analytics, App Center, Datadog).  
+- Pipeline de **integração e entrega contínua (CI/CD)** (ex.: GitHub Actions, Codemagic, Bitrise).  
+- **Documentação em Wiki** junto ao repositório (Wiki do GitHub ou equivalente).  
 
 ---
 
@@ -27,13 +29,14 @@ Requisitos mínimos e obrigatórios para habilitação ao Poster + Demo Day.
 Fortemente recomendado para elevar a qualidade e robustez técnica do projeto, mas não obrigatório.
 
 - Publicação em loja oficial (Google Play / App Store).  
-- Integração com serviços externos (ex.: APIs REST, Firebase, mapas, notificações push).  
-- Pipeline de **integração e entrega contínua (CI/CD)** (ex.: GitHub Actions, Codemagic, Bitrise).  
-- Aplicação de testes automatizados (unitários ou instrumentados).  
+- Integração com serviços externos (ex.: APIs REST, mapas, notificações push).  
+- Aplicação de **testes instrumentados** (execução em dispositivo ou emulador).  
 - **Responsividade e adaptação** a diferentes tamanhos de tela e dispositivos.  
 - Implementação de **boas práticas de UX/UI** (ex.: Material Design, coerência visual, acessibilidade).  
-- Persistência de dados local ou remota (ex.: SQLite, Firebase, Supabase, RealmDB).
+- Persistência de dados local no dispositivo (ex.: SQLite, RealmDB, DataStore).  
 - Aplicação de testes de integração.
+
+> **Sobre persistência local:** o veto a banco em disco (H2, SQLite) do [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md) vale para o **banco de produção do backend**. Persistência local no dispositivo — cache, modo offline, preferências — é prática esperada em mobile e não incorre nesse veto.
 
   
 ---
@@ -92,3 +95,11 @@ Erros graves que causam desclassificação ou reprovação direta.
 - Aplicativos de delivery / tele-entrega.  
 - Aplicativos financeiros genéricos (com ou sem IA).  
 - Aplicativos de lista de compras ou tarefas sem diferencial técnico.  
+
+---
+
+## Régua de Avaliação
+
+- **Destaque** — além de todos os obrigatórios, contempla os itens *desejáveis* e ao menos **um** item de *“é um diferencial”*, sem incorrer em nada de *“o que deve ser evitado”*. Concorre a menção de destaque e a convite para a **Banca Técnica Especial**.
+- **Aprovado** — atende a **todos** os itens *obrigatórios*, incluindo o núcleo comum de engenharia, os três fluxos de uso completos e a cobertura de testes (75% backend / 25% frontend). Nota final igual ou superior a **6,0**.
+- **Reprovado** — deixa de atender a qualquer item *obrigatório*, incorre em item de *“o que não pode ter”*, ou obtém nota final abaixo de **6,0**.
