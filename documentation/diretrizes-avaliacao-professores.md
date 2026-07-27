@@ -4,7 +4,7 @@ Caro Professor/a, a trajetória do Portfólio se estende por três disciplinas e
 
 Antes de iniciar a avaliação verifique o conteúdo nestes links:   
 
-- [Processo de Escolha de Tema e Aprovação para Projeto de Portfólio](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/PAC%20Extensionista%20VII.md)
+- [PAC Extensionista VII — escolha de tema e aprovação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/PAC%20Extensionista%20VII.md)
 - [Modelo de RFC para Estruturação do Tema](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/RFC/modelo-de-RFC.md)
 - [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md)
 

@@ -15,7 +15,7 @@ O requisito de ambiente produtivo vale para todas as linhas: a solução precisa
 - [Microsoft Azure](https://azure.microsoft.com/free) — nível gratuito.
 - [Vultr](https://www.vultr.com/) — **sem nível gratuito permanente**; oferece crédito promocional para novas contas.
 
-> ⚠️ **Atenção às plataformas de frontend.** Vercel, Netlify e Render estão marcadas ⚠️ Evitar no [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md) e **não são aceitas** como ambiente produtivo quando o projeto não tem backend próprio desenvolvido pelo aluno.
+> 🚫 **Vercel, Netlify e Render não podem ser usadas.** Desde **2026-02** estão marcadas 🚫 Não Usar no [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md), em **todas as linhas de projeto**, com ou sem backend próprio. O mesmo vale para plataformas que entregam banco, autenticação, storage e APIs prontos sem controle sobre a arquitetura.
 
 ---
 

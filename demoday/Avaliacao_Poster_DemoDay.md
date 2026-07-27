@@ -113,7 +113,7 @@ Engenharia madura: versionamento consistente, CI/CD funcional, monitoramento bá
 * **CI/CD (Integração e Entrega Contínua)** – pipeline automatizado de build, testes ou deploy.  
   *Exemplos:* GitHub Actions, GitLab CI, Jenkins, Codemagic, Bitrise, Unity Cloud Build.  
   *Implicação:* ausência de automação indica baixa maturidade de engenharia.  
-  *Atenção:* Vercel e Netlify **não contam como pipeline de CI/CD** — são plataformas de hospedagem com deploy automático, marcadas ⚠️ Evitar no [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md). Ver a ressalva do critério 6.
+  *Atenção:* Vercel e Netlify **não contam como pipeline de CI/CD** — são plataformas de hospedagem com deploy automático, e desde **2026-02** estão marcadas 🚫 **Não Usar** no [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md). Ver a ressalva do critério 6.
 
 * **Monitoramento e observabilidade** – logs e métricas básicas configuradas.  
   *Exemplos:* Zabbix, Prometheus, Grafana, Dynatrace, New Relic, Datadog — as ferramentas ✅ Preferir do [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md).
@@ -149,7 +149,7 @@ Apresentação clara, demonstração funcional, domínio técnico nas respostas 
 
 * **Demonstração funcional** – sistema acessível e operante em ambiente produtivo.  
   *Exemplos:* aplicação hospedada em nuvem (AWS, GCP, Azure, Magalu Cloud), servidor institucional, app publicado em loja ou build jogável em plataforma pública.  
-  *Atenção:* plataformas focadas apenas em frontend (Vercel, Netlify, Render) só são aceitas quando **há backend próprio desenvolvido pelo aluno** — ver [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md).
+  *Atenção:* Vercel, Netlify e Render **não são aceitas como ambiente produtivo** — desde **2026-02** estão 🚫 **Não Usar** no [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md), em **todas as linhas**, com ou sem backend próprio. Em Jogos Digitais a build pública vai para Itch.io, loja ou APK.
 
 * **Domínio técnico** – o autor demonstra segurança ao responder perguntas.  
   *Exemplo:* justificar escolha de arquitetura, linguagem, bibliotecas e métricas.
