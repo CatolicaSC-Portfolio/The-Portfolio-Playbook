@@ -15,13 +15,17 @@ Requisitos mínimos e obrigatórios para habilitação ao Poster + Demo Day.
   - diagrama de arquitetura;  
   - instruções de deploy ou instalação.  
 - Deve contemplar **ao menos três fluxos de uso completos**, que demonstrem o valor e a coerência do produto.
-- Cobertura de testes unitários com TDD:
-  - 75% no backend;
-  - 25% no frontend.
-- Aplicação de **ferramentas de análise estática e qualidade de código** (ex.: SonarQube, SonarCloud, CodeClimate).  
-- Uso de **monitoramento e analytics** para acompanhamento de métricas (ex.: Firebase Analytics, App Center, Datadog).  
-- Pipeline de **integração e entrega contínua (CI/CD)** (ex.: GitHub Actions, Codemagic, Bitrise).  
-- **Documentação em Wiki** junto ao repositório (Wiki do GitHub ou equivalente).  
+
+### Núcleo comum de engenharia
+
+Requisitos válidos para **todas as linhas de projeto**, conforme o [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md):
+
+- **Documentação em Wiki** junto ao repositório (Wiki do GitHub ou equivalente).
+- **Pipeline CI/CD** configurado e funcionando (ex.: GitHub Actions, Codemagic, Bitrise).
+- **Análise estática de código e segurança** (ex.: SonarQube, SonarCloud, CodeClimate).
+- **Monitoramento ou observabilidade** da aplicação (ex.: Firebase Analytics, App Center, Datadog).
+
+> **Testes nesta linha:** não há meta de cobertura obrigatória. Testes unitários não se aplicam bem a aplicações mobile, onde o comportamento depende de ciclo de vida, dispositivo e UI — ver *O que é desejável atender*, que traz testes instrumentados e de integração. TDD é ✅ recomendado; permanece 🔑 obrigatório apenas se o aluno desenvolver o **próprio backend**, caso em que valem as regras de Web Apps.
 
 ---
 
@@ -68,7 +72,7 @@ Más práticas que reduzem a qualidade técnica, a experiência do usuário e a 
 ---
 
 ## O que não pode ter
-Erros graves que causam desclassificação ou reprovação direta.
+Erros graves que causam **reprovação direta**, independentemente das demais notas.
 
 - Plágio de aplicativos existentes sem modificações significativas.  
 - Reutilização de templates prontos sem personalização ou compreensão técnica.  
@@ -101,5 +105,5 @@ Erros graves que causam desclassificação ou reprovação direta.
 ## Régua de Avaliação
 
 - **Destaque** — além de todos os obrigatórios, contempla os itens *desejáveis* e ao menos **um** item de *“é um diferencial”*, sem incorrer em nada de *“o que deve ser evitado”*. Concorre a menção de destaque e a convite para a **Banca Técnica Especial**.
-- **Aprovado** — atende a **todos** os itens *obrigatórios*, incluindo o núcleo comum de engenharia, os três fluxos de uso completos e a cobertura de testes (75% backend / 25% frontend). Nota final igual ou superior a **6,0**.
+- **Aprovado** — atende a **todos** os itens *obrigatórios*, incluindo o núcleo comum de engenharia e os três fluxos de uso completos. Nota final igual ou superior a **6,0**.
 - **Reprovado** — deixa de atender a qualquer item *obrigatório*, incorre em item de *“o que não pode ter”*, ou obtém nota final abaixo de **6,0**.

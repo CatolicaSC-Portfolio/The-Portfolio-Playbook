@@ -8,20 +8,23 @@ Requisitos mínimos e obrigatórios para habilitação ao Poster + Demo Day.
 - Interface funcional, navegável e com usabilidade básica.
 - Arquitetura de software definida conforme o RFC (ex.: MVC, arquitetura em camadas, client-server).  
   - Organização modular do código (componentes reutilizáveis, separação de responsabilidades).
-- Código-fonte disponível em repositório com histórico de commits.  
-  - Implementação de pipeline CI/CD (ex.: GitHub Actions, GitLab CI).
+- Código-fonte disponível em repositório com histórico de commits.
 - Documentação mínima contendo:
   - requisitos funcionais;
   - casos de uso ou user stories;
   - diagrama de arquitetura - utilizando diagramas C4 ou equivalente;
   - instruções de deploy.
-- Cobertura de testes unitários com TDD:
-  - 75% no backend;
-  - 25% no frontend.
-- Aplicação de ferramenta de análise estática de código e segurança (ex.: SonarQube, SonarCloud, CodeClimate).
-- Uso de ferramenta de monitoramento ou observabilidade (ex.: NewRelic, Datadog, Zabbix, Prometheus, Grafana).
-- Documentação em Wiki junto ao repositório (Wiki do GitHub ou equivalente).
 - O sistema deve contemplar **ao menos três fluxos de negócio completos**.
+- **Cobertura de testes unitários com TDD** — 75% no backend e 25% no frontend. Esta é a **única linha** com meta de cobertura obrigatória, conferida na **prova de autoria**: não atingindo, o aluno corrige e tem uma segunda tentativa até 03/12/2026 (quinta-feira); reprovando de novo, reprova na disciplina. Ver [Prova de Autoria](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md).
+
+### Núcleo comum de engenharia
+
+Requisitos válidos para **todas as linhas de projeto**, conforme o [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md):
+
+- **Documentação em Wiki** junto ao repositório (Wiki do GitHub ou equivalente).
+- **Pipeline CI/CD** configurado e funcionando (ex.: GitHub Actions, GitLab CI).
+- **Análise estática de código e segurança** (ex.: SonarQube, SonarCloud, CodeClimate).
+- **Monitoramento ou observabilidade** da aplicação (ex.: NewRelic, Datadog, Zabbix, Prometheus, Grafana).
 
 ---
 
@@ -71,7 +74,7 @@ Más práticas que reduzem a qualidade e a legibilidade do projeto.
 ---
 
 ## O que não pode ter
-Erros graves que causam desclassificação ou reprovação direta.
+Erros graves que causam **reprovação direta**, independentemente das demais notas.
 
 - Projeto não acessível (link quebrado, servidor fora do ar).
 - Código copiado ou plagiado (repositórios, tutoriais, templates).

@@ -9,10 +9,10 @@ Mais do que mensurar desempenho, o processo visa promover reflexão, autonomia t
 
 Antes de avaliar, o trabalho já passou pelos gates de habilitação da disciplina:
 
-- **Cinco orientações evidenciadas** — duas até 30/09/2026.
-- **Aprovação na prova de autoria**, que confere autoria **e a cobertura mínima de testes da linha**.
+- **Cinco orientações evidenciadas** — duas até 30/09/2026 (quarta-feira), as cinco até 30/11/2026 (segunda-feira).
+- **Aprovação na prova de autoria**, que confere autoria e — **só na linha de Web Apps** — a meta de cobertura de testes.
 
-A prova de autoria admite **uma segunda tentativa**, até **03/12/2026 (quinta-feira)**; reprovar duas vezes reprova na disciplina. A lista de habilitados está fechada antes da primeira noite do evento. Trabalho não habilitado **não apresenta** e não recebe nota — logo, tudo que chega à sua mesa já cumpriu autoria e cobertura. Regra completa em [Requisitos de Aprovação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md).
+A prova de autoria admite **uma segunda tentativa**, até **03/12/2026 (quinta-feira)**; reprovar duas vezes reprova na disciplina. A lista de habilitados está fechada antes da primeira noite do evento. Trabalho não habilitado **não apresenta** e não recebe nota — logo, tudo que chega à sua mesa já passou por esses gates. Regra completa em [Requisitos de Aprovação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md).
 
 ---
 
@@ -57,7 +57,7 @@ Relevância, escopo claro e originalidade: projeto resolve problema real, tem fu
 
 * **Originalidade e propósito** – evita replicar tutoriais ou modelos prontos.  
   *Exemplo:* projeto inspirado em app conhecido, mas com proposta diferente ou contexto local.  
-  *Implicação:* cópias diretas sem personalização podem levar à desclassificação.
+  *Implicação:* cópia sem personalização **reduz a nota deste critério**. Se for plágio — código, design ou texto copiados — aplica-se o **critério 5**, que é eliminatório e reprova de imediato.
 
 ---
 
@@ -94,7 +94,7 @@ Código bem estruturado, modular e legível, com boas práticas, testes automati
 * **Testes automatizados** – qualidade e pertinência dos testes unitários e/ou de integração.  
   *Exemplo:* Jest, PyTest, JUnit, Postman/Newman.  
   *Implicação:* testes rasos, que só perseguem percentual sem exercitar regra de negócio, reduzem a nota.  
-  > **A cobertura mínima obrigatória não é avaliada aqui.** Ela é **gate**, conferido na **prova de autoria** — 75% backend / 25% frontend (Web Apps e Mobile), 70% (IA), 60% (IoT), 50% (Jogos Digitais). Quem não atinge corrige e tem uma segunda tentativa; reprovando de novo, reprova na disciplina e não chega ao evento. Ou seja: **todo trabalho que você avalia já cumpriu a cobertura**. O que se pontua neste item é o que os testes valem, não quanto medem. Ver [Prova de Autoria](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md).
+  > **Não avalie cobertura por percentual.** Só a linha de **Web Apps** tem meta obrigatória (75% backend / 25% frontend), e ela é **gate** conferido na prova de autoria — quem não atinge corrige, tem uma segunda tentativa e, reprovando de novo, não chega ao evento. Em **Mobile, IA e IoT não existe meta de cobertura**: testes unitários não se aplicam bem a essas tecnologias, e o esperado ali é teste instrumentado, de integração, validação de modelo ou das rotinas críticas de firmware. Neste item pontue **o que os testes valem** — se exercitam regra de negócio de fato — não quanto medem. Ver [Prova de Autoria](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md).
 
 * **Histórico de commits** – progresso contínuo e colaborativo.  
   *Exemplo:* commits frequentes e mensagens descritivas.
@@ -111,11 +111,12 @@ Engenharia madura: versionamento consistente, CI/CD funcional, monitoramento bá
   *Exemplos:* GitHub, GitLab, Bitbucket.
 
 * **CI/CD (Integração e Entrega Contínua)** – pipeline automatizado de build, testes ou deploy.  
-  *Exemplos:* GitHub Actions, GitLab CI, Jenkins, Vercel, Netlify.  
-  *Implicação:* ausência de automação indica baixa maturidade de engenharia.
+  *Exemplos:* GitHub Actions, GitLab CI, Jenkins, Codemagic, Bitrise, Unity Cloud Build.  
+  *Implicação:* ausência de automação indica baixa maturidade de engenharia.  
+  *Atenção:* Vercel e Netlify **não contam como pipeline de CI/CD** — são plataformas de hospedagem com deploy automático, marcadas ⚠️ Evitar no [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md). Ver a ressalva do critério 6.
 
 * **Monitoramento e observabilidade** – logs e métricas básicas configuradas.  
-  *Exemplos:* Grafana, CloudWatch, Logtail, Railway Insights.
+  *Exemplos:* Zabbix, Prometheus, Grafana, Dynatrace, New Relic, Datadog — as ferramentas ✅ Preferir do [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md).
 
 * **Segurança** – uso de variáveis de ambiente, HTTPS, autenticação segura.  
   *Exemplos:* JWT, OAuth2, proteção contra XSS/CSRF.

@@ -50,14 +50,14 @@ Antes de iniciar a avaliação verifique o conteúdo nestes links:
 - Cada professor atribuirá **uma nota única** de 0 a 10 (intervalos de 0,5) e assinará no próprio RFC.  
 - Espaço para comentários e recomendações deverá ser utilizado para ajustes e observações.  
 - **A nota mínima para aprovação é 6,0.** Abaixo de 6,0 a proposta está reprovada nesta etapa.  
-- **Entre 6,0 e 7,0** o avaliador pode condicionar a validação a **correções obrigatórias**. Sem essas correções a proposta não se sustenta e a nota cai abaixo de 6,0 — ou seja, reprova.  
-- Em **qualquer** nota — inclusive nas plenamente aprovadas — o avaliador pode indicar ajustes obrigatórios ou sugestões.  
+- Nas notas **6,0 e 6,5**, a aprovação **é sempre condicionada** a correções obrigatórias — não é escolha do avaliador. Sem essas correções a proposta não se sustenta e a nota cai abaixo de 6,0, reprovando.  
+- De **7,0 para cima** a aprovação é plena. O avaliador pode indicar ajustes e sugestões, que são **recomendações** — não condicionam a validação.  
 
 ## Anexo - Escala
 
 Pontuação de 0 a 10, em intervalos de 0,5.
 
-**Aprovação a partir de 6,0.** Entre 6,0 e 7,0 a aprovação é **condicionada a correções**. Abaixo de 6,0, reprovada.
+**Aprovação a partir de 6,0.** Nas notas **6,0 e 6,5** a aprovação é **condicionada a correções obrigatórias**. De **7,0** para cima, aprovação plena. Abaixo de 6,0, reprovada.
 
 | Nota | Situação | Interpretação | Critério principal |
 |------|----------|---------------|---------------------|
@@ -72,7 +72,7 @@ Pontuação de 0 a 10, em intervalos de 0,5.
 | **6** | ⚠️ Aprovada com correções | **Revisar** | RFC no limite mínimo. As correções apontadas são **obrigatórias** para validação. |
 | **5,5 ou menos** | ❌ Reprovada | **Reapresentar** | Tema desalinhado, incoerente ou inviável. Exige nova proposta. |
 
-> **Faixa 6,0 – 7,0:** a nota registrada pressupõe que as correções indicadas pelo avaliador serão feitas.
+> **Notas 6,0 e 6,5:** a nota registrada pressupõe que as correções indicadas pelo avaliador serão feitas.
 > Se o aluno não as entregar, a proposta perde sustentação e a avaliação cai abaixo de 6,0 — reprovando.
 
 

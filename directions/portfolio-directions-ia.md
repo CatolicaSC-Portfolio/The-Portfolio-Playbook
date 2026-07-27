@@ -20,7 +20,8 @@ Requisitos válidos para **todas as linhas de projeto**, conforme o [Portfólio 
 - **Pipeline CI/CD** configurado e funcionando (ex.: GitHub Actions, GitLab CI).
 - **Análise estática de código e segurança** (ex.: SonarQube, SonarCloud, CodeClimate).
 - **Monitoramento ou observabilidade** da solução em execução.
-- **Cobertura de testes automatizados: 70%** do código de aplicação e do pipeline de IA — notebooks exploratórios ficam fora da contagem.
+
+> **Testes nesta linha:** não há meta de cobertura obrigatória. Testes unitários não se aplicam bem a pipeline de IA, e o que substitui a garantia de qualidade aqui é a **validação do modelo** — ver *O que é desejável atender*. TDD é ✅ recomendado, não obrigatório.
 
 ---
 
@@ -32,7 +33,8 @@ Melhora a qualidade do projeto. Fortemente recomendado, mas não elimina se ause
 - Apresentar métricas de desempenho e análise dos resultados;
 - Realizar validação do modelo com técnica adequada (k-fold, holdout, etc.);
 - Apresentar justificativa clara para escolha do algoritmo/modelo;
-- Possuir infraestrutura de IA em nuvem (AWS, Azure, etc.).
+- Possuir infraestrutura de IA em nuvem (AWS, Azure, etc.);
+- Testes automatizados do código de aplicação e do pipeline — notebooks exploratórios ficam fora da contagem.
 
 ---
 
@@ -55,7 +57,7 @@ Más práticas que reduzem a percepção de qualidade, mesmo em projetos funcion
 ---
 
 ## O que não pode ter
-Erros graves que causam desclassificação ou reprovação direta.
+Erros graves que causam **reprovação direta**, independentemente das demais notas.
 
 - Plágio de código ou conteúdo copiado de notebooks da internet sem adaptação ou compreensão;
 - Modelo com resultados aleatórios ou não replicáveis;
@@ -63,6 +65,18 @@ Erros graves que causam desclassificação ou reprovação direta.
 - Base de dados inválida, falsa ou não autorizada;
 - Utilizar dataset pronto como dados da solução;
 - Violação ética: uso indevido de dados sensíveis, práticas discriminatórias, deepfakes não autorizados, etc.;
+
+---
+
+## Temas a evitar
+
+Valem os temas marcados ⚠️ **Evitar** na tabela do [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md) — recorrentes ou de alta concorrência. Não impedem a aprovação, mas exigem diferencial claro para se sustentarem.
+
+---
+
+## Temas impedidos
+
+Valem os temas marcados 🚫 **Não Usar** na tabela do [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md). Nesta linha, atenção especial a **soluções que apenas consomem uma API de LLM por prompt, sem incorporar IA de fato** — item explicitamente vedado na tabela.
 
 ---
 

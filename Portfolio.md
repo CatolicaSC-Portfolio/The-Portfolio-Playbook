@@ -54,7 +54,7 @@ A **prova de autoria** é o **último encontro da disciplina**. Nele o professor
 - **Conhecimento do codebase** — o aluno sabe onde as coisas estão, o que cada parte faz e por que está escrita daquele jeito.
 - **Decisões de engenharia** — o aluno justifica arquitetura, escolha de tecnologias, padrões aplicados e trade-offs assumidos.
 - **Domínio do trabalho** — o aluno explica o que construiu sem depender de anotações ou de terceiros.
-- **Cobertura de testes automatizados** — é aqui que a cobertura obrigatória da linha de projeto é conferida: 75% backend / 25% frontend (Web Apps e Mobile), 70% (IA), 60% (IoT), 50% (Jogos Digitais). Cada [direction](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md) declara o que fica fora da contagem.
+- **Cobertura de testes — apenas na linha de Web Apps** (e no backend próprio de um projeto Mobile): é aqui que se confere a meta obrigatória de **75% no backend e 25% no frontend**. Nas linhas de **Mobile, IA e IoT não há meta de cobertura**, porque testes unitários não se aplicam bem a essas tecnologias — o que se espera nelas está em *O que é desejável atender* da respectiva [direction](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md).
 
 **Regras:**
 
@@ -96,11 +96,13 @@ Os alunos apresentam:
 ### Avaliação
 - Cada projeto será avaliado por
    - **Três professores**, com formulário Likert e comentários qualitativos - peso: 90%
-   - Uma **quarta nota** será o resultado da média de todas as notas recebidas da comunidade durante o Demoday - peso: 10%
+   - Uma **quarta nota** será o resultado da média de todas as notas recebidas da comunidade durante o Poster + Demo Day — peso: 10%
 - A **nota final (0–10)** é a média ponderada das notas recebidas
 - comunidade acadêmica poderá atribuir **menções especiais** (como “Trabalho Escolhido pela Comunidade”).
 
 ### Datas e Prazos
+
+> Fonte única das datas: [**Calendário 2026/2**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/calendario.md), que traz também o checklist do aluno em ordem cronológica.
 
 **Entrega dos trabalhos:** o prazo limite é **30/11/2026 (segunda-feira)**. Até essa data o trabalho deve estar entregue e ter sido aprovado na **prova de autoria**.
 
