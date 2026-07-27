@@ -638,11 +638,14 @@ automatizados da primeira rodada (que só validavam links e numeração).
 
 | Severidade | Itens | Resolvidos | Abertos |
 |---|---|---|---|
-| 🔴 Crítico | 2 | 0 | **2** |
-| 🟠 Alto | 6 | 0 | **6** |
-| 🟡 Médio | 8 | 0 | **8** |
-| ⚪ Baixo | 6 | 0 | **6** |
-| **Total** | **22** | 0 | **22** |
+| 🔴 Crítico | 2 | **2** ✅ | 0 |
+| 🟠 Alto | 6 | **6** ✅ | 0 |
+| 🟡 Médio | 8 | **8** ✅ | 0 |
+| ⚪ Baixo | 6 | **6** ✅ | 0 |
+| **Total** | **22** | **22** ✅ | **0** |
+
+> **Nada pendente.** O último ponto aberto era o calendário do PAC VII, cujas quatro datas foram
+> preenchidas em 26/07/2026 (ver A20).
 
 ## 🔴 CRÍTICO — dois documentos dão veredictos opostos sobre o mesmo projeto
 
@@ -678,7 +681,26 @@ enquanto a *Régua de Avaliação* da sua linha o classifica como **Reprovado** 
 obrigatório. Os dois documentos oficiais chegam a conclusões opostas, e o que o professor usa no dia do
 evento é o que não menciona o número.
 
-### C10. TDD é 🔑 Obrigatório no GERAL e não existe em três das cinco linhas
+### C10. TDD é 🔑 Obrigatório no GERAL e não existe em três das cinco linhas — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** o professor apontou a causa real — **testes unitários não se aplicam a Mobile, IA e IoT**.
+> A inconsistência não era falta de propagação: era uma regra universal que não cabia em três das cinco
+> linhas. Duas decisões fecharam o item, e com ele o **A21**:
+>
+> 1. **TDD** deixou de ser obrigatório universal. No GERAL passou a
+>    *"🔑 Obrigatório em **Web Apps** e em backend próprio · ✅ Preferir nas demais linhas"*.
+> 2. **Meta de cobertura** virou linha própria na tabela do GERAL, obrigatória **só em Web Apps**
+>    (75% backend / 25% frontend). Em Mobile, IA e IoT **não há meta numérica**: testes automatizados
+>    passaram para *O que é desejável atender*, com o instrumento adequado a cada tecnologia — testes
+>    instrumentados e de integração (Mobile), validação de modelo (IA), rotinas críticas de firmware (IoT).
+>
+> Efeito estrutural: **cobertura saiu do núcleo comum de engenharia**, porque deixou de ser comum às cinco
+> linhas. O núcleo ficou com os quatro requisitos genuinamente compartilhados — Wiki · CI/CD · análise
+> estática · monitoramento — e cada linha ganhou um bloco `> **Testes nesta linha:**` explicando o que vale
+> ali e por quê. Propagado para `Portfolio.md` § Prova de Autoria e para o critério 3 do guia de avaliação,
+> que agora dizem que a meta vale só em Web Apps.
+
+Registro do problema original:
 
 `directions/portfolio-directions-GERAL.md:62` × `ia.md:23`, `iot.md:25`, `jogosdigitais.md:22`
 
@@ -691,7 +713,15 @@ linhas. Reincidência, não achado novo.
 
 ## 🟠 ALTO — regras que se contradizem
 
-### A18. "Banca" voltou a ter três significados
+### A18. "Banca" voltou a ter três significados — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** o termo *banca* ficou reservado ao **evento**: o Poster + Demo Day é a banca avaliadora
+> da disciplina (decisão do A1), e a **Banca Técnica Especial** é a sessão dos destaques. O corpo que
+> avalia a RFC passou a ter **um** nome — **Comitê de Avaliação**, que já era o termo da Seção 10 do
+> template. `PAC Extensionista VII.md:77` deixou de dizer "Banca Avaliadora" e passou a "Comitê de
+> Avaliação da RFC", com ponteiro para a Seção 10 onde os pareceres são registrados.
+
+Registro do problema original:
 
 | Documento | Termo | Refere-se a |
 |---|---|---|
@@ -703,7 +733,15 @@ linhas. Reincidência, não achado novo.
 O **A2** padronizou o nome do evento de destaque, mas não o de "banca". Hoje *banca avaliadora* nomeia
 duas coisas diferentes em dois documentos, e o corpo que avalia a RFC tem dois nomes.
 
-### A19. Vercel e Netlify aparecem como exemplo positivo de CI/CD
+### A19. Vercel e Netlify aparecem como exemplo positivo de CI/CD — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** Vercel e Netlify saíram dos exemplos de CI/CD do critério 4 — foram substituídos por
+> ferramentas que são de fato pipeline (Codemagic, Bitrise, Unity Cloud Build, além das que já estavam).
+> Acrescentada a ressalva explícita de que **não contam como pipeline**: são plataformas de hospedagem
+> com deploy automático, marcadas ⚠️ Evitar no GERAL. O critério 4 agora aponta para a ressalva do
+> critério 6, e os dois trechos do arquivo dizem a mesma coisa.
+
+Registro do problema original:
 
 `demoday/Avaliacao_Poster_DemoDay.md:102` × `:139` × `GERAL.md:38` × `webapp.md:67`
 
@@ -714,16 +752,33 @@ coloca em *"o que não pode ter"*.
 
 Mesma inconsistência do **A8**, sobrevivente num segundo ponto do mesmo arquivo.
 
-### A20. O prazo do PAC VII é o mesmo do 8º semestre, e nenhum documento diz de que semestre se trata — 🟡 **PARCIALMENTE RESOLVIDO em 25/07/2026**
+### A20. O prazo do PAC VII é o mesmo do 8º semestre, e nenhum documento diz de que semestre se trata — ✅ **RESOLVIDO em 26/07/2026**
 
 > **Resolução:** decidido que o **PAC VII tem calendário próprio**, do 7º período, sem compartilhar
 > prazos com Portfólio e PAC VIII. O `30/11/2026` — que era a data do 8º período copiada para o
 > documento do 7º — foi **removido**. No lugar entrou a seção **6. Prazos**, com tabela ancorada nas
-> próprias NPs da disciplina (NP1 · NP2 · avaliação pelos três professores · NP3) e uma declaração
-> explícita de que o calendário é independente.
+> próprias NPs e declaração explícita de que o calendário é independente.
 >
-> **Pendente:** as quatro datas estão marcadas *a definir*, com aviso no documento. Precisam do
-> calendário do 7º período antes de publicar para a turma.
+> **Datas preenchidas em 26/07/2026:**
+>
+> | Marco | Prazo |
+> |---|---|
+> | NP1 — Planejamento e Fundamentação | 04/09/2026 (sexta-feira) |
+> | NP2 — Estado da Arte | 16/10/2026 (sexta-feira) |
+> | NP3 — Entrega final da RFC | 04/12/2026 (sexta-feira) |
+> | Notas dos três professores | 11/12/2026 (sexta-feira) |
+>
+> As quatro caem em **sexta-feira**, e todas no segundo semestre de 2026 — o que confirma a hipótese
+> levantada no registro do problema: **as duas turmas convivem no mesmo semestre-calendário**, com datas
+> independentes. A ambiguidade desaparece porque o PAC VII deixou de repetir a data do 8º período.
+>
+> **Contradição corrigida de carona:** a ordem dos marcos revelou que o item 5 estava errado. Ele dizia
+> que os pareceres dos três professores *"devem constar na versão final do documento entregue ao professor
+> da disciplina"* — impossível, já que a entrega da NP3 é **04/12** e as notas só saem em **11/12**. O texto
+> passou a dizer que a **Seção 10 é fechada depois da NP3**, e a tabela de prazos traz a nota explicando a
+> sequência.
+
+Registro do problema original:
 
 Registro do problema original:
 
@@ -737,7 +792,15 @@ prazo para duas disciplinas que o `README.md:12` descreve como sequenciais.
 Agrava: o **B13** removeu deliberadamente *"semestre 2024-1"* das diretrizes para o texto não envelhecer.
 As datas absolutas reintroduziram o envelhecimento **sem** trazer de volta a identificação da turma.
 
-### A21. A linha Mobile herdou uma régua de cobertura que pode não se aplicar
+### A21. A linha Mobile herdou uma régua de cobertura que pode não se aplicar — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** fechado junto com o **C10**. A régua `75% backend / 25% frontend` foi **removida** de
+> Mobile — não substituída por outro número. Testes automatizados passaram para *O que é desejável
+> atender*, onde a linha já trazia testes instrumentados e de integração. A *Régua de Avaliação* de Mobile
+> deixou de citar cobertura. TDD permanece 🔑 obrigatório em Mobile **só se o aluno desenvolver o próprio
+> backend**, caso em que valem as regras de Web Apps.
+
+Registro do problema original:
 
 `directions/portfolio-directions-mobile.md:18-20`
 
@@ -775,7 +838,17 @@ disciplina, ou só perda da habilitação para apresentar (com a nota ficando em
 
 O **M11** foi marcado resolvido tendo definido *o que se verifica* — a consequência ficou de fora.
 
-### A23. Faixa 6,0–7,0: "pode condicionar" × "é condicionada"
+### A23. Faixa 6,0–7,0: "pode condicionar" × "é condicionada" — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** a faixa deixou de ser descrita como intervalo ambíguo e passou a nomear as **notas**
+> exatas, que são duas: **6,0 e 6,5**. Nelas a aprovação **é sempre condicionada** a correções
+> obrigatórias — não é escolha do avaliador. De **7,0 para cima** a aprovação é plena, e os apontamentos
+> do avaliador são **recomendações** que não condicionam a validação. Isso também fechou a lacuna de
+> `:54`, que autorizava "ajustes obrigatórios" em qualquer nota sem definir consequência. As três fontes
+> (Registro da Avaliação, Anexo - Escala e a nota de rodapé) agora dizem a mesma coisa, e o RFC:541 já
+> falava em "6,0 a 6,5".
+
+Registro do problema original:
 
 `documentation/diretrizes-avaliacao-professores.md:53` × `:60`, `:71-72` × `RFC:541`
 
@@ -790,7 +863,16 @@ essa RFC deveria cair abaixo de 6,0 e reprovar. Some-se `:54`, que autoriza *"aj
 
 ## 🟡 MÉDIO — estrutura, terminologia e lacunas
 
-### M15. O núcleo comum de engenharia não tem cabeçalho em duas das cinco linhas
+### M15. O núcleo comum de engenharia não tem cabeçalho em duas das cinco linhas — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** `### Núcleo comum de engenharia` criado em **webapp** e **mobile**, e o conteúdo
+> reorganizado para dentro dele. Com o C10 tirando a cobertura do núcleo, ele ficou com os **quatro**
+> requisitos genuinamente comuns às cinco linhas: Wiki · CI/CD · análise estática · monitoramento.
+> Removida a duplicata de CI/CD que webapp tinha aninhada sob "Código-fonte disponível em repositório".
+> Corrigido também `jogosdigitais.md`, cujo *O que é obrigatório atender* estava em `###` em vez de `##`.
+> **As cinco directions agora têm as mesmas 9 seções nos mesmos níveis** — verificado por script.
+
+Registro do problema original:
 
 `webapp.md` e `mobile.md` × `ia.md:15`, `iot.md:17`, `jogosdigitais.md:14`
 
@@ -800,12 +882,28 @@ Webapp e Mobile trazem **os mesmos cinco itens diluídos** na lista de obrigató
 O conteúdo está lá; a estrutura não. O leitor não distingue núcleo compartilhado de requisito específico,
 e a próxima alteração do núcleo tende a esquecer justamente essas duas linhas.
 
-### M16. "Temas a evitar" e "Temas impedidos" existem em duas linhas e faltam em três
+### M16. "Temas a evitar" e "Temas impedidos" existem em duas linhas e faltam em três — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** as duas seções foram criadas em **ia**, **iot** e **jogosdigitais**, remetendo aos temas
+> ⚠️ Evitar e 🚫 Não Usar da tabela do GERAL em vez de inventar listas por linha — os temas vetados são
+> gerais. Cada uma ganhou o destaque que faz sentido no seu contexto: em IA, solução que só consome API
+> de LLM por prompt sem incorporar IA; em IoT, os escopos simplistas; em Jogos, clones com assets e
+> código copiados.
+
+Registro do problema original:
 
 Presentes em `webapp.md:88,94` e `mobile.md:83,92`. Ausentes em IA, IoT e Jogos, embora a tabela do
 GERAL traga temas 🚫 **Não Usar** aplicáveis a qualquer linha.
 
-### M17. A sanção do critério 1 é "desclassificação"; a do critério 5 é "reprovação imediata"
+### M17. A sanção do critério 1 é "desclassificação"; a do critério 5 é "reprovação imediata" — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** o termo *desclassificação* foi eliminado do repositório. O critério 1 passou a dizer que
+> cópia sem personalização **reduz a nota daquele critério**, e que **plágio** aciona o critério 5, que é
+> o eliminatório. Sobra uma única sanção nomeada — reprovação — e um único critério que a dispara.
+> De carona, o mesmo termo foi corrigido no cabeçalho de *O que não pode ter* das **quatro** directions
+> que o usavam (ia, iot, mobile, webapp) — duas delas não estavam catalogadas neste item.
+
+Registro do problema original:
 
 `demoday/Avaliacao_Poster_DemoDay.md:49` × `:116-124`
 
@@ -814,22 +912,48 @@ Critério 1: *"cópias diretas sem personalização podem levar à **desclassifi
 **eliminatório**. Não está claro se copiar tutorial desclassifica de fato, nem o que "desclassificação"
 significa em termos de nota.
 
-### M18. A mesma estrutura de squad tem dois nomes
+### M18. A mesma estrutura de squad tem dois nomes — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** padronizado como **Squads de Validação**, o nome usado no PAC VIII, onde o peer review
+> de fato acontece. `PAC Extensionista VII.md:36` deixou de dizer "Squads de Suporte" e passou a apontar
+> que são os mesmos squads que atuam no PAC VIII — a continuidade entre os dois semestres ficou explícita.
+
+Registro do problema original:
 
 `PAC Extensionista VII.md:36` — *"**Squads de Suporte**: grupos de 3 a 5 participantes"*.
 `PAC Extensionista VIII.md:17` — *"**Squads de Validação** (3 a 5 alunos)"*.
 
-### M19. Referência aponta na direção errada
+### M19. Referência aponta na direção errada — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** `PAC Extensionista VIII.md:57` passou de "descrita **abaixo**" para "descrita na
+> **Seção 3.1**", igual ao que o item `:78` já fazia. Referência por número não quebra se o documento
+> for reordenado.
+
+Registro do problema original:
 
 `PAC Extensionista VIII.md:57` — *"a **evidência equivalente** descrita **abaixo**"*. A Seção 3.1 está
 **acima**, na linha 30. O item `:78` acerta: *"descrito na Seção 3.1"*.
 
-### M20. As ferramentas de monitoramento divergem entre avaliação e GERAL
+### M20. As ferramentas de monitoramento divergem entre avaliação e GERAL — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** os exemplos do critério 4 passaram a ser exatamente as ferramentas ✅ Preferir do GERAL
+> — Zabbix, Prometheus, Grafana, Dynatrace, New Relic, Datadog — com link para a tabela. Logtail e
+> Railway Insights saíram.
+
+Registro do problema original:
 
 `Avaliacao_Poster_DemoDay.md:106` exemplifica **Logtail** e **Railway Insights**, que não constam da
 tabela ✅ Preferir do GERAL (Zabbix, Prometheus, Grafana, Dynatrace, New Relic, Datadog).
 
-### M21. `locais_publicacao.md` não cobre a linha de Jogos Digitais
+### M21. `locais_publicacao.md` não cobre a linha de Jogos Digitais — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** o documento foi reescrito por linha de projeto, em vez de listar só nuvem. Ganhou
+> **📱 Distribuição — Mobile** (lojas, TestFlight, Firebase App Distribution, APK) e
+> **🎮 Distribuição — Jogos Digitais** (Itch.io, loja oficial, WebGL hospedado, APK), com a regra de que
+> não se aceita build que dependa da máquina do autor. Acrescentada a ressalva sobre Vercel/Netlify/Render
+> não servirem como ambiente produtivo sem backend próprio. Fecha junto o **B18** e o **B19**.
+
+Registro do problema original:
 
 Lista apenas provedores de nuvem. A direction de Jogos exige **build pública distribuída** (Itch.io,
 loja, WebGL hospedado, APK) como equivalente ao ambiente produtivo — nenhum deles aparece no documento
@@ -850,7 +974,14 @@ estar ali. O avaliador não tem como saber que um trabalho não habilitado não 
 
 ## ⚪ BAIXO — texto e forma
 
-### B15. A grafia do evento varia dentro do mesmo repositório
+### B15. A grafia do evento varia dentro do mesmo repositório — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** o item estava **superdimensionado** — a maioria das ocorrências de `DemoDay` que eu
+> contei é o **nome do arquivo** `Avaliacao_Poster_DemoDay.md` dentro de links, onde a grafia está certa e
+> não pode mudar. Havia **uma** violação real em prosa: `Portfolio.md:91` dizia "Demoday", agora
+> "Poster + Demo Day". Contagem correta: 1 ocorrência, não 5.
+
+Registro do problema original:
 
 | Grafia | Onde |
 |---|---|
@@ -858,7 +989,12 @@ estar ali. O avaliador não tem como saber que um trabalho não habilitado não 
 | `DemoDay` | `Portfolio.md:65,154` · `README.md:31` · `PAC Extensionista VIII.md:60` |
 | `Demoday` | `Portfolio.md:91` |
 
-### B16. Erro de concordância no README
+### B16. Erro de concordância no README — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** `README.md:17` passou a "Validação do projeto em desenvolvimento **junto à** comunidade
+> **ou ao** parceiro externo".
+
+Registro do problema original:
 
 `README.md:17` — *"Validação do projeto em desenvolvimento **junta a** Comunidade ou parceiro externo"*
 → *"junto à Comunidade"*.
@@ -876,16 +1012,33 @@ Registro do problema original:
 - `:26` — linha termina com `\` solto (quebra de linha Markdown órfã).
 - `:85` — `##  Objetivo da Etapa` com espaço duplo após o `##`.
 
-### B18. `locais_publicacao.md` é o único documento sem H1
+### B18. `locais_publicacao.md` é o único documento sem H1 — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** ganhou H1 e o título passou de "Locais para Publicar o **APP**" para
+> "**Onde Publicar o Projeto**", que cobre as cinco linhas. Os subtítulos subiram de `###` para `##`.
+> Feito junto com o **M21**.
+
+Registro do problema original:
 
 Começa em `## Locais para Publicar o APP`. O título fala em "APP", mas o documento serve às cinco linhas.
 
-### B19. Vultr listado como "nível gratuito"
+### B19. Vultr listado como "nível gratuito" — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** a lista passou a qualificar cada provedor. Vultr está marcada como **sem nível gratuito
+> permanente**, com crédito promocional para novas contas. Feito junto com o **M21**.
+
+Registro do problema original:
 
 `demoday/locais_publicacao.md:14` — a Vultr oferece **crédito promocional**, não free tier permanente,
 diferente dos outros quatro da lista.
 
-### B20. RFC § 7 usa "Semana X/Y/Z" sem âncora de calendário
+### B20. RFC § 7 usa "Semana X/Y/Z" sem âncora de calendário — ✅ **RESOLVIDO em 26/07/2026**
+
+> **Resolução:** a tabela de marcos passou a pedir **datas absolutas** no formato
+> `DD/MM/AAAA (dia da semana)`, com os placeholders no próprio formato. Acrescentada a nota de que os
+> marcos precisam caber no prazo de 30/11/2026 — que é justamente o ponto 8 das diretrizes de avaliação.
+
+Registro do problema original:
 
 `documentation/RFC/modelo-de-RFC.md:499-503` — enquanto o restante do repositório passou a usar datas
 absolutas no formato `DD/MM/AAAA (dia da semana)`, a tabela de marcos do template segue em semanas
@@ -893,21 +1046,58 @@ relativas, sem ponto de partida declarado.
 
 ## 💡 Melhorias estruturais (não são inconsistências)
 
-1. **Fonte única para o calendário.** `30/11/2026` aparece em 3 arquivos e as três datas do evento em
-   outros 3. Um documento (ou seção) de calendário do semestre, referenciado pelos demais, elimina a
-   classe inteira de divergência de datas — e resolve o A20 de carona.
+1. ~~**Fonte única para o calendário.**~~ — ✅ **FEITO em 26/07/2026.** Criado `calendario.md` na raiz,
+   com as datas dos dois períodos e o checklist cronológico do aluno. Os quatro documentos de disciplina
+   passaram a apontar para ele. Script de verificação em `CLAUDE.md` acusa **data órfã** — data que exista
+   em qualquer documento e não conste do calendário. Rodada: 10 datas, 0 órfãs.
 2. **Padronizar o esqueleto das cinco directions** (núcleo comum + temas) fecha M15 e M16 de uma vez e
    torna a próxima mudança do núcleo mecânica em vez de manual.
 3. **Amarrar o critério 3 aos números da linha** fecha o C9 sem criar regra nova: basta o critério citar
    a cobertura obrigatória da direction.
-4. **Checklist cronológico do aluno** — um documento com os gates em ordem (2 orientações até 30/09 · 5
-   orientações + prova de autoria + entrega até 30/11 · visita e avaliação dos colegas em dezembro).
-   Hoje essa sequência só existe reconstruída a partir de três documentos.
-5. **README deveria expor os Requisitos de Aprovação.** As seis participações obrigatórias só aparecem
-   no `Portfolio.md`; quem entra pelo README não as encontra.
+4. ~~**Checklist cronológico do aluno**~~ — ✅ **FEITO em 26/07/2026.** É a seção *Checklist do aluno do
+   8º período* de `calendario.md`, em quatro blocos de prazo, com caixas de marcação.
+5. ~~**README deveria expor os Requisitos de Aprovação.**~~ — ✅ **FEITO em 26/07/2026.** Criada a seção
+   *📅 Prazos e o que você precisa cumprir* no topo do `README.md`, com os marcos, as seis participações e
+   link para o calendário. Corrigida também a descrição obsoleta de `locais_publicacao.md`, que ainda dizia
+   "provedores de nuvem com nível gratuito" depois de o documento passar a cobrir Mobile e Jogos.
 6. **Colisão de numeração na RFC § 5.1:** dentro dela existem `## 1. Nível 1`, `## 2. Nível 2` e
    `## 3. Nível 3`, que colidem com a numeração de topo do documento.
 7. **Padronizar links em caminhos relativos** — recomendação do B1, ainda não executada.
+
+
+---
+
+## 🧰 Terceira rodada — dívidas operacionais (26/07/2026)
+
+Achados fora do escopo de texto, levantados na varredura final.
+
+### O1. Contrato Pedagógico versionado com as regras antigas — ✅ **RESOLVIDO em 26/07/2026**
+
+`Contrato-Pedagogico-Portfolio-PAC-VIII.pptx` (16 slides) foi commitado em `de02e9e` refletindo as regras
+de antes das decisões desta sessão. O slide 2 promete *"nada do que for cobrado aqui estará fora deste
+documento"* — promessa quebrada.
+
+> **Resolução:** o deck foi editado com `python-pptx`, preservando o design original:
+>
+> - **Slide 5** — "Quatro orientações" → **"Cinco orientações"**, com o marco de 30/09/2026.
+> - **Slide 7** — "Planejamento das **sprints**" → "das **iterações** de entrega" (Scrum é ⚠️ Evitar, ver A11).
+> - **Slide 12** — o card de calendário ganhou a **segunda tentativa da prova de autoria em 03/12/2026** e a
+>   consequência da segunda reprovação. Espaçamento comprimido para o texto caber no card.
+> - **Slide 13** — banner reescrito: a prova de autoria admite segunda tentativa; reprovar duas vezes reprova.
+> - **Slide 14** — "quatro orientações" → cinco nas duas colunas, mais um compromisso novo em cada:
+>   *visitar uma noite e avaliar os colegas* (aluno) e *aplicar a segunda tentativa até 03/12* (disciplina).
+>   As duas colunas foram reespaçadas de 6 para 7 itens.
+>
+> **Falso positivo corrigido:** eu havia reportado "cobertura 70/60/50" nos slides 4 e 8. São os **pesos das
+> NPs (20/20/60)**, não cobertura de testes — o deck nunca tratou de cobertura. Backup do original em
+> `scratchpad/contrato-backup.pptx`.
+
+### O2. `.DS_Store` versionado — ✅ **RESOLVIDO em 26/07/2026**
+
+Commitado em `de02e9e`, e o `.gitignore` não o cobria — metadado do macOS num repositório público.
+
+> **Resolução:** `git rm --cached .DS_Store` (arquivo preservado em disco) e a entrada `.DS_Store` sob a
+> seção `# macOS` do `.gitignore`. A remoção está **staged**, aguardando commit.
 
 ---
 

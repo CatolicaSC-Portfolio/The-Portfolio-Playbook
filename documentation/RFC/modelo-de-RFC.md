@@ -494,13 +494,15 @@ Explique:
 
 # 7. Planejamento do Projeto
 
-Defina os principais marcos de desenvolvimento.
+Defina os principais marcos de desenvolvimento. Use **datas absolutas** no formato `DD/MM/AAAA (dia da semana)`, ancoradas no calendário do semestre — não em "semana X".
 
 | Marco | Descrição | Prazo |
 |---|---|---|
-| M1 | Setup do ambiente e prova de conceito | Semana X |
-| M2 | MVP funcional | Semana Y |
-| M3 | Testes e melhorias | Semana Z |
+| M1 | Setup do ambiente e prova de conceito | DD/MM/AAAA (dia da semana) |
+| M2 | MVP funcional | DD/MM/AAAA (dia da semana) |
+| M3 | Testes e melhorias | DD/MM/AAAA (dia da semana) |
+
+> Os marcos precisam caber no prazo de entrega da Disciplina de Portfólio — **30/11/2026 (segunda-feira)**. É o que o avaliador verifica no ponto 8 das [diretrizes de avaliação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/diretrizes-avaliacao-professores.md).
 
 ---
 

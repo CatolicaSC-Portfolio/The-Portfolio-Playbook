@@ -14,8 +14,18 @@ A jornada se estende por **três disciplinas** distribuídas nos dois últimos s
 - **7º semestre:**
   - [PAC Extensionista VII ](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/PAC%20Extensionista%20VII.md)— Elaboração do planejamento técnico (RFC) do projeto de Portfólio, aplicado obrigatoriamente a um problema real de um parceiro externo ou comunidade para cumprir a curricularização da extensão.
 - **8º semestre:**
-  - [PAC Extensionista VIII](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/PAC%20Extensionista%20VIII.md) — Validação do projeto em desenvolvimento junta a Comunidade ou parceiro externo.
+  - [PAC Extensionista VIII](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/PAC%20Extensionista%20VIII.md) — Validação do projeto em desenvolvimento junto à comunidade ou ao parceiro externo.
   - [Disciplina de Portfólio](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md) — Desenvolvimento, Documentação e Apresentação Pública
+
+---
+
+## 📅 Prazos e o que você precisa cumprir
+
+- [**Calendário 2026/2**](calendario.md) — **fonte única das datas** dos três semestres, com o **checklist do aluno** em ordem cronológica.
+
+Os marcos do 8º período, em resumo: **duas orientações até 30/09/2026** · **cinco orientações, prova de autoria e entrega até 30/11/2026** · **segunda tentativa da prova de autoria até 03/12/2026** · **Poster + Demo Day em 10, 15 e 16/12/2026**.
+
+São **seis participações obrigatórias**: cinco orientações mais uma noite como visitante no evento, avaliando os trabalhos dos colegas. Nenhuma é compensada por nota — ver [Requisitos de Aprovação](Portfolio.md).
 
 ---
 
@@ -30,7 +40,7 @@ A jornada se estende por **três disciplinas** distribuídas nos dois últimos s
 
 - [Guia de Avaliação](demoday/Avaliacao_Poster_DemoDay.md) — critérios, escala Likert e cálculo da nota
 - [Guia do Pôster](demoday/guia_poster.md) — formato, elementos obrigatórios e template
-- [Locais para publicação](demoday/locais_publicacao.md) — provedores de nuvem com nível gratuito
+- [Onde publicar o projeto](demoday/locais_publicacao.md) — nuvem, lojas mobile e distribuição de builds de jogos
 
 **Documentação técnica:**
 

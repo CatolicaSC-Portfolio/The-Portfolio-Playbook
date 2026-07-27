@@ -9,8 +9,6 @@ regulamento das três disciplinas de Portfólio da Católica SC: define o que o 
 critérios é avaliado e com que nota é aprovado. O público leitor são **alunos e professores
 avaliadores** — o texto é normativo, não descritivo.
 
-Repo remoto: `github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook` · branch de produção: `main`.
-
 ## Arquitetura: uma teia de regras, não uma árvore de arquivos
 
 Os documentos se referenciam entre si e **repetem as mesmas regras em contextos diferentes**. É essa
@@ -19,26 +17,13 @@ os outros produz contradição normativa — o aluno e o avaliador passam a ler 
 mesmo fato. O histórico do repo é em boa parte a correção desse tipo de divergência (ver
 `RELATORIO-INCONSISTENCIAS.md`).
 
-**Três eixos de disciplina** (raiz):
+`calendario.md` (raiz) é a **fonte única de datas** e traz o checklist cronológico do aluno. Nunca
+introduza uma data nova em outro documento sem acrescentá-la lá — há script de verificação abaixo.
 
-| Arquivo | Semestre | Entrega central |
-|---|---|---|
-| `PAC Extensionista VII.md` | 7º | RFC aprovada, aplicada a problema real de parceiro externo ou comunidade |
-| `PAC Extensionista VIII.md` | 8º | Validação extensionista + peer review (NP1 20% / NP2 20% / NP3 60%) |
-| `Portfolio.md` | 8º | Produto em produção, prova de autoria, Poster + Demo Day |
-
-`README.md` é o índice de navegação de tudo.
-
-**Quatro diretórios de apoio:**
-
-- `directions/` — cinco linhas de projeto (webapp, mobile, jogosdigitais, ia, iot) +
-  `portfolio-directions-GERAL.md`, que traz a tabela mestra de tecnologias/processos/temas com quatro
-  veredictos: 🔑 Obrigatório · ✅ Preferir · 🔍 Explorar · ⚠️ Evitar · 🚫 Não Usar.
-- `demoday/` — critérios de avaliação, guia do pôster, provedores de hospedagem, templates `.pptx`/`.pdf`.
-- `documentation/` — `RFC/modelo-de-RFC.md` (627 linhas, artefato do 7º sem.),
-  `diretrizes-avaliacao-professores.md` (como avaliar a RFC), `normas.md` (LGPD/licenças/setoriais),
-  `games/` (GDD Template + Guia de Preenchimento).
-- `semesters/` — planilhas de notas por turma. **Gitignorado**, nunca versionar.
+Os três documentos de disciplina estão na raiz e o `README.md` indexa tudo. Dois pontos que o `ls` não
+conta: `directions/portfolio-directions-GERAL.md` traz a **tabela mestra** de tecnologias, processos e
+temas (🔑 Obrigatório · ✅ Preferir · 🔍 Explorar · ⚠️ Evitar · 🚫 Não Usar), e `semesters/` guarda
+planilhas de notas por turma — **gitignorado, nunca versionar**.
 
 ## Fonte única de verdade por regra
 
@@ -55,13 +40,25 @@ propague para **todos** os arquivos abaixo que a mencionam.
 | **Prova de autoria**: verifica autoria **e a cobertura de testes da linha**; admite **uma segunda tentativa** até **03/12/2026**; reprovar duas vezes = reprovado na disciplina, sem apresentar | `Portfolio.md` § Prova de Autoria | `demoday/Avaliacao_Poster_DemoDay.md` § Pré-condição e critério 3 · `demoday/guia_poster.md` |
 | **Calendário do PAC VII é próprio** (7º período) e não compartilha datas com Portfólio/PAC VIII (8º período) | `PAC Extensionista VII.md` § 6. Prazos | — |
 | Régua Destaque / Aprovado / Reprovado; aprovado exige nota ≥ **6,0** | cada `directions/portfolio-directions-*.md` § Régua de Avaliação | — |
-| Núcleo comum de engenharia (5 itens: Wiki · CI/CD · análise estática · observabilidade · cobertura de testes) | `directions/portfolio-directions-GERAL.md` | replicado literalmente em cada direction específica |
+| Núcleo comum de engenharia — **4 itens**: Wiki · CI/CD · análise estática · monitoramento/observabilidade | `directions/portfolio-directions-GERAL.md` | replicado sob `### Núcleo comum de engenharia` nas cinco directions |
 
-**Cobertura de testes é por linha, não global:** webapp e mobile 75% backend / 25% frontend · ia 70% ·
-iot 60% · jogosdigitais 50%. Cada direction também declara o que fica **fora** da contagem (notebooks,
-engine, shaders, assets, firmware não crítico). A cobertura é **gate conferido na prova de autoria**, não
-item de nota — o critério 3 do Demo Day pontua a *qualidade* dos testes. Os números vivem em **três**
-lugares (direction · `Portfolio.md` § Prova de Autoria · critério 3): mudar um exige mudar os três.
+**Testes não são iguais entre as linhas** — esta é a assimetria mais fácil de quebrar por engano:
+
+| Linha | Meta obrigatória | TDD |
+|---|---|---|
+| **Web Apps** | **75% backend / 25% frontend** | 🔑 obrigatório |
+| **Jogos Digitais** | **50%** da lógica de jogo (fora: engine, shaders, UI, assets) | ✅ preferir |
+| **Mobile · IA · IoT** | **nenhuma** — testes unitários não se aplicam a essas tecnologias | ✅ preferir |
+
+Em Mobile, IA e IoT os testes vivem em *O que é desejável atender*, com o instrumento próprio de cada uma
+(instrumentados/integração · validação de modelo · rotinas críticas de firmware). Mobile volta a ter TDD
+obrigatório **se o aluno escrever o próprio backend**. A meta é **gate conferido na prova de autoria**, não
+item de nota — o critério 3 do Demo Day pontua a *qualidade* dos testes, e penaliza teste raso que só
+persegue percentual. Cobertura **não** está no núcleo comum, justamente por não ser comum.
+
+As cinco directions têm **as mesmas 9 seções nos mesmos níveis** (`## O que é obrigatório atender` com
+`### Núcleo comum de engenharia` dentro · desejável · diferencial · deve ser evitado · não pode ter ·
+temas a evitar · temas impedidos · `## Régua de Avaliação`). Há script de verificação abaixo.
 
 **Exceções da linha de Jogos Digitais** — recorrem em vários documentos e são a origem mais comum de
 contradição: repositório pode ser privado (com acesso aos avaliadores) e o "ambiente produtivo em
@@ -76,10 +73,10 @@ nuvem" é satisfeito por build pública distribuída (Itch.io, loja, WebGL, APK)
   espaços. Só o `README.md` usa caminhos relativos. Migrar tudo para relativo é item aberto (B1 no
   relatório) — até que seja decidido, **siga o estilo do arquivo que está editando**.
 - **Projeto é individual.** Nunca escrever "equipe" ou "grupo" (foi corrigido em M3).
-- **Directions específicas** seguem o esqueleto fixo: `O que é obrigatório atender` (+ `### Núcleo
-  comum de engenharia`) · `O que é desejável atender` · `O que é um diferencial` · `O que deve ser
-  evitado` · `O que não pode ter` · [`Temas a evitar` · `Temas impedidos`] · `Régua de Avaliação`.
-  Ao criar ou editar uma direction, mantenha o esqueleto e a ordem.
+- **Directions específicas** seguem o esqueleto fixo, hoje idêntico nas cinco — ver a tabela de testes
+  acima. Ao criar ou editar uma direction, mantenha o esqueleto e a ordem, e rode o script de simetria.
+- **Sanção tem um nome só: "reprovação".** Não use "desclassificação" — o termo foi eliminado do
+  repositório porque criava uma terceira categoria sem consequência definida.
 - **GDD:** `documentation/games/GDD - Template.md` e `GuiaPreenchimenteBoasPraticas.md` têm as
   **mesmas 19 seções numeradas, na mesma ordem**. Mexer em uma exige mexer na outra.
 - **Emoji nos títulos** é usado em alguns documentos (`## 🔑 Formato de Avaliação`). Preserve o
@@ -87,56 +84,13 @@ nuvem" é satisfeito por build pública distribuída (Itch.io, loja, WebGL, APK)
 
 ## Verificação (o "test suite" deste repo)
 
-Rode estes checks depois de editar links, numeração de seções ou o GDD.
+Este repositório não tem build nem testes; o equivalente são quatro verificadores de consistência —
+links internos, seções da RFC citadas nas diretrizes, datas órfãs fora do `calendario.md` e simetria
+estrutural das cinco directions, mais o alinhamento GDD Template × Guia.
 
-**Todos os links internos resolvem no sistema de arquivos** (absolutos + relativos, com `%20` decodificado):
-
-```bash
-python3 - <<'PY'
-import re, urllib.parse, pathlib
-root = pathlib.Path('.')
-files = [p for p in root.rglob('*.md') if not {'.git','.remember'} & set(p.parts)]
-bad = 0
-for f in files:
-    for m in re.finditer(r'\]\(([^)\s]+)\)', f.read_text(encoding='utf-8')):
-        u = m.group(1)
-        if u.startswith('https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/'):
-            tgt = root / urllib.parse.unquote(u.split('/blob/main/', 1)[1].split('#')[0])
-        elif not u.startswith(('http', 'mailto:', '#')):
-            tgt = f.parent / urllib.parse.unquote(u.split('#')[0])
-        else:
-            continue
-        if not tgt.exists():
-            print(f'BROKEN {f}: {u}'); bad += 1
-print(f'--- {len(files)} arquivos, {bad} links quebrados')
-PY
-```
-
-**Seções da RFC citadas nas diretrizes de avaliação existem de fato** (esta divergência já quebrou o
-processo de avaliação uma vez — C1 no relatório, causada por renumerar a RFC sem atualizar as diretrizes):
-
-```bash
-python3 - <<'PY'
-import re, pathlib
-rfc = pathlib.Path('documentation/RFC/modelo-de-RFC.md').read_text(encoding='utf-8')
-have = set(re.findall(r'^#{1,3}\s+((?:\d+\.)*\d+)[\.\s]', rfc, re.M))
-d = pathlib.Path('documentation/diretrizes-avaliacao-professores.md').read_text(encoding='utf-8')
-cited = set(re.findall(r'Se(?:ção|ções)\s+\*{0,2}((?:\d+\.)*\d+)', d)) | set(re.findall(r'\*\*((?:\d+\.)\d+)\*\*', d))
-print('INEXISTENTES:', sorted(cited - have) or 'nenhuma')
-PY
-```
-
-**GDD Template × Guia continuam com as 19 seções alinhadas:**
-
-```bash
-diff <(grep -oE '^#{1,2} [0-9]+\..*' 'documentation/games/GDD - Template.md' | sed -E 's/^#+ //') \
-     <(grep -oE '^#{1,2} [0-9]+\..*' documentation/games/GuiaPreenchimenteBoasPraticas.md | sed -E 's/^#+ //') \
-  && echo ALIGNED
-```
-
-Cuidado ao mexer na numeração da RFC: dentro de `## 5.1 Diagrama C4` existem `## 1. Nível 1`,
-`## 2. Nível 2` e `## 3. Nível 3` — sub-níveis do C4 que colidem com a numeração de topo. É uma
-irregularidade conhecida do template; qualquer script de numeração precisa tratá-la.
+**Rode-os pela skill `verificar-consistencia`** (`.claude/skills/verificar-consistencia/SKILL.md`)
+sempre que editar links, numeração de seções, prazos, o GDD ou qualquer arquivo em `directions/`, e antes
+de considerar uma rodada de correções concluída.
 
 ## `RELATORIO-INCONSISTENCIAS.md` — o livro-razão da auditoria
 

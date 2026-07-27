@@ -5,7 +5,7 @@ Para que o projeto seja habilitado a participar do evento final, é necessário:
 - Atender aos requisitos mínimos da **linha de projeto escolhida**.
 - Estar **funcional** e **acessível ao público** (deploy ou entrega testável).
 - Conter **documentação clara e organizada**.
-- Cumprir as **cinco orientações** evidenciadas (duas até 30/09/2026) e ser **aprovado na prova de autoria** — que admite **uma segunda tentativa** até 03/12/2026 (quinta-feira); reprovar duas vezes reprova na disciplina. Ver [Requisitos de Aprovação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md).
+- Cumprir as **cinco orientações** evidenciadas (duas até 30/09/2026, quarta-feira) e ser **aprovado na prova de autoria** — que admite **uma segunda tentativa** até 03/12/2026 (quinta-feira); reprovar duas vezes reprova na disciplina. Ver [Requisitos de Aprovação](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/Portfolio.md).
 
 > Apresentar habilita, mas não aprova: o aluno também deve **participar como visitante de uma noite** do evento e **avaliar os trabalhos dos colegas**. Requisito de aprovação na disciplina.
 

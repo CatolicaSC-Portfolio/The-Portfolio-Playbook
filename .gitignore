@@ -5,3 +5,6 @@
 
 # Arquivos das turmas — não versionar
 semesters/
+
+# macOS
+.DS_Store

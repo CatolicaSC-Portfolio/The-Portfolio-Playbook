@@ -54,7 +54,7 @@ A avaliação considera a colaboração técnica (pares) e a satisfação do cli
 
 - **NP3 (60%) — Entrega Final Integrada**
   - **Produto (Portfólio):** Software funcional em versão *Release*.
-  - **Aceite (Extensão):** Termo de aceite ou declaração de encerramento assinado pelo parceiro externo — ou, na modalidade Comunidade, a **evidência equivalente** descrita abaixo.
+  - **Aceite (Extensão):** Termo de aceite ou declaração de encerramento assinado pelo parceiro externo — ou, na modalidade Comunidade, a **evidência equivalente** descrita na Seção 3.1.
   - **Socialização (Extensão):** Evidência de que a solução foi devolvida ao parceiro ou à comunidade — entrega formal, treinamento, documentação de uso ou registro de transferência. No *Demo Day*, o que o PAC avalia é o **relato do impacto extensionista**, não a apresentação técnica.
 
 > **Divisão com a disciplina de Portfólio:** o mesmo evento é avaliado nas duas disciplinas, por dimensões distintas. O **Portfólio** pontua o produto e a apresentação técnica (arquitetura, decisões, domínio nas respostas), conforme o [Guia de Avaliação do Demo Day](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/demoday/Avaliacao_Poster_DemoDay.md). O **PAC VIII** pontua a dimensão extensionista: o que o parceiro ou a comunidade efetivamente recebeu, validou e passou a usar. Não há dupla contagem do mesmo mérito.
@@ -62,6 +62,8 @@ A avaliação considera a colaboração técnica (pares) e a satisfação do cli
 ---
 
 ## Prazos
+
+> Fonte única das datas: [**Calendário 2026/2**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/calendario.md).
 
 - **Entrega final:** **30/11/2026 (segunda-feira)** — mesmo prazo da Disciplina de Portfólio. Até essa data devem estar entregues o software em versão *release*, as evidências de peer review e o aceite (ou as evidências equivalentes da modalidade Comunidade).
 - **Poster + Demo Day:** **10/12/2026 (quinta-feira)**, **15/12/2026 (terça-feira)** e **16/12/2026 (quarta-feira)**.

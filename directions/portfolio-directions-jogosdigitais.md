@@ -1,6 +1,8 @@
 # Linha de Projeto – Jogos Digitais
 
-### O que é obrigatório atender
+## O que é obrigatório atender
+Requisitos mínimos e obrigatórios para habilitação ao Poster + Demo Day.
+
 - O jogo deve ser jogável do início ao fim, com ao menos uma fase ou loop completo funcional.
 - Build funcional distribuída (ex.: executável standalone, WebGL hospedado, APK, ou link para plataforma de testes).
 
@@ -10,6 +12,7 @@
 - Apresentação de elementos mínimos de jogabilidade: personagem/jogador controlável, regras, objetivo, vitória/derrota.
 - Interface minimamente navegável (menus, HUD, feedbacks visuais ou sonoros).
 - Arte e som podem ser placeholders, mas precisam representar a intenção do design.
+- **Cobertura de testes automatizados: 50%** dos sistemas de lógica de jogo (regras, progressão, estado). Código de engine, shaders, UI e assets ficam fora da contagem. Conferida na **prova de autoria**.
 
 ### Núcleo comum de engenharia
 
@@ -19,7 +22,6 @@ Requisitos válidos para **todas as linhas de projeto**, conforme o [Portfólio 
 - **Pipeline CI/CD** com build automatizado a cada entrega (ex.: GitHub Actions, Unity Cloud Build).
 - **Análise estática de código** (ex.: SonarQube, SonarCloud, analisadores da própria engine).
 - **Monitoramento** — telemetria básica de sessão, crash reporting ou log de erros da build publicada.
-- **Cobertura de testes automatizados: 50%** dos sistemas de lógica de jogo (regras, progressão, estado). Código de engine, shaders, UI e assets ficam fora da contagem.
 
 ---
 
@@ -56,6 +58,18 @@ Requisitos válidos para **todas as linhas de projeto**, conforme o [Portfólio 
 - Experiência de jogo inexistente ou sem interação (ex.: apenas uma cutscene, apenas menus).
 - Falta completa de regras ou condições de jogo.
 - Quebra do ciclo de jogo: sem condição de vitória/derrota, ou sem ações significativas do jogador.
+
+---
+
+## Temas a evitar
+
+Valem os temas marcados ⚠️ **Evitar** na tabela do [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md) — recorrentes ou de alta concorrência. Não impedem a aprovação, mas exigem diferencial claro para se sustentarem.
+
+---
+
+## Temas impedidos
+
+Valem os temas marcados 🚫 **Não Usar** na tabela do [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md), somados aos itens de *O que não pode ter* desta linha — em especial clones de jogos existentes com assets e código copiados sem modificação.
 
 ---
 

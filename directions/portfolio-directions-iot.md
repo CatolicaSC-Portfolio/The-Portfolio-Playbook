@@ -22,7 +22,8 @@ Requisitos válidos para **todas as linhas de projeto**, conforme o [Portfólio 
 - **Pipeline CI/CD** configurado e funcionando para a camada de aplicação (ex.: GitHub Actions).
 - **Análise estática de código e segurança** (ex.: SonarQube, SonarCloud, CodeClimate).
 - **Monitoramento ou observabilidade** da aplicação e da telemetria dos dispositivos.
-- **Cobertura de testes automatizados: 60%** da camada de aplicação e de processamento de dados. No firmware, testes de unidade das **rotinas críticas** (leitura de sensores, protocolo de comunicação, tratamento de falha).
+
+> **Testes nesta linha:** não há meta de cobertura obrigatória. Testes unitários não se aplicam bem a firmware e a integração com hardware — ver *O que é desejável atender*. TDD é ✅ recomendado, não obrigatório.
 
 ---
 
@@ -32,6 +33,8 @@ Melhora a qualidade do projeto. Fortemente recomendado, mas não elimina se ause
 - Especificação esquemática de hardware, portas (lógica/digital), conectividade, componentes e restrições (**Diagramas de Blocos e Blocos Internos, SySML**).
 - Escolha de protocolos de comunicação aderentes ao escopo do projeto.  
   - Por exemplo, ao invés de utilizar o protocolo HTTP como padrão, identificar outro que melhor satisfaça os requisitos da aplicação.
+- Testes automatizados da camada de aplicação e do processamento de dados.
+- Testes das **rotinas críticas** de firmware: leitura de sensores, protocolo de comunicação e tratamento de falha.
 
 ---
 
@@ -54,12 +57,24 @@ Más práticas que reduzem a percepção de qualidade, mesmo em projetos funcion
 ---
 
 ## O que não pode ter
-Erros graves que causam desclassificação ou reprovação direta.
+Erros graves que causam **reprovação direta**, independentemente das demais notas.
 
 - Apenas a simulação dos requisitos em detrimento da implementação.
 - Aplicações IoT com escopo simplista, por exemplo: acender uma lâmpada, ligar um ar-condicionado, entre outros dessa natureza.
 - Utilizar escopo de projetos prontos.
 - Apenas a implementação embarcada.
+
+---
+
+## Temas a evitar
+
+Valem os temas marcados ⚠️ **Evitar** na tabela do [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md) — recorrentes ou de alta concorrência. Não impedem a aprovação, mas exigem diferencial claro para se sustentarem.
+
+---
+
+## Temas impedidos
+
+Valem os temas marcados 🚫 **Não Usar** na tabela do [Portfólio Directions](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md), somados aos escopos simplistas já listados em *O que não pode ter*.
 
 ---
 
