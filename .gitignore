@@ -8,3 +8,9 @@ semesters/
 
 # macOS
 .DS_Store
+
+# Relatório de auditoria — documento de trabalho interno, não versionar
+RELATORIO-INCONSISTENCIAS.md
+
+# Arquivos de lock do Office (aparecem enquanto um .pptx/.xlsx está aberto)
+~$*

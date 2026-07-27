@@ -14,8 +14,7 @@ avaliadores** — o texto é normativo, não descritivo.
 Os documentos se referenciam entre si e **repetem as mesmas regras em contextos diferentes**. É essa
 duplicação intencional que define o trabalho aqui: alterar um número em um arquivo sem propagar para
 os outros produz contradição normativa — o aluno e o avaliador passam a ler regras diferentes sobre o
-mesmo fato. O histórico do repo é em boa parte a correção desse tipo de divergência (ver
-`RELATORIO-INCONSISTENCIAS.md`).
+mesmo fato. O histórico do repo é em boa parte a correção desse tipo de divergência.
 
 `calendario.md` (raiz) é a **fonte única de datas** e traz o checklist cronológico do aluno. Nunca
 introduza uma data nova em outro documento sem acrescentá-la lá — há script de verificação abaixo.
@@ -92,16 +91,17 @@ estrutural das cinco directions, mais o alinhamento GDD Template × Guia.
 sempre que editar links, numeração de seções, prazos, o GDD ou qualquer arquivo em `directions/`, e antes
 de considerar uma rodada de correções concluída.
 
-## `RELATORIO-INCONSISTENCIAS.md` — o livro-razão da auditoria
+## Catalogue a inconsistência antes de corrigir
 
-Rastreia 47 inconsistências entre os documentos (8 críticas, 17 altas, 14 médias, 8 baixas), **todas
-resolvidas**. Cada item traz o problema original, os arquivos e linhas envolvidos e um bloco
-`> **Resolução:**`. **Ao corrigir uma inconsistência que esteja catalogada, marque o item como
-resolvido com a data e escreva o bloco de resolução** — o valor do arquivo está em explicar *por que*
-a regra é o que é hoje. O mesmo vale para inconsistências novas: catalogue antes de corrigir.
+Ao encontrar uma contradição entre documentos, **registre o problema — arquivos e linhas dos dois lados
+— antes de editar**, e depois escreva por que a resolução é essa. O valor está em explicar *por que* a
+regra é o que é hoje; sem isso a próxima pessoa redescobre a mesma divergência e pode desfazer a decisão.
 
-Uma recomendação segue registrada e **não executada**: padronizar todos os links em caminhos relativos
-(B1). Sem impacto normativo — decisão pendente.
+Há um livro-razão dessa auditoria em `RELATORIO-INCONSISTENCIAS.md`, com 71 itens fechados em três
+rodadas. Ele é **documento de trabalho local e não versionado** (está no `.gitignore`), então pode não
+existir num clone novo — se não estiver presente, comece um. Duas recomendações registradas lá seguem
+**não executadas**, ambas sem impacto normativo: padronizar todos os links em caminhos relativos, e
+resolver a colisão de numeração dentro da Seção 5.1 da RFC.
 
 ## Decisões pedagógicas não são suas
 
