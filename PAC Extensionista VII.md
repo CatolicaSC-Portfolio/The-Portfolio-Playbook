@@ -33,7 +33,7 @@ Embora o desenvolvimento técnico seja solitário, a garantia de qualidade é co
 
 - Desenvolvimento Individual: O projeto, o repositório e o portfólio são individuais. Isso permite a expressão da identidade profissional de cada estudante.
 
-- Squads de Suporte: A turma deve se organizar em grupos de 3 a 5 participantes.
+- Squads de Validação: A turma deve se organizar em grupos de 3 a 5 participantes. São os mesmos squads que atuam no [PAC Extensionista VIII](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/PAC%20Extensionista%20VIII.md).
 
 - Função do Grupo: Atuar como Quality Assurance (QA). O grupo é responsável por realizar revisões de código (Pull Requests), testes cruzados e validação por pares, simulando o ambiente de uma equipe ágil.
 
@@ -74,22 +74,24 @@ O projeto deve se enquadrar em uma das cinco linhas oficiais, aplicando-a ao pro
 - NP3 (60%): Entrega Final e Validação:
   - Entrega da versão final da RFC.
   - Apresentação das evidências de extensão (Feedback do parceiro/comunidade).
-  - Banca Avaliadora: Como requisito para a nota, cada aluno deve buscar três professores avaliadores para apresentar sua RFC, coletando notas e feedbacks escritos. Essas observações devem constar na versão final do documento entregue ao professor da disciplina.
+  - Comitê de Avaliação da RFC: Como requisito para a nota, cada aluno deve buscar três professores avaliadores para apresentar sua RFC, coletando notas e feedbacks escritos. Essas observações devem constar na **Seção 10** do documento, que é fechada **depois** da entrega da NP3 — ver os prazos na seção 6.
 
 Após a aprovação, o aluno está apto a iniciar o desenvolvimento do projeto.
 
 ### 6. Prazos
 
-O PAC Extensionista VII tem **calendário próprio**, do 7º período. Não compartilha prazos com a Disciplina de Portfólio nem com o PAC Extensionista VIII, que correm no 8º período.
+> Fonte única das datas: [**Calendário 2026/2**](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/calendario.md).
+
+O PAC Extensionista VII tem **calendário próprio**, do 7º período. Não compartilha prazos com a Disciplina de Portfólio nem com o PAC Extensionista VIII, que correm no 8º período — as duas turmas convivem no mesmo semestre-calendário, com datas independentes.
 
 | Marco | Entrega | Prazo |
 |---|---|---|
-| **NP1** (20%) | Planejamento e Fundamentação — Abstract, Problema, Objetivos | *a definir* |
-| **NP2** (20%) | Estado da Arte — Benchmarking e Trabalhos Relacionados | *a definir* |
-| **Avaliação pelos três professores** | RFC apresentada aos avaliadores, com notas e pareceres registrados na Seção 10 do documento | *a definir* |
-| **NP3** (60%) | Entrega final da RFC, com as evidências de extensão e os pareceres consolidados | *a definir* |
+| **NP1** (20%) | Planejamento e Fundamentação — Abstract, Problema, Objetivos | **04/09/2026 (sexta-feira)** |
+| **NP2** (20%) | Estado da Arte — Benchmarking e Trabalhos Relacionados | **16/10/2026 (sexta-feira)** |
+| **NP3** (60%) | Entrega final da RFC, com as evidências de extensão | **04/12/2026 (sexta-feira)** |
+| **Notas dos três professores** | RFC apresentada aos avaliadores, com notas, pareceres e assinaturas registrados na Seção 10 do documento | **11/12/2026 (sexta-feira)** |
 
-> ⚠️ **Datas a definir.** Preencher com o calendário do 7º período antes de publicar o documento para a turma. Formato: `DD/MM/AAAA (dia da semana)`.
+> **Ordem dos dois últimos marcos:** a RFC é entregue em **04/12** e as notas dos três avaliadores são coletadas até **11/12**. Ou seja, o aluno busca os professores **depois** da entrega da NP3 — a Seção 10 do documento é fechada na última semana.
 
 ---
 
