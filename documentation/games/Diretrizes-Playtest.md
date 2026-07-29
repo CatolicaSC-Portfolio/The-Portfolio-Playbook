@@ -18,7 +18,8 @@ A ampliação será gradual, considerando os resultados e aprendizados obtidos n
 
 * Colegas de sala poderão participar como **playtesters**;
 * Os integrantes da própria equipe não serão contabilizados como playtesters;
-* Recomenda-se buscar alguma diversidade de participantes, evitando concentrar os testes apenas em pessoas diretamente envolvidas no projeto.
+* Recomenda-se buscar alguma diversidade de participantes, evitando concentrar os testes apenas em pessoas diretamente envolvidas no projeto;
+* O aluno responsável pelo jogo é quem deve convidar e garantir a presença de participantes para o seu teste, podendo se organizar com colegas e compartilhar playtesters entre projetos.
 
 ### 3. Noite oficial de playtest
 
