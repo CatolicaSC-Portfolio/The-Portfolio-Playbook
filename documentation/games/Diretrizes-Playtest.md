@@ -26,7 +26,8 @@ A ampliação será gradual, considerando os resultados e aprendizados obtidos n
 * A noite oficial de playtest será realizada em **16 de outubro de 2026**;
 * Cada equipe deverá disponibilizar uma versão jogável e minimamente estável;
 * Os participantes deverão testar os jogos e registrar suas percepções por meio do instrumento de avaliação definido pela disciplina;
-* As equipes deverão organizar evidências da realização dos testes, como lista de participantes, formulários respondidos ou registros equivalentes.
+* As equipes deverão organizar evidências da realização dos testes, como lista de participantes, formulários respondidos ou registros equivalentes;
+* A critério do aluno, ele pode optar por não participar da noite oficial e organizar, por conta própria, um playtest independente, desde que gere evidências do processo (fotos, vídeos e relatos do playtest).
 
 ### 4. Relatório do playtest
 
