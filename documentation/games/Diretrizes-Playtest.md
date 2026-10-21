@@ -27,7 +27,7 @@ A ampliação será gradual, considerando os resultados e aprendizados obtidos n
 
 * A noite oficial de playtest será realizada em **26/10/2026 (segunda-feira)**;
 * Cada aluno deverá disponibilizar uma versão jogável e minimamente estável;
-* Os participantes deverão testar os jogos e registrar suas percepções por meio do instrumento de avaliação definido pela disciplina;
+* Os participantes deverão testar os jogos e registrar suas percepções por meio do [Formulário de Playtest](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/games/Formulario-Playtest.md), anônimo;
 * Cada aluno deverá organizar evidências da realização dos testes, como lista de participantes, formulários respondidos ou registros equivalentes;
 * A critério do aluno, ele pode optar por não participar da noite oficial e organizar, por conta própria, um playtest independente, desde que gere evidências do processo (fotos, vídeos e relatos do playtest).
 

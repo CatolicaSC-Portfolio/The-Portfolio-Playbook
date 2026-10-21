@@ -48,5 +48,5 @@ São **seis participações obrigatórias**: cinco orientações mais uma noite 
 - [Recomendações para Avaliação](documentation/diretrizes-avaliacao-professores.md) — para os professores avaliadores da RFC
 - [Normas e Regulamentações](documentation/normas.md) — LGPD, licenças, segurança e ética
 - [Template de GDD](documentation/games/GDD%20-%20Template.md) e [Guia de Preenchimento](documentation/games/GuiaPreenchimenteBoasPraticas.md) — linha de Jogos Digitais
-- [Diretrizes de Playtest](documentation/games/Diretrizes-Playtest.md) — playtest e relatório obrigatórios da linha de Jogos Digitais
+- [Diretrizes de Playtest](documentation/games/Diretrizes-Playtest.md) e [Formulário de Playtest](documentation/games/Formulario-Playtest.md) — playtest e relatório obrigatórios da linha de Jogos Digitais
 
