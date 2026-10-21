@@ -24,6 +24,13 @@ conta: `directions/portfolio-directions-GERAL.md` traz a **tabela mestra** de te
 temas (🔑 Obrigatório · ✅ Preferir · 🔍 Explorar · ⚠️ Evitar · 🚫 Não Usar), e `semesters/` guarda
 planilhas de notas por turma — **gitignorado, nunca versionar**.
 
+Os binários versionados (`Contrato-Pedagogico-Portfolio-PAC-VIII.pptx`, `demoday/TEMPLATE_POSTER_PORTFOLIO.*`)
+também repetem regras, mas nem `grep` nem os verificadores os enxergam. Quando uma regra mudar, avise que
+eles precisam de revisão manual.
+
+Documentos de trabalho derivados, como `Plano-de-Ensino-PAC-VIII.md` (formulário institucional), recebem
+conteúdo dos normativos e nunca o contrário.
+
 ## Fonte única de verdade por regra
 
 Antes de escrever qualquer número, confira aqui de onde ele vem. Se a mudança for numa dessas regras,
@@ -39,6 +46,7 @@ propague para **todos** os arquivos abaixo que a mencionam.
 | **Prova de autoria**: verifica autoria **e a cobertura de testes da linha**; admite **uma segunda tentativa** até **03/12/2026**; reprovar duas vezes = reprovado na disciplina, sem apresentar | `Portfolio.md` § Prova de Autoria | `demoday/Avaliacao_Poster_DemoDay.md` § Pré-condição e critério 3 · `demoday/guia_poster.md` |
 | **Calendário do PAC VII é próprio** (7º período) e não compartilha datas com Portfólio/PAC VIII (8º período) | `PAC Extensionista VII.md` § 6. Prazos | — |
 | Régua Destaque / Aprovado / Reprovado; aprovado exige nota ≥ **6,0** | cada `directions/portfolio-directions-*.md` § Régua de Avaliação | — |
+| **Playtest obrigatório só em Jogos**: mínimo de **10** participantes; noite oficial **26/10/2026** ou playtest independente com evidências; relatório até **30/10/2026**. Playtest com público externo segue como **diferencial** | `documentation/games/Diretrizes-Playtest.md` | `directions/portfolio-directions-jogosdigitais.md` (obrigatório · diferencial · régua) · `calendario.md` |
 | Núcleo comum de engenharia — **4 itens**: Wiki · CI/CD · análise estática · monitoramento/observabilidade | `directions/portfolio-directions-GERAL.md` | replicado sob `### Núcleo comum de engenharia` nas cinco directions |
 
 **Testes não são iguais entre as linhas** — esta é a assimetria mais fácil de quebrar por engano:
@@ -66,7 +74,8 @@ nuvem" é satisfeito por build pública distribuída (Itch.io, loja, WebGL, APK)
 ## Convenções de escrita
 
 - **Datas:** sempre `DD/MM/AAAA` **seguido do dia da semana** — `30/11/2026 (segunda-feira)`. Em
-  tabelas, o dia da semana pode ocupar coluna própria.
+  tabelas, o dia da semana pode ocupar coluna própria. Data por extenso ("16 de outubro de 2026") quebra
+  a convenção **e escapa do verificador de datas órfãs**, que só reconhece `DD/MM/AAAA`.
 - **Links:** os documentos usam URL absoluta
   `https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/<caminho>`, com `%20` nos
   espaços. Só o `README.md` usa caminhos relativos. Migrar tudo para relativo é item aberto (B1 no
