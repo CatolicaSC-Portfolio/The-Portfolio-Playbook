@@ -28,6 +28,8 @@ Detalhes em [PAC Extensionista VII](PAC%20Extensionista%20VII.md).
 | Data | Dia | Marco | Tipo |
 |---|---|---|---|
 | **30/09/2026** | quarta-feira | **Duas primeiras orientações** evidenciadas | gate de habilitação |
+| **26/10/2026** | segunda-feira | **Noite oficial de playtest** — só Jogos Digitais | evento |
+| **30/10/2026** | sexta-feira | **Relatório do playtest** — só Jogos Digitais | gate de habilitação |
 | **30/11/2026** | segunda-feira | **Cinco orientações** evidenciadas · **prova de autoria** aprovada · **entrega** do software em release, evidências de peer review e aceite do parceiro | gate de habilitação |
 | **03/12/2026** | quinta-feira | **Segunda tentativa da prova de autoria**, se necessária | gate de habilitação |
 | **10/12/2026** | quinta-feira | **Poster + Demo Day** — 1ª noite | evento |
@@ -47,6 +49,11 @@ A sequência completa, em ordem. Nenhum item é compensado por nota.
 ### Até 30/09/2026 (quarta-feira)
 
 - [ ] **Duas orientações** realizadas e evidenciadas (ata por e-mail, foto ou registro equivalente).
+
+### Até 30/10/2026 (sexta-feira), só Jogos Digitais
+
+- [ ] **Playtest** com no mínimo 10 participantes, na noite oficial de 26/10/2026 (segunda-feira) ou de forma independente com evidências — ver as [Diretrizes de Playtest](documentation/games/Diretrizes-Playtest.md).
+- [ ] **Relatório do playtest** enviado.
 
 ### Até 30/11/2026 (segunda-feira)
 

@@ -15,6 +15,7 @@ Requisitos mínimos e obrigatórios para habilitação ao Poster + Demo Day.
 - Interface minimamente navegável (menus, HUD, feedbacks visuais ou sonoros).
 - Arte e som podem ser placeholders, mas precisam representar a intenção do design.
 - **Cobertura de testes automatizados: 50%** dos sistemas de lógica de jogo (regras, progressão, estado). Código de engine, shaders, UI e assets ficam fora da contagem. Conferida na **prova de autoria**.
+- **Playtest** com no mínimo 10 participantes, na noite oficial ou de forma independente com evidências, e **relatório do playtest** entregue no prazo, conforme as [Diretrizes de Playtest](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/games/Diretrizes-Playtest.md). Datas no [Calendário](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/calendario.md).
 
 ### Núcleo comum de engenharia
 
@@ -39,7 +40,7 @@ Requisitos válidos para **todas as linhas de projeto**, conforme o [Portfólio 
 
 ## O que é um diferencial
 - Implementação de sistemas de progressão, IA, física personalizada, multiplayer ou mecânicas emergentes.
-- Playtests com público externo e iteração baseada em feedback real.
+- Playtests com público externo, além do playtest obrigatório com colegas, e iteração baseada em feedback real.
 - Experiência polida com foco em imersão, ritmo e curva de dificuldade.
 - Design original de arte, som e narrativa integrada ao gameplay.
 - Lançamento efetivo em loja/plataforma ou marketing ativo.
@@ -78,5 +79,5 @@ Valem os temas marcados 🚫 **Não Usar** na tabela do [Portfólio Directions](
 ## Régua de Avaliação
 
 - **Destaque** — além de todos os obrigatórios, o projeto tem gameplay consistente, polimento, diferencial técnico ou criativo, e evidência de iteração a partir de playtests. Concorre a menção de destaque e a convite para a **Banca Técnica Especial**.
-- **Aprovado** — atende a **todos** os itens *obrigatórios*, incluindo o núcleo comum de engenharia: jogo funcional com ao menos um loop completo, build pública distribuída e GDD mínimo coerente. Nota final igual ou superior a **6,0**.
+- **Aprovado** — atende a **todos** os itens *obrigatórios*, incluindo o núcleo comum de engenharia: jogo funcional com ao menos um loop completo, build pública distribuída, GDD mínimo coerente e playtest com relatório. Nota final igual ou superior a **6,0**.
 - **Reprovado** — não apresenta jogabilidade mínima funcional, incorre em item de *“o que não pode ter”*, ou obtém nota final abaixo de **6,0**.
