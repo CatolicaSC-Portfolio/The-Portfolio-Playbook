@@ -42,6 +42,7 @@ A ampliação será gradual, considerando os resultados e aprendizados obtidos n
   * problemas identificados;
   * melhorias selecionadas para implementação;
   * evidências da realização dos testes.
+* Como ponto de partida, use o [Modelo de Relatório de Playtest](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/games/Relatorio-Playtest-Template.md) ([versão em PDF preenchível](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/games/Relatorio-Playtest-Template.pdf)), que cobre esses itens.
 
 ### 5. Ajustes após o playtest
 
