@@ -5,6 +5,7 @@ Instrumento de avaliação do playtest da [linha de Jogos Digitais](https://gith
 - **Anônimo:** o formulário não coleta nome nem e-mail.
 - **Um por jogo:** cada tester preenche um formulário para cada jogo que testar.
 - **Mesmo instrumento para todos:** todos os jogos usam este formulário, para que os resultados sejam comparáveis.
+- **Versão para imprimir ou preencher no computador:** [PDF de uma página](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/games/Formulario-Playtest.pdf). O tester pode usar o verso.
 
 ---
 
