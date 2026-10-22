@@ -54,7 +54,7 @@ A **prova de autoria** é o **último encontro da disciplina**. Nele o professor
 - **Conhecimento do codebase** — o aluno sabe onde as coisas estão, o que cada parte faz e por que está escrita daquele jeito.
 - **Decisões de engenharia** — o aluno justifica arquitetura, escolha de tecnologias, padrões aplicados e trade-offs assumidos.
 - **Domínio do trabalho** — o aluno explica o que construiu sem depender de anotações ou de terceiros.
-- **Cobertura de testes — apenas na linha de Web Apps** (e no backend próprio de um projeto Mobile): é aqui que se confere a meta obrigatória de **75% no backend e 25% no frontend**. Nas linhas de **Mobile, IA e IoT não há meta de cobertura**, porque testes unitários não se aplicam bem a essas tecnologias — o que se espera nelas está em *O que é desejável atender* da respectiva [direction](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md).
+- **Cobertura de testes — apenas na linha de Web Apps** (e no backend próprio de um projeto Mobile): é aqui que se confere a meta obrigatória de **75% no backend e 25% no frontend**. Nas linhas de **Mobile, IA, IoT e Jogos Digitais não há meta de cobertura**, porque testes unitários não se aplicam bem a essas tecnologias — o que se espera nelas está em *O que é desejável atender* da respectiva [direction](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/directions/portfolio-directions-GERAL.md).
 
 **Regras:**
 

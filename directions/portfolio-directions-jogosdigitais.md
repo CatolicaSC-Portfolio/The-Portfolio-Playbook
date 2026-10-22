@@ -14,7 +14,6 @@ Requisitos mínimos e obrigatórios para habilitação ao Poster + Demo Day.
 - Apresentação de elementos mínimos de jogabilidade: personagem/jogador controlável, regras, objetivo, vitória/derrota.
 - Interface minimamente navegável (menus, HUD, feedbacks visuais ou sonoros).
 - Arte e som podem ser placeholders, mas precisam representar a intenção do design.
-- **Cobertura de testes automatizados: 50%** dos sistemas de lógica de jogo (regras, progressão, estado). Código de engine, shaders, UI e assets ficam fora da contagem. Conferida na **prova de autoria**.
 - **Playtest** com no mínimo 10 participantes, na noite oficial ou de forma independente com evidências, e **relatório do playtest** entregue no prazo, conforme as [Diretrizes de Playtest](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/documentation/games/Diretrizes-Playtest.md). Datas no [Calendário](https://github.com/CatolicaSC-Portfolio/The-Portfolio-Playbook/blob/main/calendario.md).
 
 ### Núcleo comum de engenharia
@@ -26,6 +25,8 @@ Requisitos válidos para **todas as linhas de projeto**, conforme o [Portfólio 
 - **Análise estática de código** (ex.: SonarQube, SonarCloud, analisadores da própria engine).
 - **Monitoramento** — telemetria básica de sessão, crash reporting ou log de erros da build publicada.
 
+> **Testes nesta linha:** não há meta de cobertura obrigatória. Em jogos, boa parte do comportamento depende de engine, cena e tempo real, e uma meta percentual incentiva teste raso — ver *O que é desejável atender*. TDD é ✅ recomendado, não obrigatório.
+
 ---
 
 ## O que é desejável atender
@@ -35,6 +36,7 @@ Requisitos válidos para **todas as linhas de projeto**, conforme o [Portfólio 
 - Uso de engine consolidada no mercado (Unity, Unreal, Godot, etc.) ou criação da própria engine.
 - Build publicada em plataforma de acesso público (ex.: Itch.io, Steam em acesso antecipado, Google Play em beta) com o jogo completo - todas as fases, todo o conteúdo.
 - Suporte a diferentes resoluções e dispositivos (caso multiplataforma).
+- Testes automatizados dos sistemas de lógica de jogo (regras, progressão, estado), fora o código de engine, shaders, UI e assets.
 
 ---
 

@@ -294,9 +294,8 @@ A linha de Jogos também está sujeita aos requisitos obrigatórios de todas as 
 * **Pipeline CI/CD** com build automatizado
 * **Análise estática de código**
 * **Monitoramento** — telemetria de sessão, crash reporting ou log de erros
-* **Cobertura de testes: 50%** dos sistemas de lógica de jogo (engine, shaders, UI e assets ficam fora da contagem)
 
-Inclua **prints do pipeline** e do relatório de cobertura.
+Inclua **prints do pipeline**. Não há meta de cobertura de testes nesta linha; se houver testes automatizados da lógica de jogo (desejável), descreva o que cobrem.
 
 ---
 
