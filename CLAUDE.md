@@ -54,11 +54,11 @@ propague para **todos** os arquivos abaixo que a mencionam.
 | Linha | Meta obrigatória | TDD |
 |---|---|---|
 | **Web Apps** | **75% backend / 25% frontend** | 🔑 obrigatório |
-| **Jogos Digitais** | **50%** da lógica de jogo (fora: engine, shaders, UI, assets) | ✅ preferir |
-| **Mobile · IA · IoT** | **nenhuma** — testes unitários não se aplicam a essas tecnologias | ✅ preferir |
+| **Mobile · IA · IoT · Jogos Digitais** | **nenhuma** — testes unitários não se aplicam bem a essas tecnologias | ✅ preferir |
 
-Em Mobile, IA e IoT os testes vivem em *O que é desejável atender*, com o instrumento próprio de cada uma
-(instrumentados/integração · validação de modelo · rotinas críticas de firmware). Mobile volta a ter TDD
+Nessas quatro linhas os testes vivem em *O que é desejável atender*, com o instrumento próprio de cada uma
+(instrumentados/integração · validação de modelo · rotinas críticas de firmware · lógica de jogo). Jogos
+teve meta de 50% até 21/10/2026 (item E1 do relatório). Mobile volta a ter TDD
 obrigatório **se o aluno escrever o próprio backend**. A meta é **gate conferido na prova de autoria**, não
 item de nota — o critério 3 do Demo Day pontua a *qualidade* dos testes, e penaliza teste raso que só
 persegue percentual. Cobertura **não** está no núcleo comum, justamente por não ser comum.
