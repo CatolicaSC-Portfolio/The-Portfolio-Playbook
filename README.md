@@ -47,6 +47,7 @@ São **seis participações obrigatórias**: cinco orientações mais uma noite 
 - [Modelo de RFC](documentation/RFC/modelo-de-RFC.md) — artefato do 7º semestre
 - [Recomendações para Avaliação](documentation/diretrizes-avaliacao-professores.md) — para os professores avaliadores da RFC
 - [Normas e Regulamentações](documentation/normas.md) — LGPD, licenças, segurança e ética
+- [Guia da Prova de Autoria](documentation/guia-prova-de-autoria.md) — perguntas típicas e checklist de preparação para a prova de autoria da Disciplina de Portfólio
 - [Template de GDD](documentation/games/GDD%20-%20Template.md) e [Guia de Preenchimento](documentation/games/GuiaPreenchimenteBoasPraticas.md) — linha de Jogos Digitais
 - [Diretrizes de Playtest](documentation/games/Diretrizes-Playtest.md), [Formulário de Playtest](documentation/games/Formulario-Playtest.md) ([PDF](documentation/games/Formulario-Playtest.pdf)) e [Modelo de Relatório de Playtest](documentation/games/Relatorio-Playtest-Template.md) ([PDF](documentation/games/Relatorio-Playtest-Template.pdf)) — playtest e relatório obrigatórios da linha de Jogos Digitais
 
